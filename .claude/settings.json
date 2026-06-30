@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Remove-Item \"d:\\\\Projects\\\\AIPlayGround\\\\production-rag-from-scratch\\\\chunking.py\")",
+      "PowerShell(Remove-Item \"d:\\\\Projects\\\\AIPlayGround\\\\production-rag-from-scratch\\\\chunking.py\" -Confirm:$false)"
+    ],
+    "additionalDirectories": [
+      "d:\\Projects\\AIPlayGround\\production-rag-from-scratch\\ingestion"
+    ]
+  }
+}

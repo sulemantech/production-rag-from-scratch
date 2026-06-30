@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+chroma_db/
+datasets/pdfs/
+datasets/sample_text/
+*.ipynb_checkpoints
+.DS_Store
