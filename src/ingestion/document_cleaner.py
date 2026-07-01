@@ -24,7 +24,9 @@ if __name__ == "__main__":
         text = f.read()
 
     cleaned = clean_document(text)
-
+    #save the cleaned text to a new file
+    with open("datasets/sample_text/biology_clean.txt", "w", encoding="utf-8") as f:
+        f.write(cleaned)    
     print(f"Before: {len(text)} chars")
     print(f"After:  {len(cleaned)} chars")
     print(f"Removed: {len(text) - len(cleaned)} chars")

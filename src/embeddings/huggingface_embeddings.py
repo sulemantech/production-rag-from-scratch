@@ -1,27 +1,39 @@
 from sentence_transformers import SentenceTransformer
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
 def get_embedding(text: str) -> list:
-    # load the model "all-MiniLM-L6-v2"
-    model = SentenceTransformer("all-MiniLM-L6-v2")
     # encode the text
     embedding = model.encode(text)
     # return the result
     return embedding.tolist()
-    pass
+
+def get_embeddings_batch(texts: list) -> list:
+    embeddings = model.encode(texts)
+    # return the result
+    return embeddings.tolist()
 
 # add main to use the above function to get the embedding of a text file and save it to a json file
 if __name__ == "__main__":
-    # your existing embedding call here
-    
-    # add this below it
-    from sklearn.metrics.pairwise import cosine_similarity
-    import numpy as np
+    import os
+    import json
+    import sys
+    sys.path.append(".")
+    from src.chunking.text_splitters import recursive_split
 
-    e1 = get_embedding("mitochondria produces ATP through cellular respiration")
-    e2 = get_embedding("ATP is the energy currency of the cell")
-    e3 = get_embedding("the French Revolution began in 1789")
+    with open("datasets/sample_text/biology_clean.txt", "r", encoding="utf-8") as f:
+        text = f.read()
 
-    e1, e2, e3 = np.array(e1), np.array(e2), np.array(e3)
+    if os.path.exists("datasets/sample_text/biology_embeddings.json"):
+        with open("datasets/sample_text/biology_embeddings.json", "r") as f:
+            data = json.load(f)
+        chunks = data["chunks"]
+        embeddings = data["embeddings"]
+        print(f"Loaded {len(chunks)} chunks from cache")
+    else:
+        chunks = recursive_split(text, chunk_size=1000, overlap=200)
+        embeddings = get_embeddings_batch(chunks)
+        with open("datasets/sample_text/biology_embeddings.json", "w") as f:
+            json.dump({"chunks": chunks, "embeddings": embeddings}, f)
+        print("Embedded and saved.")
 
-    print("Biology vs Biology:", cosine_similarity([e1], [e2])[0][0])
-    print("Biology vs History:", cosine_similarity([e1], [e3])[0][0])
+    print(f"Chunks: {len(chunks)}, Dimensions: {len(embeddings[0])}")
