@@ -1,0 +1,1232 @@
+{
+  "test1": {
+    "name": "MDCAT SOLVED PAST PAPER-2024 (General)",
+    "subject": "Biology",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Example of viruses having a polyhedral capsid that is with 252 capsomeres is:",
+        "options": ["A. Adenovirus", "B. Tobacco Mosaic Virus", "C. Influenza virus", "D. Bacteriophage"],
+        "correct_answer": "A. Adenovirus"
+      },
+      {
+        "id": 2,
+        "question": "The complete, mature & infectious particle of virus is known as:",
+        "options": ["A. Genome", "B. Capsomere", "C. Prion", "D. Envelope"],
+        "correct_answer": "D. Envelope"
+      },
+      {
+        "id": 3,
+        "question": "The causative organism of measles is:",
+        "options": ["A. Poxvirus", "B. Papovavirus", "C. Picornovirus", "D. Paramyxovirus"],
+        "correct_answer": "D. Paramyxovirus"
+      },
+      {
+        "id": 4,
+        "question": "In the life cycle of a bacteriophage, the lysozymes are required in which of the following steps of infection process?",
+        "options": ["A. Genome injection", "B. Penetration", "C. Replication", "D. Adsorption"],
+        "correct_answer": "B. Penetration"
+      },
+      {
+        "id": 5,
+        "question": "______ is transmitted through infected blood and hypodermic syringes.",
+        "options": ["A. HIV", "B. Influenza Virus", "C. Morbilli Virus (Measles)", "D. Vibrio Cholerae (Cholera)"],
+        "correct_answer": "A. HIV"
+      },
+      {
+        "id": 6,
+        "question": "In Calvin cycle CO₂ reacts with RuBP to produce:",
+        "options": ["A. 3-PGA", "B. G3P", "C. 6-Carbon unstable intermediate", "D. 1,3 bisphosphoglycerate"],
+        "correct_answer": "C. 6-Carbon unstable intermediate"
+      },
+      {
+        "id": 7,
+        "question": "Which option is correct about a chlorophyll molecule?",
+        "options": ["A. Chemical formula C₅₅ H₇₀ O₆ N₄Mg", "B. Porphyrin ring with nitrogen in center", "C. (Methyl) group on second pyrrole ring", "D. Aldehyde group on second pyrrole ring"],
+        "correct_answer": "A. Chemical formula C₅₅ H₇₀ O₆ N₄Mg"
+      },
+      {
+        "id": 8,
+        "question": "In the journey of electrons from photosystem II to photosystem I plastocyanin is reduced by:",
+        "options": ["A. Plastoquinone", "B. Cytochrome complex", "C. Primary electron acceptor of PSI", "D. Ferredoxin"],
+        "correct_answer": "B. Cytochrome complex"
+      },
+      {
+        "id": 9,
+        "question": "Enzyme NADP reductase is responsible for:",
+        "options": ["A. Reducing NADP⁺", "B. Oxidizing NADP⁺", "C. Reducing Ferredoxin", "D. Reducing P₇₀₀"],
+        "correct_answer": "A. Reducing NADP⁺"
+      },
+      {
+        "id": 10,
+        "question": "The PS II during light reactions receives electrons from splitting:",
+        "options": ["A. Water", "B. Plastoquinone", "C. Plastocyanin", "D. Ferridoxin"],
+        "correct_answer": "A. Water"
+      },
+      {
+        "id": 11,
+        "question": "Mono-saccharides have a general formula represented by:",
+        "options": ["A. Cₙ(H₂O)ₙ", "B. C(H₂O)ₙ", "C. C₂(H₂O)ₙ", "D. Cⁿ(H₂O)ₙ"],
+        "correct_answer": "A. Cₙ(H₂O)ₙ"
+      },
+      {
+        "id": 12,
+        "question": "What is the percentage of H₂O in bone cells?",
+        "options": ["A. 70%", "B. 20%", "C. 99%", "D. 60%"],
+        "correct_answer": "A. 70%"
+      },
+      {
+        "id": 13,
+        "question": "When glycerol reacts with fatty acid, which type of chemical bond will form?",
+        "options": ["A. Ester Bond", "B. Ether Linkage", "C. Hydrogen Bond", "D. Ionic Bond"],
+        "correct_answer": "A. Ester Bond"
+      },
+      {
+        "id": 14,
+        "question": "Polysaccharides in plants are synthesized by the process of:",
+        "options": ["A. Hydrolysis", "B. Oxidation", "C. Condensation", "D. Glycolysis"],
+        "correct_answer": "C. Condensation"
+      },
+      {
+        "id": 15,
+        "question": "Which of the following processes is involved in the breakdown of protein into amino acids?",
+        "options": ["A. Condensation", "B. Hydrolysis", "C. Glycolysis", "D. Fixation"],
+        "correct_answer": "B. Hydrolysis"
+      },
+      {
+        "id": 16,
+        "question": "The hydrophilic end of a phospholipid molecule is polar because of the presence of:",
+        "options": ["A. Glycerol", "B. Amine group", "C. Fatty Acid", "D. Phosphate group"],
+        "correct_answer": "D. Phosphate group"
+      },
+      {
+        "id": 17,
+        "question": "Which monosaccharide will form a gluco pyranose ring in solution?",
+        "options": ["A. Fructose", "B. Glucose", "C. Ribose", "D. Deoxyribose"],
+        "correct_answer": "B. Glucose"
+      },
+      {
+        "id": 18,
+        "question": "Chloroplasts are membrane-bound bodies containing:",
+        "options": ["A. Enzymes", "B. Cisternae", "C. Pigment", "D. Cristae"],
+        "correct_answer": "C. Pigment"
+      },
+      {
+        "id": 19,
+        "question": "Which of the following is the function of Golgi Complex?",
+        "options": ["A. Intracellular digestion", "B. Autophagy", "C. Autolysis", "D. Processing of cell secretions"],
+        "correct_answer": "D. Processing of cell secretions"
+      },
+      {
+        "id": 20,
+        "question": "The nucleus takes dyes due to the presence of:",
+        "options": ["A. Chromatin", "B. Lipid", "C. Metal ions", "D. Thylakoids"],
+        "correct_answer": "A. Chromatin"
+      },
+      {
+        "id": 21,
+        "question": "The organelles only found at the seedling stage in oil seed plants are:",
+        "options": ["A. Peroxisomes", "B. Glyoxisomes", "C. Microbodies", "D. Vacuoles"],
+        "correct_answer": "B. Glyoxisomes"
+      },
+      {
+        "id": 22,
+        "question": "Posterior lobe of the pituitary produces:",
+        "options": ["A. Antidiuretic Hormone (ADH)", "B. Thyroid Stimulating Hormone (TSH)", "C. Adreno Corticotrophic Hormone (ACH)", "D. Follicle Stimulating Hormone (FSH)"],
+        "correct_answer": "A. Antidiuretic Hormone (ADH)"
+      },
+      {
+        "id": 23,
+        "question": "In human myelinated fibers, nerve impulse travels at ______ meters per second.",
+        "options": ["A. 100-120", "B. 130-150", "C. 160-180", "D. 190-210"],
+        "correct_answer": "A. 100-120"
+      },
+      {
+        "id": 24,
+        "question": "Nissl's granules are groups of:",
+        "options": ["A. Mesosomes", "B. Lysosomes", "C. Ribosomes", "D. Chromosome"],
+        "correct_answer": "C. Ribosomes"
+      },
+      {
+        "id": 25,
+        "question": "During the non-conducting state, the neuron membrane is permeable to the efflux of:",
+        "options": ["A. K⁺", "B. Na⁺", "C. Ca²⁺", "D. Cl⁻"],
+        "correct_answer": "A. K⁺"
+      },
+      {
+        "id": 26,
+        "question": "Which of the following neurotransmitters is lying outside the central nervous system?",
+        "options": ["A. Acetylcholine", "B. Endorphins", "C. Dopamine", "D. Gamma – aminobutyric acid"],
+        "correct_answer": "A. Acetylcholine"
+      },
+      {
+        "id": 27,
+        "question": "Depolarization during the conduction of nerve impulse is due to:",
+        "options": ["A. Inward movement of Na⁺", "B. Inward movement of K⁺", "C. Outward movement of K⁺", "D. Outward movement of Na⁺"],
+        "correct_answer": "A. Inward movement of Na⁺"
+      },
+      {
+        "id": 28,
+        "question": "Which of the following is NOT a feature of the Autonomic Nervous System?",
+        "options": ["A. Regulate response of visceral organs", "B. Regulate response of skeletal muscles", "C. Regulate response of glands", "D. Regulate response of smooth muscles"],
+        "correct_answer": "B. Regulate response of skeletal muscles"
+      },
+      {
+        "id": 29,
+        "question": "Taste receptor is an example of:",
+        "options": ["A. Mechanoreceptors", "B. Nociceptors", "C. Photo receptors", "D. Chemo receptors"],
+        "correct_answer": "D. Chemo receptors"
+      },
+      {
+        "id": 30,
+        "question": "Which of the following belongs to chordates?",
+        "options": ["A. Spider", "B. Earthworm", "C. Trout Fish", "D. Star Fish"],
+        "correct_answer": "C. Trout Fish"
+      },
+      {
+        "id": 31,
+        "question": "Which of the following statements is incorrect regarding the enzyme action?",
+        "options": ["A. Increase in enzyme concentration increases the rate", "B. Increase in enzyme concentration reduces the rate", "C. All enzymes work at their maximum rate at optimum temperature", "D. All enzymes work at their maximum rate at optimum Ph"],
+        "correct_answer": "B. Increase in enzyme concentration reduces the rate"
+      },
+      {
+        "id": 32,
+        "question": "Induced fit model of enzyme activity suggests that an enzyme:",
+        "options": ["A. Cannot modify its active sites", "B. Can bind to a single substrate", "C. Can catalyze related reaction", "D. Usually belongs to non-regulatory enzyme"],
+        "correct_answer": "C. Can catalyze related reaction"
+      },
+      {
+        "id": 33,
+        "question": "Chromosomal abnormality in Turner syndrome is represented as:",
+        "options": ["A. XXX", "B. XYY", "C. XO", "D. XXY"],
+        "correct_answer": "C. XO"
+      },
+      {
+        "id": 34,
+        "question": "The change in frequency of alleles at a locus that occurs by chance is known as:",
+        "options": ["A. Mutation", "B. Genetic Drift", "C. Non-random mating", "D. Speciation"],
+        "correct_answer": "B. Genetic Drift"
+      },
+      {
+        "id": 35,
+        "question": "Identify the correct pair of vestigial organs:",
+        "options": ["A. Ear Muscles & Vermiform appendix", "B. Heart & Liver", "C. Ear Muscles & Liver", "D. Vermiform appendix & Heart"],
+        "correct_answer": "A. Ear Muscles & Vermiform appendix"
+      },
+      {
+        "id": 36,
+        "question": "Which of the following increases variation within a gene pool?",
+        "options": ["A. Chromosome Inversion", "B. Crossing over", "C. Gene mutation", "D. Random fusion of gametes"],
+        "correct_answer": "C. Gene mutation"
+      },
+      {
+        "id": 37,
+        "question": "Which of the following statements about natural selection is not true?",
+        "options": ["A. It affects variations that are heritable", "B. It is selected by a breeder", "C. It can improve the adaptation of species", "D. It is regional in nature"],
+        "correct_answer": "B. It is selected by a breeder"
+      },
+      {
+        "id": 38,
+        "question": "The formula calculating the frequency of genotypes and alleles in a population gene pool is known as:",
+        "options": ["A. Hardy-Weinberg Equation", "B. Lamarck Equation", "C. Darwin Equation", "D. James Hutton Equation"],
+        "correct_answer": "A. Hardy-Weinberg Equation"
+      },
+      {
+        "id": 39,
+        "question": "The idea of inheritance of acquired characteristics was presented by:",
+        "options": ["A. Jean Baptiste Lamarck", "B. Charles Darwin", "C. Thomas Malthus", "D. Alfred Wallace"],
+        "correct_answer": "A. Jean Baptiste Lamarck"
+      },
+      {
+        "id": 40,
+        "question": "According to endosymbiosis theory, flagella may have evolved by the ingestion of:",
+        "options": ["A. Amoeboid prokaryote", "B. Aerobic bacterium", "C. Spirochete", "D. Spirillum"],
+        "correct_answer": "C. Spirochete"
+      },
+      {
+        "id": 41,
+        "question": "The nutrients glucose into:",
+        "options": ["A. Vitamins", "B. Minerals", "C. Lipids", "D. Cortisone"],
+        "correct_answer": "C. Lipids"
+      },
+      {
+        "id": 42,
+        "question": "About 70% of the carbon dioxide is carried in the blood as:",
+        "options": ["A. Carbonate", "B. Bicarbonate", "C. Tricarbonate", "D. Carbonic anhydrase"],
+        "correct_answer": "B. Bicarbonate"
+      },
+      {
+        "id": 43,
+        "question": "Range of total lung capacity in humans is:",
+        "options": ["A. 5-6 liter", "B. 8-9 liter", "C. 10-11 liter", "D. 12-13 liter"],
+        "correct_answer": "A. 5-6 liter"
+      },
+      {
+        "id": 44,
+        "question": "Respiration in Pseudomonas bacteria is:",
+        "options": ["A. Aerobic", "B. Anaerobic", "C. Facultative", "D. Microaerophilic"],
+        "correct_answer": "A. Aerobic"
+      },
+      {
+        "id": 45,
+        "question": "Autotrophic mode of nutrition in organism depends upon",
+        "options": ["A. Saprotrophic mode", "B. Photosynthesis mode", "C. Parasitic mode", "D. Obligate mode"],
+        "correct_answer": "B. Photosynthesis mode"
+      },
+      {
+        "id": 46,
+        "question": "Prokaryotic cells lack:",
+        "options": ["A. Mesosomes", "B. Ribosomes", "C. Storage bodies", "D. Membrane-bound organelles"],
+        "correct_answer": "D. Membrane-bound organelles"
+      },
+      {
+        "id": 47,
+        "question": "Bacterial spores become diploid:",
+        "options": ["A. Before fertilization of gametes", "B. After binary fission", "C. During binary fission", "D. After binary fission"],
+        "correct_answer": "D. After binary fission"
+      },
+      {
+        "id": 48,
+        "question": "One of the following is CORRECT regarding flagella:",
+        "options": ["A. Made up of microfilaments", "B. Contains centriole", "C. Originates from basal bodies", "D. They are immotile"],
+        "correct_answer": "C. Originates from basal bodies"
+      },
+      {
+        "id": 49,
+        "question": "Which option is CORRECT about endospore?",
+        "options": ["A. Has a short dormant period", "B. Contains moisture for survival", "C. Metabolically active", "D. Endures extreme condition"],
+        "correct_answer": "D. Endures extreme condition"
+      },
+      {
+        "id": 50,
+        "question": "Bacteria divide at an exponential rate during which growth phase?",
+        "options": ["A. Lag", "B. Log", "C. Stationary", "D. Decline"],
+        "correct_answer": "B. Log"
+      },
+      {
+        "id": 51,
+        "question": "Mesosomes are the invagination of bacterial cell structure:",
+        "options": ["A. Cell wall", "B. Cell membrane", "C. Plasmid", "D. Cysts"],
+        "correct_answer": "B. Cell membrane"
+      },
+      {
+        "id": 52,
+        "question": "Female reproductive system consists all of the following EXCEPT:",
+        "options": ["A. Ovaries", "B. Oviduct", "C. Cervix", "D. Seminiferous tubules"],
+        "correct_answer": "D. Seminiferous tubules"
+      },
+      {
+        "id": 53,
+        "question": "Which one of the following hormones is responsible for the labor pains in human female at the time of birth of baby?",
+        "options": ["A. Estrogen", "B. Progesterone", "C. Oxytocin", "D. Corticosteroid"],
+        "correct_answer": "C. Oxytocin"
+      },
+      {
+        "id": 54,
+        "question": "Fluid secreted by sertoli cells provides liquid medium, protection and nourishment to:",
+        "options": ["A. Oocyte", "B. Sperms", "C. Polar body", "D. Spermatogonia"],
+        "correct_answer": "B. Sperms"
+      },
+      {
+        "id": 55,
+        "question": "Corpus luteum during female reproductive cycle produces:",
+        "options": ["A. Testosterone", "B. Follicle stimulating hormone", "C. Luteinizing hormone", "D. Progesterone"],
+        "correct_answer": "D. Progesterone"
+      },
+      {
+        "id": 56,
+        "question": "Due to the process of follicle atresia:",
+        "options": ["A. Follicles reach maximum size", "B. Follicle degenerates", "C. Graafian follicle ovulates", "D. Follicle starts to mature"],
+        "correct_answer": "B. Follicle degenerates"
+      },
+      {
+        "id": 57,
+        "question": "Main function of the epididymis is to:",
+        "options": ["A. Transport sperms", "B. Connect with urethra", "C. Produce semen", "D. Hold the process of spermatogenesis"],
+        "correct_answer": "A. Transport sperms"
+      },
+      {
+        "id": 58,
+        "question": "Immediate next stage of spermatogonia differentiation is:",
+        "options": ["A. Secondary spermatocyte", "B. Spermatids", "C. Primary spermatocytes", "D. Sperms"],
+        "correct_answer": "C. Primary spermatocytes"
+      },
+      {
+        "id": 59,
+        "question": "Which of the following is included in paired cranial bones?",
+        "options": ["A. Temporal", "B. Occipital", "C. Frontal", "D. Vomer"],
+        "correct_answer": "A. Temporal"
+      },
+      {
+        "id": 60,
+        "question": "Which of the following skeletal disorder is an example of autoimmune disorder?",
+        "options": ["A. Sciatica", "B. Spondylosis", "C. Rheumatoid arthritis", "D. Rickets"],
+        "correct_answer": "C. Rheumatoid arthritis"
+      },
+      {
+        "id": 61,
+        "question": "Which feature is possessed by smooth muscles?",
+        "options": ["A. Voluntary", "B. Branched", "C. Uni-nucleate", "D. Striated appearance"],
+        "correct_answer": "C. Uni-nucleate"
+      },
+      {
+        "id": 62,
+        "question": "The accumulation of 'lactic acid' in the muscles results in:",
+        "options": ["A. Extreme fatigue", "B. Muscle contraction", "C. Paralysis", "D. Convulsions"],
+        "correct_answer": "A. Extreme fatigue"
+      },
+      {
+        "id": 63,
+        "question": "Thick filaments in skeletal muscles are composed of:",
+        "options": ["A. Actin", "B. Myosin", "C. Tropomyosin", "D. Troponin"],
+        "correct_answer": "B. Myosin"
+      },
+      {
+        "id": 64,
+        "question": "Sarcomere is part of myofibril between:",
+        "options": ["A. Two I bands", "B. Two A bands", "C. Two M lines", "D. Two Z lines"],
+        "correct_answer": "D. Two Z lines"
+      },
+      {
+        "id": 65,
+        "question": "Medulla oblongata is a part of:",
+        "options": ["A. Forebrain", "B. Midbrain", "C. Hindbrain", "D. Hippocampus"],
+        "correct_answer": "C. Hindbrain"
+      },
+      {
+        "id": 66,
+        "question": "Which of the following is NOT a bone of the upper limb?",
+        "options": ["A. Humerus", "B. Ulna", "C. Femur", "D. Radius"],
+        "correct_answer": "C. Femur"
+      },
+      {
+        "id": 67,
+        "question": "Bone-forming cells are:",
+        "options": ["A. Osteoblasts", "B. Osteocytes", "C. Osteoclasts", "D. Osteons"],
+        "correct_answer": "A. Osteoblasts"
+      },
+      {
+        "id": 68,
+        "question": "The chromosomes were first observed by:",
+        "options": ["A. T. H. Morgan", "B. Griffith", "C. Walther", "D. Mendel"],
+        "correct_answer": "C. Walther"
+      }
+    ]
+  },
+  "test2": {
+    "name": "Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024",
+    "subject": "Biology",
+    "questions": [
+      {
+        "id": 1,
+        "question": "In which part of the brain a set of neurosecretory cells are found that exert control over the anterior pituitary gland by secreting releasing and inhibiting hormones?",
+        "options": ["a) Pons", "b) Hypothalamus", "c) Hippocampus", "d) Amygdala", "e) Midbrain"],
+        "correct_answer": "b) Hypothalamus"
+      },
+      {
+        "id": 2,
+        "question": "Frostbites are due to:",
+        "options": ["a) Fluid retention", "b) Vasodilation", "c) Muscular expansion", "d) Vasoconstriction", "e) Vascular contraction"],
+        "correct_answer": "d) Vasoconstriction"
+      },
+      {
+        "id": 3,
+        "question": "Stimuli such as pressure, touch, stretch, motion stimulate which of the following receptors?",
+        "options": ["a) Thermoreceptors", "b) Mechanoreceptors", "c) Gustatory receptor", "d) Olfactory receptors", "e) None of these"],
+        "correct_answer": "b) Mechanoreceptors"
+      },
+      {
+        "id": 4,
+        "question": "The situation when two alternative forms is said to have:",
+        "options": ["a) Codominance", "b) Sex-influenced traits", "c) Multiple alleles", "d) Incomplete dominance", "e) Sex-limited traits"],
+        "correct_answer": "d) Incomplete dominance"
+      },
+      {
+        "id": 5,
+        "question": "Bacterium, with a tuft of flagella present at each of two poles, is called:",
+        "options": ["a) Amphitrichous", "b) Atrichous", "c) Lophotrichous", "d) Peritrichous", "e) Monotrichous"],
+        "correct_answer": "a) Amphitrichous"
+      },
+      {
+        "id": 6,
+        "question": "What is the correct order of organelles in ultracentrifugation?",
+        "options": ["a) Ribosome → Nuclei → Mitochondria", "b) Lysosome → Ribosome → Mitochondria", "c) Nuclei → Mitochondria → Ribosome", "d) Mitochondria → Nuclei → Golgi bodies", "e) Golgi bodies → Ribosome → Nuclei"],
+        "correct_answer": "c) Nuclei → Mitochondria → Ribosome"
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is not essential for photosynthesis?",
+        "options": ["a) Oxygen", "b) Chlorophyll", "c) ATP", "d) Light", "e) NADP"],
+        "correct_answer": "a) Oxygen"
+      },
+      {
+        "id": 8,
+        "question": "Proteins which cause disease in humans and animals are called:",
+        "options": ["a) Prions", "b) Viroid", "c) Prophage", "d) Bacteriophage", "e) Antigens"],
+        "correct_answer": "a) Prions"
+      },
+      {
+        "id": 9,
+        "question": "Which size of sponge can filter an entire residential pool in one day?",
+        "options": ["a) Tennis ball-sized", "b) Ladle-sized", "c) Basketball-sized", "d) Hockey ball-sized", "e) Teaspoon-sized"],
+        "correct_answer": "c) Basketball-sized"
+      },
+      {
+        "id": 10,
+        "question": "Koshland proposed a model for enzyme with the name of \"Induced Fit Model\" in the year:",
+        "options": ["a) 1957", "b) 1952", "c) 1954", "d) 1956", "e) 1949"],
+        "correct_answer": "a) 1957"
+      },
+      {
+        "id": 11,
+        "question": "Why do ribosomes require Mg⁺⁺ ions?",
+        "options": ["a) To synthesize protein", "b) To transport amino acid to ribosome", "c) To stabilize the ribosomal structure", "d) To develop mRNA molecules", "e) To break down RNA molecules"],
+        "correct_answer": "c) To stabilize the ribosomal structure"
+      },
+      {
+        "id": 12,
+        "question": "Glutamic acid is replaced by Valine at which position?",
+        "options": ["a) 3rd position", "b) 6th position", "c) 5th position", "d) 4th position", "e) 2nd position"],
+        "correct_answer": "b) 6th position"
+      },
+      {
+        "id": 13,
+        "question": "Formation of hard uric acid crystals in the joints is identified as:",
+        "options": ["a) Rheumatoid arthritis", "b) Ankylosing spondylitis", "c) Osteoarthritis", "d) Callus", "e) Gout"],
+        "correct_answer": "e) Gout"
+      },
+      {
+        "id": 14,
+        "question": "Which virus kills cancer cells and aids immunity?",
+        "options": ["a) Saccharomyces", "b) Lactobacillus", "c) Penicillium", "d) Lymphobacterium", "e) Oncolytic"],
+        "correct_answer": "e) Oncolytic"
+      },
+      {
+        "id": 15,
+        "question": "The pigment in the muscles responsible for the binding of oxygen is:",
+        "options": ["a) Oxyhemoglobin", "b) Plasmin", "c) Myoglobin", "d) Heme", "e) Hemoglobin"],
+        "correct_answer": "c) Myoglobin"
+      },
+      {
+        "id": 16,
+        "question": "In Gram -ve bacteria, the peptidoglycan layer is:",
+        "options": ["a) Condensed", "b) Thick", "c) Moderate", "d) Thin", "e) Entangled"],
+        "correct_answer": "d) Thin"
+      },
+      {
+        "id": 17,
+        "question": "The human enzymes are highly active at about:",
+        "options": ["a) 8°C", "b) 5°C", "c) 37°C", "d) 45°C", "e) 55°C"],
+        "correct_answer": "c) 37°C"
+      },
+      {
+        "id": 18,
+        "question": "The locomotion in segmented worms is brought about by:",
+        "options": ["a) True Pods", "b) Pseudopodia", "c) Segmented", "d) Peritrichous flagella"],
+        "correct_answer": "c) Segmented"
+      },
+      {
+        "id": 19,
+        "question": "The type of carbohydrates, made up of 6 to 10 monosaccharides, which are comparatively less sweet in taste and less soluble in water, are called:",
+        "options": ["a) Oligosaccharides", "b) Monosaccharides", "c) Starch", "d) Cellulose", "e) Polysaccharides"],
+        "correct_answer": "a) Oligosaccharides"
+      },
+      {
+        "id": 20,
+        "question": "This technique is used to determine growth of bacteria, rate of photosynthesis, and minute quantity of DNA:",
+        "options": ["a) Electrophoresis", "b) Micrometry", "c) Microscopy", "d) Chromatography", "e) Spectrophotometry"],
+        "correct_answer": "e) Spectrophotometry"
+      },
+      {
+        "id": 21,
+        "question": "Which of the following is an example of a sub-viral particle that infects plants?",
+        "options": ["a) Prion", "b) Viroid", "c) Bacteriophage", "d) Infectious protein"],
+        "correct_answer": "b) Viroid"
+      },
+      {
+        "id": 22,
+        "question": "In heterotrophs, during digestion, macromolecules are broken into monomers by hydrolysis with the help of:",
+        "options": ["a) Chymosin", "b) Gastrin", "c) Rennin", "d) Hydrolytic enzymes"],
+        "correct_answer": "d) Hydrolytic enzymes"
+      },
+      {
+        "id": 23,
+        "question": "Animals that have a ladder-type nervous system, consisting of two nerve cords and connecting nerves that look like a ladder, belong to the phylum:",
+        "options": ["a) Protozoa", "b) Coelenterata", "c) Cnidarian", "d) Porifera", "e) Platyhelminthes"],
+        "correct_answer": "e) Platyhelminthes"
+      },
+      {
+        "id": 24,
+        "question": "The term enzyme was coined by:",
+        "options": ["a) Darwin", "b) Lamarck", "c) Friendrich Wilhelm Kuhne", "d) Mendel", "e) Thomas Cech"],
+        "correct_answer": "c) Friendrich Wilhelm Kuhne"
+      },
+      {
+        "id": 25,
+        "question": "Which lipophilic hormone is found in every tissue of the body and is involved in inflammation, blood flow, and protection from injury?",
+        "options": ["a) Estradiol", "b) Aldosterone", "c) Testosterone", "d) Prostaglandins", "e) Estrogen"],
+        "correct_answer": "d) Prostaglandins"
+      },
+      {
+        "id": 26,
+        "question": "Hardy-Weinberg Equation is:",
+        "options": ["a) p² + 2pq + q² = 1", "b) p + 2pq + q² = 1", "c) p² + 2pq + q² = 0", "d) 2p + q² = 1", "e) 2p + 2q² = 1"],
+        "correct_answer": "a) p² + 2pq + q² = 1"
+      },
+      {
+        "id": 27,
+        "question": "F.C. Steward used this plant for his experiment (tissue culture):",
+        "options": ["a) Radish", "b) Corn", "c) Maize", "d) Carrot", "e) Mango"],
+        "correct_answer": "d) Carrot"
+      },
+      {
+        "id": 28,
+        "question": "Histone proteins are rich in:",
+        "options": ["a) Basic amino acid", "b) Acidic fatty acid", "c) Basic citric acid", "d) Acidic amino", "e) Basic fatty acid"],
+        "correct_answer": "a) Basic amino acid"
+      },
+      {
+        "id": 29,
+        "question": "The site of maturation and storage of sperms is:",
+        "options": ["a) Seminal vesicles", "b) Scrotum", "c) Testes", "d) Epididymis", "e) Vasa deferentia"],
+        "correct_answer": "d) Epididymis"
+      },
+      {
+        "id": 30,
+        "question": "A disease resulting in complete lack of spermatozoa in ejaculate is:",
+        "options": ["a) Azoospermia", "b) Obstruction", "c) Oligospermia", "d) Zoospermia", "e) Ejaculation disorder"],
+        "correct_answer": "a) Azoospermia"
+      },
+      {
+        "id": 31,
+        "question": "The type of bacteria which oxidize CO into CO₂ is:",
+        "options": ["a) Bacillus oligocaerpobillous", "b) Hydrogenomonas", "c) Pseudomonas", "d) Thiobacillus", "e) Azobacter"],
+        "correct_answer": "d) Thiobacillus"
+      },
+      {
+        "id": 32,
+        "question": "What structure holds sister chromatids together?",
+        "options": ["a) Gene", "b) Nucleosome", "c) Centrosome", "d) Centromere", "e) Histone protein"],
+        "correct_answer": "d) Centromere"
+      },
+      {
+        "id": 33,
+        "question": "The most widely accepted explanation for ascent of sap is:",
+        "options": ["a) Role of root pressure", "b) Transpiration", "c) Capillarity", "d) Role of atmospheric pressure", "e) Cohesion and transpiration pull"],
+        "correct_answer": "e) Cohesion and transpiration pull"
+      },
+      {
+        "id": 34,
+        "question": "In which of the following environments are plants, with aerenchyma, most likely to be found?",
+        "options": ["a) Mesophytes", "b) Sciophytes", "c) Xerophytes", "d) Hydrophytes", "e) Halophytes"],
+        "correct_answer": "d) Hydrophytes"
+      },
+      {
+        "id": 35,
+        "question": "Each helix of DNA is made up of four types of nucleotides and both helices are complementary to each other i.e. if one helix contains Adenine the opposite helix will contain:",
+        "options": ["a) Histidine", "b) Uracil", "c) Cytosine", "d) Thymine", "e) Guanine"],
+        "correct_answer": "d) Thymine"
+      },
+      {
+        "id": 36,
+        "question": "Bacteriophages escape from host cells by the activity of:",
+        "options": ["a) Non-Ribosome", "b) Lysozyme", "c) Peroxisome", "d) Lysosome"],
+        "correct_answer": "b) Lysozyme"
+      },
+      {
+        "id": 37,
+        "question": "Which soft-bodied animal is usually Ambisexual?",
+        "options": ["a) Tapeworm", "b) Earthworm", "c) Jellyfish", "d) Snail", "e) Oyster"],
+        "correct_answer": "b) Earthworm"
+      },
+      {
+        "id": 38,
+        "question": "The number of teeth in deciduous and permanent teeth is:",
+        "options": ["a) 21 and 32 respectively", "b) 18 and 22 respectively", "c) 12 and 32 respectively", "d) 10 and 32 respectively", "e) 20 and 32 respectively"],
+        "correct_answer": "e) 20 and 32 respectively"
+      },
+      {
+        "id": 39,
+        "question": "Which hormone is responsible to convert the ruptured follicle into a yellowish glandular mass known as corpus luteum?",
+        "options": ["a) FSH", "b) ACTH", "c) DHT", "d) LH", "e) TSH"],
+        "correct_answer": "d) LH"
+      },
+      {
+        "id": 40,
+        "question": "Phage genome incorporated with host DNA is called:",
+        "options": ["a) Bacteriophage", "b) Viroids", "c) Prophage", "d) Prions"],
+        "correct_answer": "c) Prophage"
+      },
+      {
+        "id": 41,
+        "question": "Plants oxidize sugar in chloroplasts during day time without production of energy. This process is called:",
+        "options": ["a) Decarboxylation", "b) Oxidative phosphorylation", "c) Non-cyclic photophosphorylation", "d) Cyclic oxidative phosphorylation", "e) Lactic acid fermentation"],
+        "correct_answer": "c) Non-cyclic photophosphorylation"
+      },
+      {
+        "id": 42,
+        "question": "Sufficient depolarization in neurolemma results in:",
+        "options": ["a) Potassium leakage", "b) Resting membrane potential", "c) Action potential", "d) Repolarization", "e) Sub-threshold potential"],
+        "correct_answer": "c) Action potential"
+      },
+      {
+        "id": 43,
+        "question": "Fusion of two genetically dissimilar parents through artificial pollination is:",
+        "options": ["a) Selection", "b) Acclimatization", "c) Hybridization", "d) Evolution", "e) Back crossing"],
+        "correct_answer": "c) Hybridization"
+      },
+      {
+        "id": 44,
+        "question": "In the flowering plant, food is translocated in the form:",
+        "options": ["a) Starch", "b) Sucrose", "c) Glucose", "d) Sugar", "e) Fructose"],
+        "correct_answer": "b) Sucrose"
+      },
+      {
+        "id": 45,
+        "question": "Which reaction is also known as Z-scheme?",
+        "options": ["a) Oxidative phosphorylation", "b) Cyclic photophosphorylation", "c) Non-cyclic oxidative phosphorylation", "d) Cyclic oxidative phosphorylation", "e) Non-cyclic photophosphorylation"],
+        "correct_answer": "e) Non-cyclic photophosphorylation"
+      },
+      {
+        "id": 46,
+        "question": "In gel electrophoresis, how do molecules migrate through the gel?",
+        "options": ["a) Under the influence of agar", "b) By diffusion", "c) Under the influence of an electric field", "d) Active transport", "e) By osmosis"],
+        "correct_answer": "c) Under the influence of an electric field"
+      },
+      {
+        "id": 47,
+        "question": "In carbohydrates, hydrogen and oxygen are present in the simple ratio of:",
+        "options": ["a) 2:1", "b) 3:1", "c) 1:1", "d) 3:4", "e) 1:3"],
+        "correct_answer": "a) 2:1"
+      },
+      {
+        "id": 48,
+        "question": "Which of the pigments are common in both human and plant?",
+        "options": ["a) Carotenoids", "b) Fucoxanthin", "c) Xanthophyll", "d) Chlorophyll", "e) Retinol"],
+        "correct_answer": "a) Carotenoids"
+      },
+      {
+        "id": 49,
+        "question": "Two different gene pairs, located at different loci, all work for the same trait and express in an additive manner. This phenomenon is called:",
+        "options": ["a) Codominance", "b) Polygenic inheritance", "c) Multiple alleles", "d) Incomplete dominance", "e) Epistasis"],
+        "correct_answer": "b) Polygenic inheritance"
+      },
+      {
+        "id": 50,
+        "question": "Isolation of cellular components to determine their structure and chemical composition is:",
+        "options": ["a) Cell fractionation", "b) Chromatography", "c) Microscopy", "e) Electrophoresis"],
+        "correct_answer": "a) Cell fractionation"
+      },
+      {
+        "id": 51,
+        "question": "The type of cancer, common in young men between the ages of 15 and 34, that has a high cure rate with early treatment is:",
+        "options": ["a) Skin cancer", "b) Lung cancer", "c) Blood cancer", "d) Lymph cancer", "e) Testicular cancer"],
+        "correct_answer": "e) Testicular cancer"
+      },
+      {
+        "id": 52,
+        "question": "This process inhibits metabolism and growth of anaerobic microbes used for the treatment of Gas Gangrene:",
+        "options": ["a) Desiccation", "b) Radiation", "c) Hyperbaric oxygen therapy", "d) High-pressure process", "e) Lyophilization"],
+        "correct_answer": "c) Hyperbaric oxygen therapy"
+      },
+      {
+        "id": 53,
+        "question": "The branching network-like arrangement of cardiac muscles is called:",
+        "options": ["a) Epimysium", "b) Syndesmosis", "c) Gomphosis", "d) Sarcolemma", "e) Syncytium"],
+        "correct_answer": "e) Syncytium"
+      },
+      {
+        "id": 54,
+        "question": "Molecules that bind to an enzyme away from the active site and increase the function of that active site are known as:",
+        "options": ["a) Activation energy without enzyme", "b) Energy of reactants", "c) Activation energy with enzyme", "d) Energy of product", "e) Allosteric activators"],
+        "correct_answer": "e) Allosteric activators"
+      },
+      {
+        "id": 55,
+        "question": "The number of oxygen molecules that is transported by one hemoglobin molecule is:",
+        "options": ["a) 1", "b) 4", "c) 3", "d) 2", "e) 5"],
+        "correct_answer": "b) 4"
+      },
+      {
+        "id": 56,
+        "question": "The top milk-producing animal is:",
+        "options": ["a) Nili-Ravi", "b) Bhadawari", "c) Godavari", "d) Blue-Ravi", "e) Jaffrabadi"],
+        "correct_answer": "e) Jaffrabadi"
+      },
+      {
+        "id": 57,
+        "question": "Which one of the following is the precursor for the synthesis of testosterone, progesterone, and estrogens?",
+        "options": ["a) Choline", "b) Cholesterol", "c) Oil", "d) Waxes", "e) Albumin"],
+        "correct_answer": "b) Cholesterol"
+      },
+      {
+        "id": 58,
+        "question": "A neural cable extending from the brain down through the backbone and enclosed in the vertebral column is called:",
+        "options": ["a) Meninges", "b) Spinal cord", "c) Axon", "d) Brainstem", "e) Hindbrain"],
+        "correct_answer": "b) Spinal cord"
+      },
+      {
+        "id": 59,
+        "question": "Which of the following accurately describes Helicobacter pylori?",
+        "options": ["a) Flagellated rod-shaped bacterium", "b) Flagellated chain bacterium", "c) Flagellated spiral-shaped bacterium", "d) Non-flagellated spiral-shaped bacterium", "e) Non-flagellated rod-shaped bacterium"],
+        "correct_answer": "c) Flagellated spiral-shaped bacterium"
+      },
+      {
+        "id": 60,
+        "question": "Water has very high heat of vaporization i.e.:",
+        "options": ["a) 274 kcal/kg", "b) 374 kcal/kg", "c) 474 kcal/kg", "d) 574 kcal/kg", "e) 674 kcal/kg"],
+        "correct_answer": "d) 574 kcal/kg"
+      },
+      {
+        "id": 61,
+        "question": "Which cells are responsible for the formation of cartilage?",
+        "options": ["a) Neurosecretory cells", "b) Lymphocytes", "c) Osteocytes", "d) Leukocytes", "e) Chondrocytes"],
+        "correct_answer": "e) Chondrocytes"
+      },
+      {
+        "id": 62,
+        "question": "Which statement about tautomerism is correct?",
+        "options": ["a) Only occurs in organic compound", "b) Not influenced by temperature", "c) Have same molecular formula", "d) Have different molecular formula", "e) Identical chemical properties"],
+        "correct_answer": "c) Have same molecular formula"
+      },
+      {
+        "id": 63,
+        "question": "Behavioral responses are controlled by:",
+        "options": ["a) Pituitary gland", "b) Hypothalamus", "c) Thalamus", "d) Amygdala", "e) Hippocampus"],
+        "correct_answer": "b) Hypothalamus"
+      },
+      {
+        "id": 64,
+        "question": "In skeletal muscles, which tube runs perpendicularly and is connected with the sarcoplasmic reticulum?",
+        "options": ["a) Troponin", "b) T-tubules", "c) Monochondrion", "d) Myosin", "e) Actin"],
+        "correct_answer": "b) T-tubules"
+      },
+      {
+        "id": 65,
+        "question": "The active site of the enzyme is the region that:",
+        "options": ["a) Binds with the product of catalytic reaction", "b) Is involved in catalytic reactions", "c) Is inhibited by coenzymes and cofactors", "d) Binds allosteric regulators of the enzyme", "e) Is inhibited by coenzymes only"],
+        "correct_answer": "b) Is involved in catalytic reactions"
+      },
+      {
+        "id": 66,
+        "question": "It is a condition of blindness where a person cannot distinguish blue color:",
+        "options": ["a) Protanopia", "b) Monochromacy", "c) Dichromacy", "d) Deuteranopia", "e) Tritanopia"],
+        "correct_answer": "e) Tritanopia"
+      }
+    ]
+  },
+  "test3": {
+    "name": "Khyber Medical University - MDCAT 2024",
+    "subject": "Biology",
+    "questions": [
+      {
+        "id": 1,
+        "question": "The peptidoglycan cell wall is specific to.",
+        "options": ["a. Amoeba", "b. Bacteria", "c. Protozoa", "d. Virus"],
+        "correct_answer": "b. Bacteria"
+      },
+      {
+        "id": 2,
+        "question": "Where are spindle fibres attached OR a chromosome during cell division",
+        "options": ["a. Centromere", "b. Histone proteins", "c. Nucleolus", "d. Telomere"],
+        "correct_answer": "a. Centromere"
+      },
+      {
+        "id": 3,
+        "question": "Which organelle contribute towards steroid production?",
+        "options": ["a. Endoplasmic Reticulum", "b. Golgi apparatus", "c. Lysosome", "d. Ribosomes"],
+        "correct_answer": "a. Endoplasmic Reticulum"
+      },
+      {
+        "id": 4,
+        "question": "The lysosomes found in eukaryotes contain:",
+        "options": ["a. Hydrolytic enzymes", "b. Meiotic enzymes", "c. Oxidative enzymes", "d. Mitotic enzymes"],
+        "correct_answer": "a. Hydrolytic enzymes"
+      },
+      {
+        "id": 5,
+        "question": "Plasma membrane is differentially permeable membrane due to the presence of?",
+        "options": ["a. Carbohydrates", "b. Lipids", "c. Proteins", "d. Vitamins"],
+        "correct_answer": "c. Proteins"
+      },
+      {
+        "id": 6,
+        "question": "The following function/activity is NOT controlled by the autonomic nervous system.",
+        "options": ["a. Cardiac muscles contraction", "b. Salivation", "c. Smooth muscles contraction", "d. Thoughts and emotions"],
+        "correct_answer": "d. Thoughts and emotions"
+      },
+      {
+        "id": 7,
+        "question": "A motor neuron:",
+        "options": ["a. Carries impulse from effectors to CNS", "b. Carries impulse from receptors to CNS", "c. Carries impulse from CNS to muscles", "d. Connects sensory nerves to ganglions"],
+        "correct_answer": "c. Carries impulse from CNS to muscles"
+      },
+      {
+        "id": 8,
+        "question": "Diffusion of _________ across the post synaptic membrane causes it to depolarise:",
+        "options": ["a. Calcium ions", "b. Chloride ions", "c. Potassium ions", "d. Sodium ions"],
+        "correct_answer": "d. Sodium ions"
+      },
+      {
+        "id": 9,
+        "question": "A reflex action, does not involve the",
+        "options": ["a. Brain", "b. Motor neuron", "c. Sensory neuron", "d. Spinal cord"],
+        "correct_answer": "a. Brain"
+      },
+      {
+        "id": 10,
+        "question": "What happens to the enzyme after an enzyme-catalysed reaction?",
+        "options": ["a. Reduced to inactive form", "b. Becomes inert", "c. Changes into substrate", "d. Used for another reaction"],
+        "correct_answer": "d. Used for another reaction"
+      },
+      {
+        "id": 11,
+        "question": "Catalase can be activated at pH:",
+        "options": ["a. 1", "b. 3", "c. 5", "d. 7"],
+        "correct_answer": "d. 7"
+      },
+      {
+        "id": 12,
+        "question": "Enzymatic activity can be inhibited by?",
+        "options": ["a. Heavy metal ions", "b. Methane", "c. Mutase", "d. Noble gases"],
+        "correct_answer": "a. Heavy metal ions"
+      },
+      {
+        "id": 13,
+        "question": "A competitive inhibitor:",
+        "options": ["a. Accelerates the chemical reaction", "b. Competes with the enzyme", "c. Is irreversible", "d. Is reversible"],
+        "correct_answer": "d. Is reversible"
+      },
+      {
+        "id": 14,
+        "question": "Wings of birds and that of flying lizards provide evidence of:",
+        "options": ["a. Convergent evolution", "b. Divergent evolution", "c. No evolution", "d. Same origin"],
+        "correct_answer": "a. Convergent evolution"
+      },
+      {
+        "id": 15,
+        "question": "The embryological stages of ________ show similarity in anatomical features",
+        "options": ["a. All living things", "b. All non-vertebrates", "c. All vertebrates", "d. Human, jelly fish and mouse"],
+        "correct_answer": "c. All vertebrates"
+      },
+      {
+        "id": 16,
+        "question": "Which enzyme is secreted in the active form?",
+        "options": ["a. Amylase", "b. Lipase", "c. Peptidase", "d. Protease"],
+        "correct_answer": "a. Amylase"
+      },
+      {
+        "id": 17,
+        "question": "Which hormone stimulates the secretion of gastric juice?",
+        "options": ["a. Cholecystokinin", "b. Gastrin", "c. Insulin", "d. Secretin"],
+        "correct_answer": "b. Gastrin"
+      },
+      {
+        "id": 18,
+        "question": "In an inflammatory response, bradykinin causes?",
+        "options": ["a. Activation of natural killer cells", "b. Blockage in blood vessels", "c. Constriction of blood vessels", "d. Leakage of fluid from blood vessels"],
+        "correct_answer": "d. Leakage of fluid from blood vessels"
+      },
+      {
+        "id": 19,
+        "question": "Which of the following is an example of passive immunity?",
+        "options": ["a. Antibodies from mother's milk", "b. Previous chickenpox infection", "c. Inactivated polio vaccine", "d. Live polio vaccine"],
+        "correct_answer": "a. Antibodies from mother's milk"
+      },
+      {
+        "id": 20,
+        "question": "Bacteria that lack flagella are called?",
+        "options": ["a. Amphitrichous", "b. Atrichous", "c. Lophotrichous", "d. Peritrichous"],
+        "correct_answer": "b. Atrichous"
+      },
+      {
+        "id": 21,
+        "question": "Antibiotics can be used against:",
+        "options": ["a. Herpes simplex", "b. Influenza", "c. Polio", "d. Salmonella typhi"],
+        "correct_answer": "d. Salmonella typhi"
+      },
+      {
+        "id": 22,
+        "question": "The ______ in semen facilitate the transport of sperms,",
+        "options": ["a. Androgen", "b. Prostaglandins", "c. Oxytocin", "d. Testosterone"],
+        "correct_answer": "b. Prostaglandins"
+      },
+      {
+        "id": 23,
+        "question": "The acidity of urine is neutralized by?",
+        "options": ["a. Cowpers gland", "b. Prostate gland", "c. Seminal vesicle", "d. Vas deferens"],
+        "correct_answer": "a. Cowpers gland"
+      },
+      {
+        "id": 24,
+        "question": "The corpus luteum is essentially formed from",
+        "options": ["a. Graafian follicle", "b. Ovum", "c. Oogonium", "d. Oocyte"],
+        "correct_answer": "a. Graafian follicle"
+      },
+      {
+        "id": 25,
+        "question": "The outer layer of uterus is called as;",
+        "options": ["a. Endometrium", "b. Myometrium", "c. Mesometrium", "d. Perimetrium"],
+        "correct_answer": "d. Perimetrium"
+      },
+      {
+        "id": 26,
+        "question": "________ is spread through sexual contact.",
+        "options": ["a. Gonorrhoea", "b. Influenza", "c. Tuberculosis", "d. Typhoid"],
+        "correct_answer": "a. Gonorrhoea"
+      },
+      {
+        "id": 27,
+        "question": "The cells contained in the lacunae of the bone are called",
+        "options": ["a. Chondrocytes", "b. Osteoblast", "c. Osteocytes", "d. Osteoclast"],
+        "correct_answer": "c. Osteocytes"
+      },
+      {
+        "id": 28,
+        "question": "The ______ surrounds the muscle fibre of the skeletal muscle,",
+        "options": ["a. Cytoplasm", "b. Lacunae", "c. Myofibrils", "d. Sarcoplasm"],
+        "correct_answer": "d. Sarcoplasm"
+      },
+      {
+        "id": 29,
+        "question": "What happens to calcium when skeletal muscles recover from contraction?",
+        "options": ["a. Released from the sarcoplasmic reticulum", "b. Released from the myosin head", "c. Pumped into the sarcoplasmic reticulum", "d. Exchanged for sodium ions"],
+        "correct_answer": "c. Pumped into the sarcoplasmic reticulum"
+      },
+      {
+        "id": 30,
+        "question": "Which of the following blood groups has anti-A and anti-B antibodies in the serum?",
+        "options": ["a. A", "b. AB", "c. B", "d. Q"],
+        "correct_answer": "d. Q"
+      },
+      {
+        "id": 31,
+        "question": "What is the primary outcome of crossing over during prophase of meiosis I?",
+        "options": ["a. Chromosomes duplicate without any exchange of parts", "b. Homologous chromosomes exchange different pairs leading to recombinant chromatids and increased genetic variation", "c. Homologous chromosomes exchange identical parts, resulting in no genetic variation", "d. Non-homologous chromosomes exchange parts"],
+        "correct_answer": "b. Homologous chromosomes exchange different pairs leading to recombinant chromatids and increased genetic variation"
+      },
+      {
+        "id": 32,
+        "question": "The genetic makeup that your parents have transferred to you for your hair color, makes up your:",
+        "options": ["a. Genotype", "b. Karyotype", "c. Phenotype", "d. None of the above"],
+        "correct_answer": "a. Genotype"
+      },
+      {
+        "id": 33,
+        "question": "Carnivorous plants…product of this digestion is used to supplement the plant's supply of:",
+        "options": ["a. Carbohydrates", "b. Lipids", "c. Nitrites", "d. Water"],
+        "correct_answer": "c. Nitrites"
+      },
+      {
+        "id": 34,
+        "question": "Which is true for an X linked dominant trait?",
+        "options": ["a. All female offspring of the affected father will be affected", "b. Half of the female off springs of the affected father will be affected", "c. No male offspring of an affected mother will be affected", "d. No female offspring of the affected father will be affected"],
+        "correct_answer": "a. All female offspring of the affected father will be affected"
+      },
+      {
+        "id": 35,
+        "question": "Malpighian tubules are found in:",
+        "options": ["a. Earthworm", "b. Grasshopper", "c. Leech", "d. Slug"],
+        "correct_answer": "b. Grasshopper"
+      },
+      {
+        "id": 36,
+        "question": "Shark belongs to class",
+        "options": ["a. Chondrichthyes", "b. Echinodermata", "c. Osteichthyes", "d. Urochordata"],
+        "correct_answer": "a. Chondrichthyes"
+      },
+      {
+        "id": 37,
+        "question": "Canal system is a characteristic of?",
+        "options": ["a. Cnidarians", "b. Protozoans", "c. Porifera", "d. Segmented worms"],
+        "correct_answer": "c. Porifera"
+      },
+      {
+        "id": 38,
+        "question": "Mantle is the feature of?",
+        "options": ["a. Annelids", "b. Chordates", "c. Echinoderms", "d. Mussel"],
+        "correct_answer": "d. Mussel"
+      },
+      {
+        "id": 39,
+        "question": "The production of energy is __.",
+        "options": ["a. Faster in anaerobic respiration", "b. Faster in aerobic respiration", "c. Same in both types of respiration", "d. Not associated with respiration"],
+        "correct_answer": "a. Faster in anaerobic respiration"
+      },
+      {
+        "id": 40,
+        "question": "The pathway to the breakdown of glucose, carried out by micro-organisms, is called:",
+        "options": ["a. Lactic acid fermentation", "b. Alcoholic fermentation", "c. Cellular respiration", "d. None of the above"],
+        "correct_answer": "b. Alcoholic fermentation"
+      },
+      {
+        "id": 41,
+        "question": "Chromosome is typically made up from a combination of?",
+        "options": ["a. DNA and protein", "b. DNA and RNA", "c. RNA and lipids", "d. RNA and proteins"],
+        "correct_answer": "a. DNA and protein"
+      },
+      {
+        "id": 42,
+        "question": "Which cytoplasmic organelle make their own proteins?",
+        "options": ["a. Chromosomes", "b. Golgi apparatus", "c. Mitochondria", "d. Smooth endoplasmic reticulum"],
+        "correct_answer": "c. Mitochondria"
+      },
+      {
+        "id": 43,
+        "question": "The active movement of mitochondria in the cytoplasm is due to",
+        "options": ["a. Cyclosis", "b. Endoplasmic streaming movements", "c. Golgi apparatus", "d. Transfer RNA"],
+        "correct_answer": "a. Cyclosis"
+      },
+      {
+        "id": 44,
+        "question": "Which part of the brain is controlling your sense of balance?",
+        "options": ["a. Amygdala", "b. Cerebellum", "c. Hippocampus", "d. Medulla Oblongata"],
+        "correct_answer": "b. Cerebellum"
+      },
+      {
+        "id": 45,
+        "question": "The neurotransmitter ________ is hydrolysed by monoamine oxidase",
+        "options": ["a. Acetylcholine", "b. Adrenaline", "c. Gluamate", "d. Serotinin"],
+        "correct_answer": "b. Adrenaline"
+      },
+      {
+        "id": 46,
+        "question": "Most of the neurons in the CNS are?",
+        "options": ["a. Bipolar", "b. Multipolar", "c. Pseudo unipolar", "d. Unipolar"],
+        "correct_answer": "b. Multipolar"
+      },
+      {
+        "id": 47,
+        "question": "How do enzymes enable the conversion of substrates into products by?",
+        "options": ["a. Changing equilibrium in the direction of the substrate", "b. Increase the activation energy", "c. Increase the substrate concentration", "d. Lowering the activation energy"],
+        "correct_answer": "d. Lowering the activation energy"
+      },
+      {
+        "id": 48,
+        "question": "According to Lamarckism, the basis of evolution is:",
+        "options": ["a. Inheritance of acquired characteristics", "b. Mutation", "c. Natural selection", "d. Survival of the fittest"],
+        "correct_answer": "a. Inheritance of acquired characteristics"
+      },
+      {
+        "id": 49,
+        "question": "What best describes the hind leg bones seen in the whale?",
+        "options": ["a. Analogous to the fin of living fish", "b. Fossil structure from an extinct ancestor", "c. Homologous structure of the wings of a bat", "d. Vestigial structures that had a function in an ancestor"],
+        "correct_answer": "d. Vestigial structures that had a function in an ancestor"
+      },
+      {
+        "id": 50,
+        "question": "Which is true about the cells found in gastric glands lining the stomach wall?",
+        "options": ["a. Chief cells secrete gastrin", "b. Hormone cells secrete intrinsic factor", "c. Mucus cells secrete mucin", "d. Parietal cells secrete pepsinogen"],
+        "correct_answer": "c. Mucus cells secrete mucin"
+      },
+      {
+        "id": 51,
+        "question": "What directly triggers the activation of natural killer cells?",
+        "options": ["a. Free radicals", "b. Hydrogen peroxide", "c. Interferons", "d. Oxygen"],
+        "correct_answer": "c. Interferons"
+      },
+      {
+        "id": 52,
+        "question": "Which of the following is NOT true about plasmids found in streptococci?",
+        "options": ["a. Carry fewer genes than the chromosome", "b. Replicate autonomously from the chromosome", "c. They are considered as genetic element", "d. The bacterial chromosome depends on plasmids for replication"],
+        "correct_answer": "d. The bacterial chromosome depends on plasmids for replication"
+      },
+      {
+        "id": 53,
+        "question": "Which of the following bacteria produces endospores?",
+        "options": ["a. Both gram negative and positive bacteria", "b. Gram negative", "c. Gram positive", "d. Mycobacteria"],
+        "correct_answer": "c. Gram positive"
+      },
+      {
+        "id": 54,
+        "question": "_______ is used in the production of Humulin?",
+        "options": ["a. Bacteria", "b. Fungi", "c. Protozoa", "d. Virus"],
+        "correct_answer": "a. Bacteria"
+      },
+      {
+        "id": 55,
+        "question": "Which of the following does NOT relate to smooth muscles?",
+        "options": ["a. Controlled by the autonomic nervous system", "b. Have spindle shaped cells", "c. Line the wall of heart", "d. Lack striations"],
+        "correct_answer": "c. Line the wall of heart"
+      },
+      {
+        "id": 56,
+        "question": "Which term best describes an organism's physical characteristic?",
+        "options": ["a. Allele", "b. Genetic code", "c. Genotype", "d. Trait"],
+        "correct_answer": "d. Trait"
+      },
+      {
+        "id": 57,
+        "question": "What will happen with the addition of salt to water?",
+        "options": ["a. Water potential will increase", "b. Water potential will remain same", "c. Osmotic potential will increase", "d. Osmotic potential will remain same"],
+        "correct_answer": "c. Osmotic potential will increase"
+      },
+      {
+        "id": 58,
+        "question": "Which of the following is NOT true about viruses?",
+        "options": ["a. Contain DNA", "b. Can replicate on their own", "c. Can infect bacteria", "d. They have a sub-cellular structure"],
+        "correct_answer": "b. Can replicate on their own"
+      },
+      {
+        "id": 59,
+        "question": "The genetic code of _______ is bound by a lipid membrane?",
+        "options": ["a. Enterovirus", "b. Flu virus", "c. Hepatitis A virus", "d. Polio virus"],
+        "correct_answer": "b. Flu virus"
+      },
+      {
+        "id": 60,
+        "question": "Viruses can NOT",
+        "options": ["a. Crystalise", "b. Excrete", "c. Infect bacteria", "d. Mutate"],
+        "correct_answer": "b. Excrete"
+      },
+      {
+        "id": 61,
+        "question": "Where are the enzymes required for the replication of HIV virus located?",
+        "options": ["a. In the protein spikes", "b. Surrounding the viral core", "c. Inside the capsid", "d. Outside the capsid"],
+        "correct_answer": "c. Inside the capsid"
+      },
+      {
+        "id": 62,
+        "question": "The process of ATP synthesis through a combination of electrochemical and osmotic events is known as:",
+        "options": ["a. Fermentation", "b. Glycolysis", "c. Oxidative phosphorylation", "d. Oxidation of pyruvate to acetyl CoA"],
+        "correct_answer": "c. Oxidative phosphorylation"
+      },
+      {
+        "id": 63,
+        "question": "Optimum pH for pancreatic lipase is:",
+        "options": ["a. 2", "b. 4", "c. 6", "d. 8"],
+        "correct_answer": "d. 8"
+      },
+      {
+        "id": 64,
+        "question": "Sugarcane contains .",
+        "options": ["a. Fructose", "b. Glucose", "c. Ribose", "d. Sucrose"],
+        "correct_answer": "d. Sucrose"
+      },
+      {
+        "id": 65,
+        "question": "Sickle cell anaemia results from?",
+        "options": ["a. Reduction in oxygen carrying capacity of haemoglobin", "b. Linkage between the polypeptide chains", "c. Single amino acid substitution in the haemoglobin molecule", "d. Viral infections of RNA viruses"],
+        "correct_answer": "c. Single amino acid substitution in the haemoglobin molecule"
+      },
+      {
+        "id": 66,
+        "question": "Which is INCORRECT about the globular proteins?",
+        "options": ["a. Abundantly found in hair", "b. Are spherical in shape", "c. Have polypeptide chains", "d. Soluble in water"],
+        "correct_answer": "a. Abundantly found in hair"
+      },
+      {
+        "id": 67,
+        "question": "What is the ester of fatty acids and long chain alcohol called?",
+        "options": ["a. Acylglycerol", "b. Glycerol", "c. Phospholipid", "d. Wax"],
+        "correct_answer": "d. Wax"
+      },
+      {
+        "id": 68,
+        "question": "Lipids, which do not contain fatty acid are:",
+        "options": ["a. Neutral lipids", "b. Phosphatide acids", "c. Steroids", "d. Waxes"],
+        "correct_answer": "c. Steroids"
+      }
+    ]
+  }
+}

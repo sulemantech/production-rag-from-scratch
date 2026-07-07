@@ -1,0 +1,2715 @@
+Here is the **complete dataset** with all Biology MCQs from all three tests, presented in the **original format** (question → options → correct answer → solution/explanation) for **every single question**.
+
+---
+
+# TEST 1: MDCAT SOLVED PAST PAPER-2024 (General)
+## Biology Section - 68 Questions
+
+---
+
+**Q1.** Example of viruses having a polyhedral capsid that is with 252 capsomeres is:
+
+A. Adenovirus
+B. Tobacco Mosaic Virus
+C. Influenza virus
+D. Bacteriophage
+
+**Correct Answer: A. Adenovirus**
+
+**Solution:** Adenovirus has an icosahedral (polyhedral) capsid structure composed of 252 capsomeres arranged in a specific geometric pattern. This is a characteristic feature of adenoviruses.
+
+---
+
+**Q2.** The complete, mature & infectious particle of virus is known as:
+
+A. Genome
+B. Capsomere
+C. Prion
+D. Envelope
+
+**Correct Answer: D. Envelope**
+
+**Solution:** The complete infectious viral particle is technically called a "virion." However, among the given options, "envelope" is marked as the answer in the source. A virion consists of the nucleic acid genome surrounded by a protein capsid, and in some viruses, an outer lipid envelope.
+
+---
+
+**Q3.** The causative organism of measles is:
+
+A. Poxvirus
+B. Papovavirus
+C. Picornovirus
+D. Paramyxovirus
+
+**Correct Answer: D. Paramyxovirus**
+
+**Solution:** The measles virus (morbillivirus) belongs to the family Paramyxoviridae. It is an enveloped, single-stranded RNA virus that causes measles in humans.
+
+---
+
+**Q4.** In the life cycle of a bacteriophage, the lysozymes are required in which of the following steps of infection process?
+
+A. Genome injection
+B. Penetration
+C. Replication
+D. Adsorption
+
+**Correct Answer: B. Penetration**
+
+**Solution:** Bacteriophage lysozyme is an enzyme that digests the bacterial cell wall (peptidoglycan layer) during the penetration step. This allows the phage to inject its genetic material into the host bacterium.
+
+---
+
+**Q5.** ______ is transmitted through infected blood and hypodermic syringes.
+
+A. HIV
+B. Influenza Virus
+C. Morbilli Virus (Measles)
+D. Vibrio Cholerae (Cholera)
+
+**Correct Answer: A. HIV**
+
+**Solution:** HIV (Human Immunodeficiency Virus) is transmitted through blood, sexual contact, and contaminated needles/syringes. It is a blood-borne pathogen that can be spread through sharing of infected needles among intravenous drug users or through blood transfusions.
+
+---
+
+**Q6.** In Calvin cycle CO₂ reacts with RuBP to produce:
+
+A. 3-PGA
+B. G3P
+C. 6-Carbon unstable intermediate
+D. 1,3 bisphosphoglycerate
+
+**Correct Answer: C. 6-Carbon unstable intermediate**
+
+**Solution:** In the Calvin cycle, CO₂ combines with ribulose-1,5-bisphosphate (RuBP) catalyzed by the enzyme Rubisco. This reaction first forms a highly unstable 6-carbon intermediate, which immediately splits into two molecules of 3-phosphoglycerate (3-PGA).
+
+---
+
+**Q7.** Which option is correct about a chlorophyll molecule?
+
+A. Chemical formula C₅₅H₇₀O₆N₄Mg
+B. Porphyrin ring with nitrogen in center
+C. (Methyl) group on second pyrrole ring
+D. Aldehyde group on second pyrrole ring
+
+**Correct Answer: A. Chemical formula C₅₅H₇₀O₆N₄Mg**
+
+**Solution:** Chlorophyll has a porphyrin ring with a magnesium ion (Mg²⁺) at the center (not nitrogen). The formula C₅₅H₇₀O₆N₄Mg corresponds to chlorophyll b. Chlorophyll a has a methyl group (-CH₃) on the second pyrrole ring, while chlorophyll b has an aldehyde group (-CHO) at that position.
+
+---
+
+**Q8.** In the journey of electrons from photosystem II to photosystem I plastocyanin is reduced by:
+
+A. Plastoquinone
+B. Cytochrome complex
+C. Primary electron acceptor of PSI
+D. Ferredoxin
+
+**Correct Answer: B. Cytochrome complex**
+
+**Solution:** During the electron transport chain in photosynthesis, electrons move from photosystem II to plastoquinone (PQ), then to the cytochrome b₆f complex, which reduces plastocyanin (PC). Plastocyanin then transfers electrons to photosystem I.
+
+---
+
+**Q9.** Enzyme NADP reductase is responsible for:
+
+A. Reducing NADP⁺
+B. Oxidizing NADP⁺
+C. Reducing Ferredoxin
+D. Reducing P₇₀₀
+
+**Correct Answer: A. Reducing NADP⁺**
+
+**Solution:** Ferredoxin-NADP⁺ reductase (FNR) catalyzes the transfer of electrons from reduced ferredoxin to NADP⁺, reducing it to NADPH. This is the final step of the photosynthetic electron transport chain.
+
+---
+
+**Q10.** The PS II during light reactions receives electrons from splitting:
+
+A. Water
+B. Plastoquinone
+C. Plastocyanin
+D. Ferridoxin
+
+**Correct Answer: A. Water**
+
+**Solution:** Photosystem II receives electrons from the photolysis (splitting) of water. The water-splitting complex (oxygen-evolving complex) associated with PSII splits water molecules into protons (H⁺), electrons (e⁻), and oxygen (O₂).
+
+---
+
+**Q11.** Mono-saccharides have a general formula represented by:
+
+A. Cₙ(H₂O)ₙ
+B. C(H₂O)ₙ
+C. C₂(H₂O)ₙ
+D. Cⁿ(H₂O)ₙ
+
+**Correct Answer: A. Cₙ(H₂O)ₙ**
+
+**Solution:** Monosaccharides have the general formula (CH₂O)ₙ or Cₙ(H₂O)ₙ, where n is typically 3 to 7. Examples include glucose (C₆H₁₂O₆) and fructose (C₆H₁₂O₆).
+
+---
+
+**Q12.** What is the percentage of H₂O in bone cells?
+
+A. 70%
+B. 20%
+C. 99%
+D. 60%
+
+**Correct Answer: A. 70%**
+
+**Solution:** Most living cells, including bone cells (osteocytes), contain approximately 70% water. Water is essential for cellular functions, providing a medium for biochemical reactions.
+
+---
+
+**Q13.** When glycerol reacts with fatty acid, which type of chemical bond will form?
+
+A. Ester Bond
+B. Ether Linkage
+C. Hydrogen Bond
+D. Ionic Bond
+
+**Correct Answer: A. Ester Bond**
+
+**Solution:** Glycerol reacts with fatty acids through esterification, forming ester bonds. The hydroxyl group (-OH) of glycerol reacts with the carboxyl group (-COOH) of the fatty acid, releasing water (H₂O) and forming an ester linkage.
+
+---
+
+**Q14.** Polysaccharides in plants are synthesized by the process of:
+
+A. Hydrolysis
+B. Oxidation
+C. Condensation
+D. Glycolysis
+
+**Correct Answer: C. Condensation**
+
+**Solution:** Polysaccharides are formed by condensation (dehydration synthesis) reactions. Monosaccharides are joined together through glycosidic bonds, with the removal of a water molecule for each bond formed.
+
+---
+
+**Q15.** Which of the following processes is involved in the breakdown of protein into amino acids?
+
+A. Condensation
+B. Hydrolysis
+C. Glycolysis
+D. Fixation
+
+**Correct Answer: B. Hydrolysis**
+
+**Solution:** Proteins are broken down into amino acids through hydrolysis of peptide bonds. Water is added across the peptide bond, breaking it and releasing individual amino acids. This occurs during digestion.
+
+---
+
+**Q16.** The hydrophilic end of a phospholipid molecule is polar because of the presence of:
+
+A. Glycerol
+B. Amine group
+C. Fatty Acid
+D. Phosphate group
+
+**Correct Answer: D. Phosphate group**
+
+**Solution:** The hydrophilic (water-loving) head of a phospholipid contains a phosphate group, which is polar and charged. This makes it soluble in water and capable of interacting with the aqueous environment.
+
+---
+
+**Q17.** Which monosaccharide will form a gluco pyranose ring in solution?
+
+A. Fructose
+B. Glucose
+C. Ribose
+D. Deoxyribose
+
+**Correct Answer: B. Glucose**
+
+**Solution:** Glucose forms a six-membered ring structure called glucopyranose in aqueous solution. The cyclic form is more stable than the open-chain form. The ring forms when the aldehyde group reacts with the hydroxyl group on carbon 5.
+
+---
+
+**Q18.** Chloroplasts are membrane-bound bodies containing:
+
+A. Enzymes
+B. Cisternae
+C. Pigment
+D. Cristae
+
+**Correct Answer: C. Pigment**
+
+**Solution:** Chloroplasts contain photosynthetic pigments (chlorophyll a, chlorophyll b, and carotenoids) embedded in their thylakoid membranes. These pigments absorb light energy for photosynthesis.
+
+---
+
+**Q19.** Which of the following is the function of Golgi Complex?
+
+A. Intracellular digestion
+B. Autophagy
+C. Autolysis
+D. Processing of cell secretions
+
+**Correct Answer: D. Processing of cell secretions**
+
+**Solution:** The Golgi complex (Golgi apparatus) modifies, sorts, and packages proteins and lipids for secretion. It processes molecules received from the endoplasmic reticulum and directs them to their final destinations.
+
+---
+
+**Q20.** The nucleus takes dyes due to the presence of:
+
+A. Chromatin
+B. Lipid
+C. Metal ions
+D. Thylakoids
+
+**Correct Answer: A. Chromatin**
+
+**Solution:** The nucleus is basophilic (stains readily with basic dyes) because it contains chromatin, which consists of DNA and proteins. The negatively charged DNA binds to basic dyes.
+
+---
+
+**Q21.** The organelles only found at the seedling stage in oil seed plants are:
+
+A. Peroxisomes
+B. Glyoxisomes
+C. Microbodies
+D. Vacuoles
+
+**Correct Answer: B. Glyoxisomes**
+
+**Solution:** Glyoxysomes are specialized microbodies found in the cotyledons of oil-rich seeds during germination. They contain enzymes for the glyoxylate cycle, which converts stored lipids into carbohydrates for the growing seedling.
+
+---
+
+**Q22.** Posterior lobe of the pituitary produces:
+
+A. Antidiuretic Hormone (ADH)
+B. Thyroid Stimulating Hormone (TSH)
+C. Adreno Corticotrophic Hormone (ACH)
+D. Follicle Stimulating Hormone (FSH)
+
+**Correct Answer: A. Antidiuretic Hormone (ADH)**
+
+**Solution:** The posterior pituitary (neurohypophysis) releases antidiuretic hormone (ADH) and oxytocin. These hormones are synthesized in the hypothalamus and transported to the posterior pituitary for storage and release. TSH, ACTH, and FSH are produced by the anterior pituitary.
+
+---
+
+**Q23.** In human myelinated fibers, nerve impulse travels at ______ meters per second.
+
+A. 100-120
+B. 130-150
+C. 160-180
+D. 190-210
+
+**Correct Answer: A. 100-120**
+
+**Solution:** In myelinated nerve fibers, saltatory conduction allows nerve impulses to travel rapidly, typically at speeds of 100-120 meters per second. Myelination increases conduction velocity by allowing the impulse to jump between nodes of Ranvier.
+
+---
+
+**Q24.** Nissl's granules are groups of:
+
+A. Mesosomes
+B. Lysosomes
+C. Ribosomes
+D. Chromosome
+
+**Correct Answer: C. Ribosomes**
+
+**Solution:** Nissl's granules (Nissl bodies) are aggregates of rough endoplasmic reticulum and free ribosomes found in neuronal cell bodies and dendrites. They are responsible for protein synthesis in neurons.
+
+---
+
+**Q25.** During the non-conducting state, the neuron membrane is permeable to the efflux of:
+
+A. K⁺
+B. Na⁺
+C. Ca²⁺
+D. Cl⁻
+
+**Correct Answer: A. K⁺**
+
+**Solution:** During the resting (non-conducting) state of a neuron, the membrane is more permeable to potassium ions (K⁺) than to sodium ions (Na⁺). Potassium ions diffuse out through K⁺ leak channels, contributing to the negative resting membrane potential.
+
+---
+
+**Q26.** Which of the following neurotransmitters is lying outside the central nervous system?
+
+A. Acetylcholine
+B. Endorphins
+C. Dopamine
+D. Gamma-aminobutyric acid
+
+**Correct Answer: A. Acetylcholine**
+
+**Solution:** Acetylcholine is a neurotransmitter found in both the CNS and PNS, but it is the primary neurotransmitter at the neuromuscular junction (outside the CNS). Endorphins, dopamine, and GABA are primarily found in the CNS.
+
+---
+
+**Q27.** Depolarization during the conduction of nerve impulse is due to:
+
+A. Inward movement of Na⁺
+B. Inward movement of K⁺
+C. Outward movement of K⁺
+D. Outward movement of Na⁺
+
+**Correct Answer: A. Inward movement of Na⁺**
+
+**Solution:** Depolarization occurs when voltage-gated sodium channels open, allowing Na⁺ ions to rush into the neuron. This makes the inside of the cell more positive compared to the outside.
+
+---
+
+**Q28.** Which of the following is NOT a feature of the Autonomic Nervous System?
+
+A. Regulate response of visceral organs
+B. Regulate response of skeletal muscles
+C. Regulate response of glands
+D. Regulate response of smooth muscles
+
+**Correct Answer: B. Regulate response of skeletal muscles**
+
+**Solution:** The autonomic nervous system controls involuntary functions, regulating visceral organs, glands, and smooth muscles. Skeletal muscles are controlled by the somatic nervous system (voluntary control).
+
+---
+
+**Q29.** Taste receptor is an example of:
+
+A. Mechanoreceptors
+B. Nociceptors
+C. Photo receptors
+D. Chemo receptors
+
+**Correct Answer: D. Chemo receptors**
+
+**Solution:** Taste receptors are chemoreceptors that respond to chemical stimuli (tastants) dissolved in saliva. They detect different taste modalities: sweet, sour, salty, bitter, and umami.
+
+---
+
+**Q30.** Which of the following belongs to chordates?
+
+A. Spider
+B. Earthworm
+C. Trout Fish
+D. Star Fish
+
+**Correct Answer: C. Trout Fish**
+
+**Solution:** Trout fish belongs to the phylum Chordata (subphylum Vertebrata). Spiders (Arthropoda), earthworms (Annelida), and starfish (Echinodermata) are not chordates.
+
+---
+
+**Q31.** Which of the following statements is incorrect regarding the enzyme action?
+
+A. Increase in enzyme concentration increases the rate
+B. Increase in enzyme concentration reduces the rate
+C. All enzymes work at their maximum rate at optimum temperature
+D. All enzymes work at their maximum rate at optimum pH
+
+**Correct Answer: B. Increase in enzyme concentration reduces the rate**
+
+**Solution:** Increasing enzyme concentration generally increases the reaction rate (as long as substrate is not limiting). Saying that increasing enzyme concentration reduces the rate is incorrect.
+
+---
+
+**Q32.** Induced fit model of enzyme activity suggests that an enzyme:
+
+A. Cannot modify its active sites
+B. Can bind to a single substrate
+C. Can catalyze related reaction
+D. Usually belongs to non-regulatory enzyme
+
+**Correct Answer: C. Can catalyze related reaction**
+
+**Solution:** The induced fit model proposes that enzyme active sites are flexible and can change shape to accommodate the substrate. This conformational change allows the enzyme to catalyze related reactions.
+
+---
+
+**Q33.** Chromosomal abnormality in Turner syndrome is represented as:
+
+A. XXX
+B. XYY
+C. XO
+D. XXY
+
+**Correct Answer: C. XO**
+
+**Solution:** Turner syndrome is caused by the absence of one sex chromosome (monosomy X), represented as 45,X or XO. Affected individuals are female with short stature, webbed neck, and underdeveloped ovaries.
+
+---
+
+**Q34.** The change in frequency of alleles at a locus that occurs by chance is known as:
+
+A. Mutation
+B. Genetic Drift
+C. Non-random mating
+D. Speciation
+
+**Correct Answer: B. Genetic Drift**
+
+**Solution:** Genetic drift is the random fluctuation of allele frequencies in a population due to chance events. It is more pronounced in small populations and can lead to fixation or loss of alleles.
+
+---
+
+**Q35.** Identify the correct pair of vestigial organs:
+
+A. Ear Muscles & Vermiform appendix
+B. Heart & Liver
+C. Ear Muscles & Liver
+D. Vermiform appendix & Heart
+
+**Correct Answer: A. Ear Muscles & Vermiform appendix**
+
+**Solution:** Both ear muscles (auricular muscles) and the vermiform appendix are considered vestigial organs in humans. They have lost their original function through evolution.
+
+---
+
+**Q36.** Which of the following increases variation within a gene pool?
+
+A. Chromosome Inversion
+B. Crossing over
+C. Gene mutation
+D. Random fusion of gametes
+
+**Correct Answer: C. Gene mutation**
+
+**Solution:** Gene mutations introduce new alleles into a population, increasing genetic variation within the gene pool. Crossing over and random fusion of gametes redistribute existing variation but do not create new alleles.
+
+---
+
+**Q37.** Which of the following statements about natural selection is not true?
+
+A. It affects variations that are heritable
+B. It is selected by a breeder
+C. It can improve the adaptation of species
+D. It is regional in nature
+
+**Correct Answer: B. It is selected by a breeder**
+
+**Solution:** Natural selection is driven by environmental factors, not by a breeder. Selection by a breeder is called artificial selection. The other options are true characteristics of natural selection.
+
+---
+
+**Q38.** The formula calculating the frequency of genotypes and alleles in a population gene pool is known as:
+
+A. Hardy-Weinberg Equation
+B. Lamarck Equation
+C. Darwin Equation
+D. James Hutton Equation
+
+**Correct Answer: A. Hardy-Weinberg Equation**
+
+**Solution:** The Hardy-Weinberg equation (p² + 2pq + q² = 1) describes allele and genotype frequencies in a population at genetic equilibrium under specific conditions (no mutation, migration, selection, etc.).
+
+---
+
+**Q39.** The idea of inheritance of acquired characteristics was presented by:
+
+A. Jean Baptiste Lamarck
+B. Charles Darwin
+C. Thomas Malthus
+D. Alfred Wallace
+
+**Correct Answer: A. Jean Baptiste Lamarck**
+
+**Solution:** Lamarck proposed the theory of inheritance of acquired characteristics, suggesting that traits acquired during an organism's lifetime could be passed to offspring. This theory was later disproven.
+
+---
+
+**Q40.** According to endosymbiosis theory, flagella may have evolved by the ingestion of:
+
+A. Amoeboid prokaryote
+B. Aerobic bacterium
+C. Spirochete
+D. Spirillum
+
+**Correct Answer: C. Spirochete**
+
+**Solution:** The endosymbiosis theory (proposed by Lynn Margulis) suggests that eukaryotic flagella evolved from symbiotic spirochete bacteria that attached to primitive eukaryotic cells.
+
+---
+
+**Q41.** The nutrients glucose into:
+
+A. Vitamins
+B. Minerals
+C. Lipids
+D. Cortisone
+
+**Correct Answer: C. Lipids**
+
+**Solution:** Excess glucose is converted into lipids (fats) through the process of lipogenesis. This is a way for the body to store excess energy for later use.
+
+---
+
+**Q42.** About 70% of the carbon dioxide is carried in the blood as:
+
+A. Carbonate
+B. Bicarbonate
+C. Tricarbonate
+D. Carbonic anhydrase
+
+**Correct Answer: B. Bicarbonate**
+
+**Solution:** Approximately 70% of CO₂ is transported in blood as bicarbonate ions (HCO₃⁻) in plasma. The enzyme carbonic anhydrase in red blood cells catalyzes the conversion of CO₂ and water to carbonic acid, which dissociates into bicarbonate and hydrogen ions.
+
+---
+
+**Q43.** Range of total lung capacity in humans is:
+
+A. 5-6 liter
+B. 8-9 liter
+C. 10-11 liter
+D. 12-13 liter
+
+**Correct Answer: A. 5-6 liter**
+
+**Solution:** Total lung capacity (TLC) in healthy adults ranges from approximately 5 to 6 liters. This is the maximum volume of air the lungs can hold.
+
+---
+
+**Q44.** Respiration in Pseudomonas bacteria is:
+
+A. Aerobic
+B. Anaerobic
+C. Facultative
+D. Microaerophilic
+
+**Correct Answer: A. Aerobic**
+
+**Solution:** Most Pseudomonas species are obligate aerobes, meaning they require oxygen for cellular respiration and growth. They use oxygen as the final electron acceptor in the electron transport chain.
+
+---
+
+**Q45.** Autotrophic mode of nutrition in organism depends upon
+
+A. Saprotrophic mode
+B. Photosynthesis mode
+C. Parasitic mode
+D. Obligate mode
+
+**Correct Answer: B. Photosynthesis mode**
+
+**Solution:** Autotrophs synthesize their own food primarily through photosynthesis (or chemosynthesis in some bacteria). They use light energy to convert CO₂ and water into organic compounds.
+
+---
+
+**Q46.** Prokaryotic cells lack:
+
+A. Mesosomes
+B. Ribosomes
+C. Storage bodies
+D. Membrane-bound organelles
+
+**Correct Answer: D. Membrane-bound organelles**
+
+**Solution:** Prokaryotic cells (bacteria and archaea) lack membrane-bound organelles such as the nucleus, mitochondria, and endoplasmic reticulum. They have ribosomes, mesosomes (infoldings of the plasma membrane), and storage bodies.
+
+---
+
+**Q47.** Bacterial spores become diploid:
+
+A. Before fertilization of gametes
+B. After binary fission
+C. During binary fission
+D. After binary fission
+
+**Correct Answer: D. After binary fission** *(Note: Bacteria are haploid, and endospores are not diploid; this question has no correct option)*
+
+**Solution:** Bacteria are typically haploid organisms. Endospores are dormant, resistant structures formed by some bacteria and are not diploid. The correct term for diploid cells after fusion would be a zygote, which is not applicable to bacteria.
+
+---
+
+**Q48.** One of the following is CORRECT regarding flagella:
+
+A. Made up of microfilaments
+B. Contains centriole
+C. Originates from basal bodies
+D. They are immotile
+
+**Correct Answer: C. Originates from basal bodies**
+
+**Solution:** Eukaryotic flagella originate from basal bodies (centriole-like structures) at the base of the flagellum. The basal body acts as an organizing center for the microtubules of the flagellum.
+
+---
+
+**Q49.** Which option is CORRECT about endospore?
+
+A. Has a short dormant period
+B. Contains moisture for survival
+C. Metabolically active
+D. Endures extreme condition
+
+**Correct Answer: D. Endures extreme condition**
+
+**Solution:** Endospores are highly resistant, dormant structures that can survive extreme conditions including high temperatures, radiation, desiccation, and chemical disinfectants. They are metabolically inactive.
+
+---
+
+**Q50.** Bacteria divide at an exponential rate during which growth phase?
+
+A. Lag
+B. Log
+C. Stationary
+D. Decline
+
+**Correct Answer: B. Log**
+
+**Solution:** During the logarithmic (log) phase, bacteria divide at a constant, exponential rate. Cell division is maximal in this phase, and the population doubles at regular intervals.
+
+---
+
+**Q51.** Mesosomes are the invagination of bacterial cell structure:
+
+A. Cell wall
+B. Cell membrane
+C. Plasmid
+D. Cysts
+
+**Correct Answer: B. Cell membrane**
+
+**Solution:** Mesosomes are invaginations (infoldings) of the plasma membrane in bacteria. They are involved in cell division, DNA replication, and respiration.
+
+---
+
+**Q52.** Female reproductive system consists all of the following EXCEPT:
+
+A. Ovaries
+B. Oviduct
+C. Cervix
+D. Seminiferous tubules
+
+**Correct Answer: D. Seminiferous tubules**
+
+**Solution:** Seminiferous tubules are located in the testes (male reproductive system), where spermatogenesis occurs. The female reproductive system includes ovaries, oviducts, uterus, and cervix.
+
+---
+
+**Q53.** Which one of the following hormones is responsible for the labor pains in human female at the time of birth of baby?
+
+A. Estrogen
+B. Progesterone
+C. Oxytocin
+D. Corticosteroid
+
+**Correct Answer: C. Oxytocin**
+
+**Solution:** Oxytocin is responsible for uterine contractions during labor and delivery. It stimulates the smooth muscles of the uterus to contract rhythmically, causing labor pains.
+
+---
+
+**Q54.** Fluid secreted by sertoli cells provides liquid medium, protection and nourishment to:
+
+A. Oocyte
+B. Sperms
+C. Polar body
+D. Spermatogonia
+
+**Correct Answer: B. Sperms**
+
+**Solution:** Sertoli cells (supporting cells in the seminiferous tubules) secrete a fluid that provides nutrients, protection, and a suitable environment for developing sperm cells. They also form the blood-testis barrier.
+
+---
+
+**Q55.** Corpus luteum during female reproductive cycle produces:
+
+A. Testosterone
+B. Follicle stimulating hormone
+C. Luteinizing hormone
+D. Progesterone
+
+**Correct Answer: D. Progesterone**
+
+**Solution:** The corpus luteum, formed from the ruptured follicle after ovulation, secretes progesterone and estrogen. Progesterone maintains the endometrial lining for implantation.
+
+---
+
+**Q56.** Due to the process of follicle atresia:
+
+A. Follicles reach maximum size
+B. Follicle degenerates
+C. Graafian follicle ovulates
+D. Follicle starts to mature
+
+**Correct Answer: B. Follicle degenerates**
+
+**Solution:** Follicular atresia is the degeneration and death of ovarian follicles that do not reach maturity. This is a normal process in the female reproductive cycle where only one follicle typically survives to ovulation.
+
+---
+
+**Q57.** Main function of the epididymis is to:
+
+A. Transport sperms
+B. Connect with urethra
+C. Produce semen
+D. Hold the process of spermatogenesis
+
+**Correct Answer: A. Transport sperms**
+
+**Solution:** The epididymis is a coiled tube that stores, transports, and matures sperm cells. Sperm gain motility and ability to fertilize during their passage through the epididymis.
+
+---
+
+**Q58.** Immediate next stage of spermatogonia differentiation is:
+
+A. Secondary spermatocyte
+B. Spermatids
+C. Primary spermatocytes
+D. Sperms
+
+**Correct Answer: C. Primary spermatocytes**
+
+**Solution:** During spermatogenesis, spermatogonia (2n) undergo mitosis and differentiate into primary spermatocytes (2n). These then undergo meiosis I to form secondary spermatocytes (n).
+
+---
+
+**Q59.** Which of the following is included in paired cranial bones?
+
+A. Temporal
+B. Occipital
+C. Frontal
+D. Vomer
+
+**Correct Answer: A. Temporal**
+
+**Solution:** The temporal bones are paired cranial bones. The occipital, frontal, and vomer bones are unpaired. The skull has two temporal bones (left and right).
+
+---
+
+**Q60.** Which of the following skeletal disorder is an example of autoimmune disorder?
+
+A. Sciatica
+B. Spondylosis
+C. Rheumatoid arthritis
+D. Rickets
+
+**Correct Answer: C. Rheumatoid arthritis**
+
+**Solution:** Rheumatoid arthritis is an autoimmune disorder where the immune system attacks the synovial lining of joints, causing inflammation, pain, and joint deformity. Rickets is a nutritional disorder (vitamin D deficiency).
+
+---
+
+**Q61.** Which feature is possessed by smooth muscles?
+
+A. Voluntary
+B. Branched
+C. Uni-nucleate
+D. Striated appearance
+
+**Correct Answer: C. Uni-nucleate**
+
+**Solution:** Smooth muscle cells are spindle-shaped, uninucleate (single nucleus), non-striated, and under involuntary control (autonomic nervous system). They are found in walls of hollow organs.
+
+---
+
+**Q62.** The accumulation of 'lactic acid' in the muscles results in:
+
+A. Extreme fatigue
+B. Muscle contraction
+C. Paralysis
+D. Convulsions
+
+**Correct Answer: A. Extreme fatigue**
+
+**Solution:** During anaerobic respiration, pyruvate is converted to lactic acid (lactate) in muscles. Accumulation of lactic acid lowers pH, inhibits enzyme activity, and contributes to muscle fatigue and soreness.
+
+---
+
+**Q63.** Thick filaments in skeletal muscles are composed of:
+
+A. Actin
+B. Myosin
+C. Tropomyosin
+D. Troponin
+
+**Correct Answer: B. Myosin**
+
+**Solution:** Thick filaments in skeletal muscle are composed of the protein myosin. Thin filaments are composed of actin, tropomyosin, and troponin.
+
+---
+
+**Q64.** Sarcomere is part of myofibril between:
+
+A. Two I bands
+B. Two A bands
+C. Two M lines
+D. Two Z lines
+
+**Correct Answer: D. Two Z lines**
+
+**Solution:** A sarcomere is the functional unit of a myofibril, extending from one Z line (Z-disc) to the next Z line. It contains overlapping actin and myosin filaments.
+
+---
+
+**Q65.** Medulla oblongata is a part of:
+
+A. Forebrain
+B. Midbrain
+C. Hindbrain
+D. Hippocampus
+
+**Correct Answer: C. Hindbrain**
+
+**Solution:** The medulla oblongata is the lower part of the brainstem, located in the hindbrain (rhombencephalon). It connects the spinal cord to the pons and controls vital functions like breathing, heart rate, and blood pressure.
+
+---
+
+**Q66.** Which of the following is NOT a bone of the upper limb?
+
+A. Humerus
+B. Ulna
+C. Femur
+D. Radius
+
+**Correct Answer: C. Femur**
+
+**Solution:** The femur is the thigh bone (lower limb). The humerus, radius, and ulna are all bones of the upper limb (arm and forearm).
+
+---
+
+**Q67.** Bone-forming cells are:
+
+A. Osteoblasts
+B. Osteocytes
+C. Osteoclasts
+D. Osteons
+
+**Correct Answer: A. Osteoblasts**
+
+**Solution:** Osteoblasts are bone-forming cells that synthesize and secrete osteoid (bone matrix). Osteocytes are mature bone cells, osteoclasts are bone-resorbing cells, and osteons are structural units of compact bone.
+
+---
+
+**Q68.** The chromosomes were first observed by:
+
+A. T. H. Morgan
+B. Griffith
+C. Walther
+D. Mendel
+
+**Correct Answer: C. Walther**
+
+**Solution:** Walther Flemming (often credited as Walther) first described chromosomes during cell division (mitosis) in the 1880s. He coined the term "chromatin" and described the process of mitosis.
+
+---
+
+# TEST 2: Dow University / Sindh MDCAT - Test 2024
+## Biology Section - 66 Questions
+
+---
+
+**Q1.** In which part of the brain a set of neurosecretory cells are found that exert control over the anterior pituitary gland by secreting releasing and inhibiting hormones?
+
+a) Pons
+b) Hypothalamus
+c) Hippocampus
+d) Amygdala
+e) Midbrain
+
+**Correct Answer: b) Hypothalamus**
+
+**Solution:** The hypothalamus contains neurosecretory cells that produce releasing and inhibiting hormones. These hormones are transported via the hypothalamo-hypophyseal portal system to the anterior pituitary, where they regulate the secretion of pituitary hormones.
+
+---
+
+**Q2.** Frostbites are due to:
+
+a) Fluid retention
+b) Vasodilation
+c) Muscular expansion
+d) Vasoconstriction
+e) Vascular contraction
+
+**Correct Answer: d) Vasoconstriction**
+
+**Solution:** Frostbite occurs when cold temperatures cause vasoconstriction (narrowing of blood vessels), reducing blood flow to extremities (fingers, toes, ears, nose). This leads to tissue damage and cell death due to lack of oxygen and nutrients.
+
+---
+
+**Q3.** Stimuli such as pressure, touch, stretch, motion stimulate which of the following receptors?
+
+a) Thermoreceptors
+b) Mechanoreceptors
+c) Gustatory receptor
+d) Olfactory receptors
+e) None of these
+
+**Correct Answer: b) Mechanoreceptors**
+
+**Solution:** Mechanoreceptors respond to mechanical stimuli such as pressure, touch, vibration, stretch, and motion. Examples include Pacinian corpuscles (pressure), Meissner's corpuscles (touch), and muscle spindles (stretch).
+
+---
+
+**Q4.** The situation when two alternative forms is said to have:
+
+a) Codominance
+b) Sex-influenced traits
+c) Multiple alleles
+d) Incomplete dominance
+e) Sex-limited traits
+
+**Correct Answer: d) Incomplete dominance**
+
+**Solution:** In incomplete dominance, neither allele is completely dominant over the other, resulting in an intermediate phenotype in heterozygotes. The two alternative forms (alleles) produce a blended phenotype.
+
+---
+
+**Q5.** Bacterium, with a tuft of flagella present at each of two poles, is called:
+
+a) Amphitrichous
+b) Atrichous
+c) Lophotrichous
+d) Peritrichous
+e) Monotrichous
+
+**Correct Answer: a) Amphitrichous**
+
+**Solution:** Amphitrichous bacteria have flagella tufts at both ends (poles) of the cell. Monotrichous = single flagellum at one pole; Lophotrichous = tuft at one pole; Peritrichous = flagella all over.
+
+---
+
+**Q6.** What is the correct order of organelles in ultracentrifugation?
+
+a) Ribosome → Nuclei → Mitochondria
+b) Lysosome → Ribosome → Mitochondria
+c) Nuclei → Mitochondria → Ribosome
+d) Mitochondria → Nuclei → Golgi bodies
+e) Golgi bodies → Ribosome → Nuclei
+
+**Correct Answer: c) Nuclei → Mitochondria → Ribosome**
+
+**Solution:** During differential centrifugation (ultracentrifugation), heavier (denser) organelles sediment first at lower speeds. The order of sedimentation is: Nuclei → mitochondria → lysosomes → microsomes (ER fragments) → ribosomes.
+
+---
+
+**Q7.** Which of the following is not essential for photosynthesis?
+
+a) Oxygen
+b) Chlorophyll
+c) ATP
+d) Light
+e) NADP
+
+**Correct Answer: a) Oxygen**
+
+**Solution:** Oxygen is a product of photosynthesis, not a requirement. The essential requirements for photosynthesis are: light energy, chlorophyll pigments, carbon dioxide (CO₂), and water (H₂O).
+
+---
+
+**Q8.** Proteins which cause disease in humans and animals are called:
+
+a) Prions
+b) Viroid
+c) Prophage
+d) Bacteriophage
+e) Antigens
+
+**Correct Answer: a) Prions**
+
+**Solution:** Prions are infectious protein particles that cause neurodegenerative diseases (transmissible spongiform encephalopathies) in humans and animals. Examples include mad cow disease, Creutzfeldt-Jakob disease, and scrapie.
+
+---
+
+**Q9.** Which size of sponge can filter an entire residential pool in one day?
+
+a) Tennis ball-sized
+b) Ladle-sized
+c) Basketball-sized
+d) Hockey ball-sized
+e) Teaspoon-sized
+
+**Correct Answer: c) Basketball-sized**
+
+**Solution:** Large sponges (basketball-sized) can filter massive amounts of water. Some sponges can filter up to 20,000 liters of water per day, which is equivalent to filtering an entire residential swimming pool.
+
+---
+
+**Q10.** Koshland proposed a model for enzyme with the name of "Induced Fit Model" in the year:
+
+a) 1957
+b) 1952
+c) 1954
+d) 1956
+e) 1949
+
+**Correct Answer: a) 1957**
+
+**Solution:** Daniel Koshland proposed the induced fit model of enzyme action in 1957. According to this model, the enzyme's active site undergoes a conformational change upon substrate binding to achieve optimal catalysis.
+
+---
+
+**Q11.** Why do ribosomes require Mg⁺⁺ ions?
+
+a) To synthesize protein
+b) To transport amino acid to ribosome
+c) To stabilize the ribosomal structure
+d) To develop mRNA molecules
+e) To break down RNA molecules
+
+**Correct Answer: c) To stabilize the ribosomal structure**
+
+**Solution:** Magnesium ions (Mg²⁺) are essential for stabilizing the ribosomal structure. They help maintain the interaction between ribosomal subunits and facilitate the binding of tRNA to the ribosome during protein synthesis.
+
+---
+
+**Q12.** Glutamic acid is replaced by Valine at which position?
+
+a) 3rd position
+b) 6th position
+c) 5th position
+d) 4th position
+e) 2nd position
+
+**Correct Answer: b) 6th position**
+
+**Solution:** In sickle cell anemia, a single amino acid substitution occurs in the β-globin chain of hemoglobin: glutamic acid (Glu) is replaced by valine (Val) at the 6th position. This mutation leads to the formation of abnormal hemoglobin (HbS).
+
+---
+
+**Q13.** Formation of hard uric acid crystals in the joints is identified as:
+
+a) Rheumatoid arthritis
+b) Ankylosing spondylitis
+c) Osteoarthritis
+d) Callus
+e) Gout
+
+**Correct Answer: e) Gout**
+
+**Solution:** Gout is a form of arthritis caused by the deposition of uric acid crystals in joints. It results from hyperuricemia (elevated uric acid levels) and leads to painful inflammation, especially in the big toe.
+
+---
+
+**Q14.** Which virus kills cancer cells and aids immunity?
+
+a) Saccharomyces
+b) Lactobacillus
+c) Penicillium
+d) Lymphobacterium
+e) Oncolytic
+
+**Correct Answer: e) Oncolytic**
+
+**Solution:** Oncolytic viruses are being developed as cancer therapy. They selectively infect and destroy cancer cells while sparing normal cells, and can also stimulate immune responses against tumor antigens.
+
+---
+
+**Q15.** The pigment in the muscles responsible for the binding of oxygen is:
+
+a) Oxyhemoglobin
+b) Plasmin
+c) Myoglobin
+d) Heme
+e) Hemoglobin
+
+**Correct Answer: c) Myoglobin**
+
+**Solution:** Myoglobin is a heme-containing pigment found in skeletal and cardiac muscle tissue. It stores oxygen and facilitates oxygen diffusion within muscle cells. It has a higher affinity for O₂ than hemoglobin.
+
+---
+
+**Q16.** In Gram -ve bacteria, the peptidoglycan layer is:
+
+a) Condensed
+b) Thick
+c) Moderate
+d) Thin
+e) Entangled
+
+**Correct Answer: d) Thin**
+
+**Solution:** Gram-negative bacteria have a thin peptidoglycan layer (approximately 2-3 nm thick) located between the inner and outer membranes. In contrast, Gram-positive bacteria have a thick peptidoglycan layer (20-80 nm).
+
+---
+
+**Q17.** The human enzymes are highly active at about:
+
+a) 8°C
+b) 5°C
+c) 37°C
+d) 45°C
+e) 55°C
+
+**Correct Answer: c) 37°C**
+
+**Solution:** Human enzymes function optimally at body temperature (37°C). At lower temperatures, enzyme activity is reduced; at higher temperatures, enzymes may denature and lose their catalytic function.
+
+---
+
+**Q18.** The locomotion in segmented worms is brought about by:
+
+a) True Pods
+b) Pseudopodia
+c) Segmented
+d) Peritrichous flagella
+
+**Correct Answer: c) Segmented**
+
+**Solution:** Segmented worms (Annelida) move using segmentation and muscle contraction. Each segment can move independently, allowing complex locomotion. The segmentation is coordinated with the hydrostatic skeleton and longitudinal/circular muscles.
+
+---
+
+**Q19.** The type of carbohydrates, made up of 6 to 10 monosaccharides, which are comparatively less sweet in taste and less soluble in water, are called:
+
+a) Oligosaccharides
+b) Monosaccharides
+c) Starch
+d) Cellulose
+e) Polysaccharides
+
+**Correct Answer: a) Oligosaccharides**
+
+**Solution:** Oligosaccharides contain 6-10 monosaccharide units. They are less sweet than monosaccharides and have lower solubility in water due to their larger size. Examples include raffinose and stachyose.
+
+---
+
+**Q20.** This technique is used to determine growth of bacteria, rate of photosynthesis, and minute quantity of DNA:
+
+a) Electrophoresis
+b) Micrometry
+c) Microscopy
+d) Chromatography
+e) Spectrophotometry
+
+**Correct Answer: e) Spectrophotometry**
+
+**Solution:** Spectrophotometry measures light absorption at specific wavelengths. It is used to determine bacterial growth (turbidity), photosynthesis rates (chlorophyll absorbance), and DNA concentration (absorbance at 260 nm).
+
+---
+
+**Q21.** Which of the following is an example of a sub-viral particle that infects plants?
+
+a) Prion
+b) Viroid
+c) Bacteriophage
+d) Infectious protein
+
+**Correct Answer: b) Viroid**
+
+**Solution:** Viroids are sub-viral infectious particles consisting only of naked RNA (no protein coat). They infect plants and cause various plant diseases. Prions are infectious proteins that affect animals.
+
+---
+
+**Q22.** In heterotrophs, during digestion, macromolecules are broken into monomers by hydrolysis with the help of:
+
+a) Chymosin
+b) Gastrin
+c) Rennin
+d) Hydrolytic enzymes
+
+**Correct Answer: d) Hydrolytic enzymes**
+
+**Solution:** Hydrolytic enzymes catalyze the breakdown of macromolecules by adding water across chemical bonds. Examples: proteases (proteins → amino acids), lipases (lipids → glycerol + fatty acids), and amylases (starch → glucose).
+
+---
+
+**Q23.** Animals that have a ladder-type nervous system, consisting of two nerve cords and connecting nerves that look like a ladder, belong to the phylum:
+
+a) Protozoa
+b) Coelenterata
+c) Cnidarian
+d) Porifera
+e) Platyhelminthes
+
+**Correct Answer: e) Platyhelminthes**
+
+**Solution:** Flatworms (Platyhelminthes) have a primitive ladder-type nervous system. Two nerve cords run along the body and are connected by transverse nerves, resembling the rungs of a ladder.
+
+---
+
+**Q24.** The term enzyme was coined by:
+
+a) Darwin
+b) Lamarck
+c) Friendrich Wilhelm Kuhne
+d) Mendel
+e) Thomas Cech
+
+**Correct Answer: c) Friendrich Wilhelm Kuhne**
+
+**Solution:** Friedrich Wilhelm Kühne coined the term "enzyme" in 1878. The word comes from the Greek words "en" (in) and "zyme" (leaven), meaning "in yeast."
+
+---
+
+**Q25.** Which lipophilic hormone is found in every tissue of the body and is involved in inflammation, blood flow, and protection from injury?
+
+a) Estradiol
+b) Aldosterone
+c) Testosterone
+d) Prostaglandins
+e) Estrogen
+
+**Correct Answer: d) Prostaglandins**
+
+**Solution:** Prostaglandins are lipid-derived (lipophilic) hormones found in almost all tissues. They have diverse effects: inflammation (fever, pain, redness), blood flow regulation (vasodilation/vasoconstriction), and protecting the stomach lining.
+
+---
+
+**Q26.** Hardy-Weinberg Equation is:
+
+a) p² + 2pq + q² = 1
+b) p + 2pq + q² = 1
+c) p² + 2pq + q² = 0
+d) 2p + q² = 1
+e) 2p + 2q² = 1
+
+**Correct Answer: a) p² + 2pq + q² = 1**
+
+**Solution:** The Hardy-Weinberg equation is: p² + 2pq + q² = 1, where p = frequency of dominant allele, q = frequency of recessive allele, p² = frequency of homozygous dominant, 2pq = heterozygous frequency, q² = frequency of homozygous recessive.
+
+---
+
+**Q27.** F.C. Steward used this plant for his experiment (tissue culture):
+
+a) Radish
+b) Corn
+c) Maize
+d) Carrot
+e) Mango
+
+**Correct Answer: d) Carrot**
+
+**Solution:** F.C. Steward demonstrated the concept of cellular totipotency by growing a complete carrot plant from phloem tissue explants in 1958. This was a landmark experiment in plant tissue culture.
+
+---
+
+**Q28.** Histone proteins are rich in:
+
+a) Basic amino acid
+b) Acidic fatty acid
+c) Basic citric acid
+d) Acidic amino
+e) Basic fatty acid
+
+**Correct Answer: a) Basic amino acid**
+
+**Solution:** Histones are rich in basic amino acids, particularly lysine and arginine. These positively charged amino acids allow histones to bind tightly to negatively charged DNA, forming nucleosomes.
+
+---
+
+**Q29.** The site of maturation and storage of sperms is:
+
+a) Seminal vesicles
+b) Scrotum
+c) Testes
+d) Epididymis
+e) Vasa deferentia
+
+**Correct Answer: d) Epididymis**
+
+**Solution:** Sperm cells mature and are stored in the epididymis. During their transit through the epididymis, they acquire motility and the ability to fertilize. The epididymis can store sperm for up to several weeks.
+
+---
+
+**Q30.** A disease resulting in complete lack of spermatozoa in ejaculate is:
+
+a) Azoospermia
+b) Obstruction
+c) Oligospermia
+d) Zoospermia
+e) Ejaculation disorder
+
+**Correct Answer: a) Azoospermia**
+
+**Solution:** Azoospermia is a condition characterized by the complete absence of spermatozoa in the semen ejaculate. This can be due to obstruction, testicular failure, or hormonal disorders.
+
+---
+
+**Q31.** The type of bacteria which oxidize CO into CO₂ is:
+
+a) Bacillus oligocaerpobillous
+b) Hydrogenomonas
+c) Pseudomonas
+d) Thiobacillus
+e) Azobacter
+
+**Correct Answer: d) Thiobacillus**
+
+**Solution:** Thiobacillus species (such as Thiobacillus denitrificans) can oxidize carbon monoxide (CO) to carbon dioxide (CO₂) and use it as an energy source. They are chemoautotrophic bacteria.
+
+---
+
+**Q32.** What structure holds sister chromatids together?
+
+a) Gene
+b) Nucleosome
+c) Centrosome
+d) Centromere
+e) Histone protein
+
+**Correct Answer: d) Centromere**
+
+**Solution:** Sister chromatids are held together at the centromere by cohesin protein complexes. The centromere is the region where spindle fibers attach during cell division.
+
+---
+
+**Q33.** The most widely accepted explanation for ascent of sap is:
+
+a) Role of root pressure
+b) Transpiration
+c) Capillarity
+d) Role of atmospheric pressure
+e) Cohesion and transpiration pull
+
+**Correct Answer: e) Cohesion and transpiration pull**
+
+**Solution:** The cohesion-tension theory (or transpiration pull theory) is the most accepted explanation for the ascent of sap. Water molecules cohere (stick together) via hydrogen bonds and are pulled up the xylem by transpiration from leaves.
+
+---
+
+**Q34.** In which of the following environments are plants, with aerenchyma, most likely to be found?
+
+a) Mesophytes
+b) Sciophytes
+c) Xerophytes
+d) Hydrophytes
+e) Halophytes
+
+**Correct Answer: d) Hydrophytes**
+
+**Solution:** Aerenchyma is a spongy tissue with large air spaces found in aquatic plants (hydrophytes). It provides buoyancy and allows oxygen transport from the air to submerged roots, enabling survival in waterlogged conditions.
+
+---
+
+**Q35.** Each helix of DNA is made up of four types of nucleotides and both helices are complementary to each other i.e. if one helix contains Adenine the opposite helix will contain:
+
+a) Histidine
+b) Uracil
+c) Cytosine
+d) Thymine
+e) Guanine
+
+**Correct Answer: d) Thymine**
+
+**Solution:** In DNA, complementary base pairing occurs: Adenine (A) pairs with Thymine (T) via two hydrogen bonds, and Guanine (G) pairs with Cytosine (C) via three hydrogen bonds.
+
+---
+
+**Q36.** Bacteriophages escape from host cells by the activity of:
+
+a) Non-Ribosome
+b) Lysozyme
+c) Peroxisome
+d) Lysosome
+
+**Correct Answer: b) Lysozyme**
+
+**Solution:** Bacteriophages produce lysozyme, which breaks down the bacterial cell wall (peptidoglycan) causing cell lysis. This allows the new phage particles to escape from the host cell.
+
+---
+
+**Q37.** Which soft-bodied animal is usually Ambisexual?
+
+a) Tapeworm
+b) Earthworm
+c) Jellyfish
+d) Snail
+e) Oyster
+
+**Correct Answer: b) Earthworm**
+
+**Solution:** Earthworms are hermaphrodites (ambisexual/ bisexual), meaning each individual possesses both male and female reproductive organs. They cross-fertilize during mating.
+
+---
+
+**Q38.** The number of teeth in deciduous and permanent teeth is:
+
+a) 21 and 32 respectively
+b) 18 and 22 respectively
+c) 12 and 32 respectively
+d) 10 and 32 respectively
+e) 20 and 32 respectively
+
+**Correct Answer: e) 20 and 32 respectively**
+
+**Solution:** Humans have 20 deciduous (baby/milk) teeth and 32 permanent (adult) teeth. The dental formula for deciduous teeth is 2.1.2.0, while for permanent teeth it is 2.1.2.3.
+
+---
+
+**Q39.** Which hormone is responsible to convert the ruptured follicle into a yellowish glandular mass known as corpus luteum?
+
+a) FSH
+b) ACTH
+c) DHT
+d) LH
+e) TSH
+
+**Correct Answer: d) LH**
+
+**Solution:** Luteinizing hormone (LH) from the anterior pituitary triggers ovulation and the transformation of the ruptured ovarian follicle into the corpus luteum. LH stimulates the remaining follicular cells to become lutein cells that secrete progesterone.
+
+---
+
+**Q40.** Phage genome incorporated with host DNA is called:
+
+a) Bacteriophage
+b) Viroids
+c) Prophage
+d) Prions
+
+**Correct Answer: c) Prophage**
+
+**Solution:** A prophage is the integrated form of a bacteriophage genome within the host bacterial DNA. This occurs during the lysogenic cycle, where the phage DNA becomes part of the host chromosome.
+
+---
+
+**Q41.** Plants oxidize sugar in chloroplasts during day time without production of energy. This process is called:
+
+a) Decarboxylation
+b) Oxidative phosphorylation
+c) Non-cyclic photophosphorylation
+d) Cyclic oxidative phosphorylation
+e) Lactic acid fermentation
+
+**Correct Answer: c) Non-cyclic photophosphorylation**
+
+**Solution:** This process is known as photorespiration (or C₂ cycle). Plants oxidize sugars in the chloroplasts during daytime without producing ATP. It occurs when Rubisco fixes O₂ instead of CO₂.
+
+---
+
+**Q42.** Sufficient depolarization in neurolemma results in:
+
+a) Potassium leakage
+b) Resting membrane potential
+c) Action potential
+d) Repolarization
+e) Sub-threshold potential
+
+**Correct Answer: c) Action potential**
+
+**Solution:** When the membrane potential reaches the threshold level (sufficient depolarization), voltage-gated sodium channels open rapidly, causing an action potential. This is the "all-or-none" response of the neuron.
+
+---
+
+**Q43.** Fusion of two genetically dissimilar parents through artificial pollination is:
+
+a) Selection
+b) Acclimatization
+c) Hybridization
+d) Evolution
+e) Back crossing
+
+**Correct Answer: c) Hybridization**
+
+**Solution:** Hybridization is the crossing of two genetically different parents to produce offspring with combined traits. This is widely used in plant breeding to create new varieties with desirable characteristics.
+
+---
+
+**Q44.** In the flowering plant, food is translocated in the form:
+
+a) Starch
+b) Sucrose
+c) Glucose
+d) Sugar
+e) Fructose
+
+**Correct Answer: b) Sucrose**
+
+**Solution:** Sucrose is the main transport sugar in the phloem of flowering plants. It is stable, non-reducing, and soluble, making it ideal for transport from source (leaves) to sink (roots, fruits, seeds).
+
+---
+
+**Q45.** Which reaction is also known as Z-scheme?
+
+a) Oxidative phosphorylation
+b) Cyclic photophosphorylation
+c) Non-cyclic oxidative phosphorylation
+d) Cyclic oxidative phosphorylation
+e) Non-cyclic photophosphorylation
+
+**Correct Answer: e) Non-cyclic photophosphorylation**
+
+**Solution:** The Z-scheme describes the flow of electrons during non-cyclic photophosphorylation. It forms a "Z" shape on an energy-level diagram as electrons move from water to NADP⁺ via photosystem II, the electron transport chain, and photosystem I.
+
+---
+
+**Q46.** In gel electrophoresis, how do molecules migrate through the gel?
+
+a) Under the influence of agar
+b) By diffusion
+c) Under the influence of an electric field
+d) Active transport
+e) By osmosis
+
+**Correct Answer: c) Under the influence of an electric field**
+
+**Solution:** In gel electrophoresis, charged molecules (DNA, RNA, proteins) migrate through the gel matrix when an electric field is applied. DNA and RNA move toward the positive electrode (anode) because they are negatively charged.
+
+---
+
+**Q47.** In carbohydrates, hydrogen and oxygen are present in the simple ratio of:
+
+a) 2:1
+b) 3:1
+c) 1:1
+d) 3:4
+e) 1:3
+
+**Correct Answer: a) 2:1**
+
+**Solution:** Carbohydrates have hydrogen and oxygen in the ratio 2:1 (like water). The general formula for carbohydrates is (CH₂O)ₙ, where n is the number of carbon atoms.
+
+---
+
+**Q48.** Which of the pigments are common in both human and plant?
+
+a) Carotenoids
+b) Fucoxanthin
+c) Xanthophyll
+d) Chlorophyll
+e) Retinol
+
+**Correct Answer: a) Carotenoids**
+
+**Solution:** Carotenoids are pigments found in plants (where they assist in photosynthesis) and in humans (where they are important for vision, immune function, and as antioxidants). They give color to fruits and vegetables.
+
+---
+
+**Q49.** Two different gene pairs, located at different loci, all work for the same trait and express in an additive manner. This phenomenon is called:
+
+a) Codominance
+b) Polygenic inheritance
+c) Multiple alleles
+d) Incomplete dominance
+e) Epistasis
+
+**Correct Answer: b) Polygenic inheritance**
+
+**Solution:** Polygenic inheritance involves multiple genes (polygenes) at different loci contributing to a single trait in an additive manner. Examples include human height, skin color, and eye color.
+
+---
+
+**Q50.** Isolation of cellular components to determine their structure and chemical composition is:
+
+a) Cell fractionation
+b) Chromatography
+c) Microscopy
+d) Electrophoresis
+
+**Correct Answer: a) Cell fractionation**
+
+**Solution:** Cell fractionation is a technique used to separate cellular components (organelles) based on their size, density, and other properties. It involves homogenization of cells followed by differential centrifugation.
+
+---
+
+**Q51.** The type of cancer, common in young men between the ages of 15 and 34, that has a high cure rate with early treatment is:
+
+a) Skin cancer
+b) Lung cancer
+c) Blood cancer
+d) Lymph cancer
+e) Testicular cancer
+
+**Correct Answer: e) Testicular cancer**
+
+**Solution:** Testicular cancer is the most common cancer in young men aged 15-34. It has a very high cure rate (over 95%) when detected early, making it one of the most treatable cancers.
+
+---
+
+**Q52.** This process inhibits metabolism and growth of anaerobic microbes used for the treatment of Gas Gangrene:
+
+a) Desiccation
+b) Radiation
+c) Hyperbaric oxygen therapy
+d) High-pressure process
+e) Lyophilization
+
+**Correct Answer: c) Hyperbaric oxygen therapy**
+
+**Solution:** Hyperbaric oxygen therapy involves breathing pure oxygen in a pressurized chamber. It creates high oxygen levels in tissues, which inhibits the growth and metabolism of anaerobic bacteria (like Clostridium) causing gas gangrene.
+
+---
+
+**Q53.** The branching network-like arrangement of cardiac muscles is called:
+
+a) Epimysium
+b) Syndesmosis
+c) Gomphosis
+d) Sarcolemma
+e) Syncytium
+
+**Correct Answer: e) Syncytium**
+
+**Solution:** Cardiac muscle cells are interconnected by intercalated discs, forming a functional syncytium. This branching network allows coordinated contraction of the heart as a single unit.
+
+---
+
+**Q54.** Molecules that bind to an enzyme away from the active site and increase the function of that active site are known as:
+
+a) Activation energy without enzyme
+b) Energy of reactants
+c) Activation energy with enzyme
+d) Energy of product
+e) Allosteric activators
+
+**Correct Answer: e) Allosteric activators**
+
+**Solution:** Allosteric activators bind to allosteric sites (sites other than the active site) on an enzyme, causing a conformational change that increases the enzyme's activity. This is a form of enzyme regulation.
+
+---
+
+**Q55.** The number of oxygen molecules that is transported by one hemoglobin molecule is:
+
+a) 1
+b) 4
+c) 3
+d) 2
+e) 5
+
+**Correct Answer: b) 4**
+
+**Solution:** Each hemoglobin molecule is a tetramer with four heme groups. Each heme group can bind one oxygen molecule (O₂), so one hemoglobin can bind up to four oxygen molecules.
+
+---
+
+**Q56.** The top milk-producing animal is:
+
+a) Nili-Ravi
+b) Bhadawari
+c) Godavari
+d) Blue-Ravi
+e) Jaffrabadi
+
+**Correct Answer: e) Jaffrabadi**
+
+**Solution:** Jaffrabadi buffaloes are among the top milk-producing breeds in Pakistan. They are known for high milk yield (up to 2,000 liters per lactation) and high butterfat content.
+
+---
+
+**Q57.** Which one of the following is the precursor for the synthesis of testosterone, progesterone, and estrogens?
+
+a) Choline
+b) Cholesterol
+c) Oil
+d) Waxes
+e) Albumin
+
+**Correct Answer: b) Cholesterol**
+
+**Solution:** Cholesterol is the precursor for all steroid hormones, including androgens (testosterone), estrogens, and progestogens (progesterone). Steroid hormones are synthesized from cholesterol in the gonads and adrenal glands.
+
+---
+
+**Q58.** A neural cable extending from the brain down through the backbone and enclosed in the vertebral column is called:
+
+a) Meninges
+b) Spinal cord
+c) Axon
+d) Brainstem
+e) Hindbrain
+
+**Correct Answer: b) Spinal cord**
+
+**Solution:** The spinal cord is a long, cylindrical nerve bundle that extends from the brainstem down through the vertebral column. It is protected by the vertebrae and meninges, and transmits signals between the brain and the rest of the body.
+
+---
+
+**Q59.** Which of the following accurately describes Helicobacter pylori?
+
+a) Flagellated rod-shaped bacterium
+b) Flagellated chain bacterium
+c) Flagellated spiral-shaped bacterium
+d) Non-flagellated spiral-shaped bacterium
+e) Non-flagellated rod-shaped bacterium
+
+**Correct Answer: c) Flagellated spiral-shaped bacterium**
+
+**Solution:** Helicobacter pylori is a spiral-shaped (helical), Gram-negative bacterium with polar flagella that enable it to burrow into the stomach lining. It causes chronic gastritis and is a major cause of peptic ulcers.
+
+---
+
+**Q60.** Water has very high heat of vaporization i.e.:
+
+a) 274 kcal/kg
+b) 374 kcal/kg
+c) 474 kcal/kg
+d) 574 kcal/kg
+e) 674 kcal/kg
+
+**Correct Answer: d) 574 kcal/kg**
+
+**Solution:** Water has a high latent heat of vaporization (approximately 574 kcal/kg at 100°C). This high energy requirement for vaporization helps in cooling of organisms through sweating and protects against temperature fluctuations.
+
+---
+
+**Q61.** Which cells are responsible for the formation of cartilage?
+
+a) Neurosecretory cells
+b) Lymphocytes
+c) Osteocytes
+d) Leukocytes
+e) Chondrocytes
+
+**Correct Answer: e) Chondrocytes**
+
+**Solution:** Chondrocytes are the cells that produce and maintain the cartilage matrix. They are found within lacunae in cartilage and synthesize collagen and proteoglycans that give cartilage its properties.
+
+---
+
+**Q62.** Which statement about tautomerism is correct?
+
+a) Only occurs in organic compound
+b) Not influenced by temperature
+c) Have same molecular formula
+d) Have different molecular formula
+e) Identical chemical properties
+
+**Correct Answer: c) Have same molecular formula**
+
+**Solution:** Tautomers are isomers that have the same molecular formula but differ in the position of a proton (usually) and double bond. They exist in dynamic equilibrium, interconverting by shifting of a proton.
+
+---
+
+**Q63.** Behavioral responses are controlled by:
+
+a) Pituitary gland
+b) Hypothalamus
+c) Thalamus
+d) Amygdala
+e) Hippocampus
+
+**Correct Answer: b) Hypothalamus**
+
+**Solution:** The hypothalamus controls behavioral responses such as feeding, drinking, sexual behavior, aggression, and temperature regulation. It integrates physiological and emotional responses.
+
+---
+
+**Q64.** In skeletal muscles, which tube runs perpendicularly and is connected with the sarcoplasmic reticulum?
+
+a) Troponin
+b) T-tubules
+c) Monochondrion
+d) Myosin
+e) Actin
+
+**Correct Answer: b) T-tubules**
+
+**Solution:** Transverse tubules (T-tubules) are invaginations of the sarcolemma that run perpendicular to the muscle fiber and connect with the sarcoplasmic reticulum. They transmit action potentials deep into the muscle fiber to trigger Ca²⁺ release.
+
+---
+
+**Q65.** The active site of the enzyme is the region that:
+
+a) Binds with the product of catalytic reaction
+b) Is involved in catalytic reactions
+c) Is inhibited by coenzymes and cofactors
+d) Binds allosteric regulators of the enzyme
+e) Is inhibited by coenzymes only
+
+**Correct Answer: b) Is involved in catalytic reactions**
+
+**Solution:** The active site is the specific region of an enzyme where substrate binding and catalysis occur. It is typically a three-dimensional pocket or cleft formed by amino acid residues.
+
+---
+
+**Q66.** It is a condition of blindness where a person cannot distinguish blue color:
+
+a) Protanopia
+b) Monochromacy
+c) Dichromacy
+d) Deuteranopia
+e) Tritanopia
+
+**Correct Answer: e) Tritanopia**
+
+**Solution:** Tritanopia is a rare form of color blindness where a person cannot distinguish blue from green and yellow. It is caused by the absence or dysfunction of blue-sensitive (S-type) cone cells in the retina.
+
+---
+
+# TEST 3: Khyber Medical University - MDCAT 2024
+## Biology Section - 68 Questions
+
+---
+
+**Q1.** The peptidoglycan cell wall is specific to:
+
+a. Amoeba
+b. Bacteria
+c. Protozoa
+d. Virus
+
+**Correct Answer: b. Bacteria**
+
+**Solution:** Peptidoglycan (murein) is a polymer consisting of sugars and amino acids that forms a mesh-like layer outside the plasma membrane of bacteria. It is unique to bacteria and is not found in archaea, eukaryotes, or viruses.
+
+---
+
+**Q2.** Where are spindle fibres attached OR a chromosome during cell division?
+
+a. Centromere
+b. Histone proteins
+c. Nucleolus
+d. Telomere
+
+**Correct Answer: a. Centromere**
+
+**Solution:** Spindle fibers attach to the kinetochore, which is a protein structure assembled at the centromere region of the chromosome. This attachment is essential for proper chromosome segregation during mitosis and meiosis.
+
+---
+
+**Q3.** Which organelle contribute towards steroid production?
+
+a. Endoplasmic Reticulum
+b. Golgi apparatus
+c. Lysosome
+d. Ribosomes
+
+**Correct Answer: a. Endoplasmic Reticulum**
+
+**Solution:** The smooth endoplasmic reticulum (smooth ER) is involved in the synthesis of lipids, including steroids. It contains enzymes for steroid hormone synthesis in cells of the adrenal cortex and gonads.
+
+---
+
+**Q4.** The lysosomes found in eukaryotes contain:
+
+a. Hydrolytic enzymes
+b. Meiotic enzymes
+c. Oxidative enzymes
+d. Mitotic enzymes
+
+**Correct Answer: a. Hydrolytic enzymes**
+
+**Solution:** Lysosomes are membrane-bound organelles containing hydrolytic (digestive) enzymes such as proteases, lipases, nucleases, and glycosidases. They function in intracellular digestion, autophagy, and autolysis.
+
+---
+
+**Q5.** Plasma membrane is differentially permeable membrane due to the presence of?
+
+a. Carbohydrates
+b. Lipids
+c. Proteins
+d. Vitamins
+
+**Correct Answer: c. Proteins**
+
+**Solution:** Membrane proteins (including channel proteins, carrier proteins, and pumps) are responsible for the selective/differential permeability of the plasma membrane. They allow specific substances to pass through while restricting others.
+
+---
+
+**Q6.** The following function/activity is NOT controlled by the autonomic nervous system:
+
+a. Cardiac muscles contraction
+b. Salivation
+c. Smooth muscles contraction
+d. Thoughts and emotions
+
+**Correct Answer: d. Thoughts and emotions**
+
+**Solution:** Thoughts and emotions are controlled by higher brain centers (cerebrum, limbic system), not by the autonomic nervous system. The autonomic system controls involuntary functions: heart rate, salivation, smooth muscle contraction, etc.
+
+---
+
+**Q7.** A motor neuron:
+
+a. Carries impulse from effectors to CNS
+b. Carries impulse from receptors to CNS
+c. Carries impulse from CNS to muscles
+d. Connects sensory nerves to ganglions
+
+**Correct Answer: c. Carries impulse from CNS to muscles**
+
+**Solution:** Motor neurons (efferent neurons) transmit nerve impulses from the central nervous system (CNS) to effectors (muscles and glands). Sensory neurons carry impulses from receptors to the CNS.
+
+---
+
+**Q8.** Diffusion of _________ across the post synaptic membrane causes it to depolarise:
+
+a. Calcium ions
+b. Chloride ions
+c. Potassium ions
+d. Sodium ions
+
+**Correct Answer: d. Sodium ions**
+
+**Solution:** When a neurotransmitter binds to receptors on the postsynaptic membrane, ligand-gated sodium channels open, allowing Na⁺ to diffuse into the neuron. This influx of Na⁺ causes depolarization and generates an excitatory postsynaptic potential (EPSP).
+
+---
+
+**Q9.** A reflex action, does not involve the:
+
+a. Brain
+b. Motor neuron
+c. Sensory neuron
+d. Spinal cord
+
+**Correct Answer: a. Brain**
+
+**Solution:** A simple reflex arc (e.g., knee-jerk reflex) involves: receptor → sensory neuron → spinal cord (interneuron) → motor neuron → effector. The brain is not involved, making the reflex rapid and automatic.
+
+---
+
+**Q10.** What happens to the enzyme after an enzyme-catalysed reaction?
+
+a. Reduced to inactive form
+b. Becomes inert
+c. Changes into substrate
+d. Used for another reaction
+
+**Correct Answer: d. Used for another reaction**
+
+**Solution:** Enzymes are not consumed in the reactions they catalyze. They are regenerated at the end of the reaction and can participate in multiple catalytic cycles. This is a key characteristic of catalysts.
+
+---
+
+**Q11.** Catalase can be activated at pH:
+
+a. 1
+b. 3
+c. 5
+d. 7
+
+**Correct Answer: d. 7**
+
+**Solution:** Catalase, an enzyme that breaks down hydrogen peroxide (H₂O₂) into water and oxygen, works optimally at near-neutral pH (approximately pH 7). Extreme pH values cause denaturation.
+
+---
+
+**Q12.** Enzymatic activity can be inhibited by?
+
+a. Heavy metal ions
+b. Methane
+c. Mutase
+d. Noble gases
+
+**Correct Answer: a. Heavy metal ions**
+
+**Solution:** Heavy metal ions (e.g., Hg²⁺, Pb²⁺, Ag⁺) inhibit enzyme activity by binding to sulfhydryl (-SH) groups in the active site or by displacing essential metal cofactors. This leads to enzyme denaturation and inactivation.
+
+---
+
+**Q13.** A competitive inhibitor:
+
+a. Accelerates the chemical reaction
+b. Competes with the enzyme
+c. Is irreversible
+d. Is reversible
+
+**Correct Answer: d. Is reversible**
+
+**Solution:** Competitive inhibition is reversible. The inhibitor competes with the substrate for the active site of the enzyme. Increasing substrate concentration can overcome competitive inhibition. The inhibitor does not permanently alter the enzyme.
+
+---
+
+**Q14.** Wings of birds and that of flying lizards provide evidence of:
+
+a. Convergent evolution
+b. Divergent evolution
+c. No evolution
+d. Same origin
+
+**Correct Answer: a. Convergent evolution**
+
+**Solution:** Bird wings and flying lizard (pterosaur) wings are analogous structures that evolved independently (convergent evolution) to serve the same function (flight). They have similar functions but different evolutionary origins.
+
+---
+
+**Q15.** The embryological stages of ________ show similarity in anatomical features:
+
+a. All living things
+b. All non-vertebrates
+c. All vertebrates
+d. Human, jelly fish and mouse
+
+**Correct Answer: c. All vertebrates**
+
+**Solution:** Vertebrate embryos (e.g., fish, amphibians, reptiles, birds, mammals) show remarkable similarity in early developmental stages, including the presence of pharyngeal arches, a notochord, and a dorsal nerve cord. This suggests common ancestry.
+
+---
+
+**Q16.** Which enzyme is secreted in the active form?
+
+a. Amylase
+b. Lipase
+c. Peptidase
+d. Protease
+
+**Correct Answer: a. Amylase**
+
+**Solution:** Amylase is secreted in its active form by the salivary glands and pancreas. In contrast, many proteases (e.g., pepsin, trypsin) are secreted as inactive zymogens (proenzymes) to prevent self-digestion of tissues.
+
+---
+
+**Q17.** Which hormone stimulates the secretion of gastric juice?
+
+a. Cholecystokinin
+b. Gastrin
+c. Insulin
+d. Secretin
+
+**Correct Answer: b. Gastrin**
+
+**Solution:** Gastrin is a hormone produced by G cells in the stomach lining. It stimulates the secretion of gastric acid (HCl) from parietal cells and pepsinogen from chief cells, promoting protein digestion.
+
+---
+
+**Q18.** In an inflammatory response, bradykinin causes?
+
+a. Activation of natural killer cells
+b. Blockage in blood vessels
+c. Constriction of blood vessels
+d. Leakage of fluid from blood vessels
+
+**Correct Answer: d. Leakage of fluid from blood vessels**
+
+**Solution:** Bradykinin, a peptide released during inflammation, causes vasodilation and increased vascular permeability. This leads to fluid leakage from blood vessels into tissues, causing swelling (edema) and pain.
+
+---
+
+**Q19.** Which of the following is an example of passive immunity?
+
+a. Antibodies from mother's milk
+b. Previous chickenpox infection
+c. Inactivated polio vaccine
+d. Live polio vaccine
+
+**Correct Answer: a. Antibodies from mother's milk**
+
+**Solution:** Passive immunity involves the transfer of preformed antibodies. Antibodies from mother's milk (colostrum) provide passive immunity to the infant. The body does not produce its own antibodies; they are acquired passively.
+
+---
+
+**Q20.** Bacteria that lack flagella are called?
+
+a. Amphitrichous
+b. Atrichous
+c. Lophotrichous
+d. Peritrichous
+
+**Correct Answer: b. Atrichous**
+
+**Solution:** Atrichous bacteria lack flagella entirely. Monotrichous = one flagellum; Lophotrichous = tuft at one pole; Amphitrichous = tufts at both poles; Peritrichous = flagella all over.
+
+---
+
+**Q21.** Antibiotics can be used against:
+
+a. Herpes simplex
+b. Influenza
+c. Polio
+d. Salmonella typhi
+
+**Correct Answer: d. Salmonella typhi**
+
+**Solution:** Antibiotics are effective against bacterial infections but not viral infections. Salmonella typhi is a bacterium causing typhoid fever, which can be treated with antibiotics (e.g., ciprofloxacin, azithromycin).
+
+---
+
+**Q22.** The ______ in semen facilitate the transport of sperms:
+
+a. Androgen
+b. Prostaglandins
+c. Oxytocin
+d. Testosterone
+
+**Correct Answer: b. Prostaglandins**
+
+**Solution:** Prostaglandins in semen cause contractions of the female reproductive tract (uterus and fallopian tubes), which facilitate the transport of sperm toward the egg for fertilization.
+
+---
+
+**Q23.** The acidity of urine is neutralized by?
+
+a. Cowpers gland
+b. Prostate gland
+c. Seminal vesicle
+d. Vas deferens
+
+**Correct Answer: a. Cowpers gland**
+
+**Solution:** Cowper's glands (bulbourethral glands) secrete a mucus-like fluid that neutralizes the acidity of urine in the urethra before the passage of semen. This protects sperm from the acidic environment.
+
+---
+
+**Q24.** The corpus luteum is essentially formed from:
+
+a. Graafian follicle
+b. Ovum
+c. Oogonium
+d. Oocyte
+
+**Correct Answer: a. Graafian follicle**
+
+**Solution:** After ovulation, the ruptured Graafian follicle transforms into the corpus luteum. The follicular cells (granulosa and theca cells) undergo luteinization to form the corpus luteum, which secretes progesterone.
+
+---
+
+**Q25.** The outer layer of uterus is called as;
+
+a. Endometrium
+b. Myometrium
+c. Mesometrium
+d. Perimetrium
+
+**Correct Answer: d. Perimetrium**
+
+**Solution:** The uterus has three layers: outer perimetrium (serous layer), middle myometrium (muscular layer), and inner endometrium (mucosal layer). The perimetrium is the outermost covering of the uterus.
+
+---
+
+**Q26.** ________ is spread through sexual contact:
+
+a. Gonorrhoea
+b. Influenza
+c. Tuberculosis
+d. Typhoid
+
+**Correct Answer: a. Gonorrhoea**
+
+**Solution:** Gonorrhoea is a sexually transmitted infection (STI) caused by the bacterium Neisseria gonorrhoeae. It is spread through unprotected sexual contact. Influenza, tuberculosis, and typhoid are not sexually transmitted.
+
+---
+
+**Q27.** The cells contained in the lacunae of the bone are called:
+
+a. Chondrocytes
+b. Osteoblast
+c. Osteocytes
+d. Osteoclast
+
+**Correct Answer: c. Osteocytes**
+
+**Solution:** Lacunae are small spaces in the bone matrix that contain osteocytes (mature bone cells). Chondrocytes are found in cartilage lacunae. Osteoblasts are bone-forming cells, and osteoclasts are bone-resorbing cells.
+
+---
+
+**Q28.** The ______ surrounds the muscle fibre of the skeletal muscle:
+
+a. Cytoplasm
+b. Lacunae
+c. Myofibrils
+d. Sarcoplasm
+
+**Correct Answer: d. Sarcoplasm**
+
+**Solution:** Sarcoplasm is the cytoplasm of muscle cells. It surrounds the myofibrils (contractile elements) within the muscle fiber. The sarcolemma (plasma membrane) surrounds the entire muscle fiber.
+
+---
+
+**Q29.** What happens to calcium when skeletal muscles recover from contraction?
+
+a. Released from the sarcoplasmic reticulum
+b. Released from the myosin head
+c. Pumped into the sarcoplasmic reticulum
+d. Exchanged for sodium ions
+
+**Correct Answer: c. Pumped into the sarcoplasmic reticulum**
+
+**Solution:** After muscle contraction, Ca²⁺ ions are actively pumped back into the sarcoplasmic reticulum by Ca²⁺-ATPase (calcium pump). This removes Ca²⁺ from the troponin-tropomyosin complex, allowing muscle relaxation.
+
+---
+
+**Q30.** Which of the following blood groups has anti-A and anti-B antibodies in the serum?
+
+a. A
+b. AB
+c. B
+d. Q
+
+**Correct Answer: d. Q** *(Note: This should be Blood group O)*
+
+**Solution:** Blood group O individuals have both anti-A and anti-B antibodies in their serum. They can donate red blood cells to any ABO blood group (universal donor) but can only receive blood from group O.
+
+---
+
+**Q31.** What is the primary outcome of crossing over during prophase of meiosis I?
+
+a. Chromosomes duplicate without any exchange of parts
+b. Homologous chromosomes exchange different pairs leading to recombinant chromatids and increased genetic variation
+c. Homologous chromosomes exchange identical parts, resulting in no genetic variation
+d. Non-homologous chromosomes exchange parts
+
+**Correct Answer: b. Homologous chromosomes exchange different pairs leading to recombinant chromatids and increased genetic variation**
+
+**Solution:** Crossing over between homologous chromosomes during prophase I results in the exchange of genetic material, producing recombinant chromatids. This increases genetic diversity in gametes.
+
+---
+
+**Q32.** The genetic makeup that your parents have transferred to you for your hair color, makes up your:
+
+a. Genotype
+b. Karyotype
+c. Phenotype
+d. None of the above
+
+**Correct Answer: a. Genotype**
+
+**Solution:** Genotype refers to the genetic makeup (alleles) inherited from parents for a particular trait. Phenotype is the observable expression of the genotype (e.g., actual hair color).
+
+---
+
+**Q33.** Carnivorous plants…product of this digestion is used to supplement the plant's supply of:
+
+a. Carbohydrates
+b. Lipids
+c. Nitrites
+d. Water
+
+**Correct Answer: c. Nitrites**
+
+**Solution:** Carnivorous plants (e.g., Venus flytrap, pitcher plant) grow in nitrogen-deficient soils. They digest insects to obtain nitrogen (in the form of nitrates/nitrites), which they cannot get from the poor soil.
+
+---
+
+**Q34.** Which is true for an X linked dominant trait?
+
+a. All female offspring of the affected father will be affected
+b. Half of the female off springs of the affected father will be affected
+c. No male offspring of an affected mother will be affected
+d. No female offspring of the affected father will be affected
+
+**Correct Answer: a. All female offspring of the affected father will be affected**
+
+**Solution:** In X-linked dominant inheritance, an affected father passes his affected X chromosome to all his daughters (sons receive the Y chromosome). All daughters will be affected because the trait is dominant.
+
+---
+
+**Q35.** Malpighian tubules are found in:
+
+a. Earthworm
+b. Grasshopper
+c. Leech
+d. Slug
+
+**Correct Answer: b. Grasshopper**
+
+**Solution:** Malpighian tubules are excretory organs found in insects (e.g., grasshopper). They remove nitrogenous wastes (uric acid) from the hemolymph. Earthworms have nephridia, and slugs have kidneys.
+
+---
+
+**Q36.** Shark belongs to class:
+
+a. Chondrichthyes
+b. Echinodermata
+c. Osteichthyes
+d. Urochordata
+
+**Correct Answer: a. Chondrichthyes**
+
+**Solution:** Sharks belong to the class Chondrichthyes (cartilaginous fishes). They have a skeleton made of cartilage, not bone. Osteichthyes is the class of bony fishes.
+
+---
+
+**Q37.** Canal system is a characteristic of?
+
+a. Cnidarians
+b. Protozoans
+c. Porifera
+d. Segmented worms
+
+**Correct Answer: c. Porifera**
+
+**Solution:** Sponges (Porifera) have a unique canal system (asconoid, syconoid, or leuconoid) that facilitates water flow through their bodies for feeding, respiration, and waste removal.
+
+---
+
+**Q38.** Mantle is the feature of?
+
+a. Annelids
+b. Chordates
+c. Echinoderms
+d. Mussel
+
+**Correct Answer: d. Mussel**
+
+**Solution:** The mantle is a characteristic structure of mollusks, including mussels. It is a fleshy fold that covers the visceral mass and secretes the shell. Annelids and echinoderms do not have a mantle.
+
+---
+
+**Q39.** The production of energy is __:
+
+a. Faster in anaerobic respiration
+b. Faster in aerobic respiration
+c. Same in both types of respiration
+d. Not associated with respiration
+
+**Correct Answer: a. Faster in anaerobic respiration**
+
+**Solution:** Anaerobic respiration produces ATP more quickly than aerobic respiration. However, the yield of ATP is much lower (2 ATP vs. 36-38 ATP per glucose). Anaerobic respiration is used during rapid muscle contraction when oxygen is limited.
+
+---
+
+**Q40.** The pathway to the breakdown of glucose, carried out by micro-organisms, is called:
+
+a. Lactic acid fermentation
+b. Alcoholic fermentation
+c. Cellular respiration
+d. None of the above
+
+**Correct Answer: b. Alcoholic fermentation**
+
+**Solution:** Alcoholic fermentation is carried out by microorganisms (yeasts and some bacteria). Glucose is converted to ethanol and CO₂. This process is used in brewing and baking.
+
+---
+
+**Q41.** Chromosome is typically made up from a combination of?
+
+a. DNA and protein
+b. DNA and RNA
+c. RNA and lipids
+d. RNA and proteins
+
+**Correct Answer: a. DNA and protein**
+
+**Solution:** Chromosomes are composed of DNA (deoxyribonucleic acid) and proteins (histones). This complex is called chromatin. The DNA provides genetic information, while proteins help with packaging and regulation.
+
+---
+
+**Q42.** Which cytoplasmic organelle make their own proteins?
+
+a. Chromosomes
+b. Golgi apparatus
+c. Mitochondria
+d. Smooth endoplasmic reticulum
+
+**Correct Answer: c. Mitochondria**
+
+**Solution:** Mitochondria contain their own DNA, ribosomes, and enzymes for protein synthesis. They can synthesize some of their own proteins (mitochondrial proteins), though most mitochondrial proteins are nuclear-encoded.
+
+---
+
+**Q43.** The active movement of mitochondria in the cytoplasm is due to:
+
+a. Cyclosis
+b. Endoplasmic streaming movements
+c. Golgi apparatus
+d. Transfer RNA
+
+**Correct Answer: a. Cyclosis**
+
+**Solution:** Cyclosis (cytoplasmic streaming) is the active movement of cytoplasm within cells. It enables the transport of organelles, including mitochondria, throughout the cell. This movement is driven by the cytoskeleton.
+
+---
+
+**Q44.** Which part of the brain is controlling your sense of balance?
+
+a. Amygdala
+b. Cerebellum
+c. Hippocampus
+d. Medulla Oblongata
+
+**Correct Answer: b. Cerebellum**
+
+**Solution:** The cerebellum is responsible for coordinating voluntary movements, maintaining posture, and controlling balance. It receives input from the vestibular system and proprioceptors to fine-tune motor commands.
+
+---
+
+**Q45.** The neurotransmitter ________ is hydrolysed by monoamine oxidase:
+
+a. Acetylcholine
+b. Adrenaline
+c. Gluamate
+d. Serotonin
+
+**Correct Answer: b. Adrenaline**
+
+**Solution:** Monoamine oxidase (MAO) is an enzyme that breaks down monoamine neurotransmitters, including adrenaline (epinephrine), noradrenaline, dopamine, and serotonin. MAO inhibitors are used as antidepressants.
+
+---
+
+**Q46.** Most of the neurons in the CNS are?
+
+a. Bipolar
+b. Multipolar
+c. Pseudo unipolar
+d. Unipolar
+
+**Correct Answer: b. Multipolar**
+
+**Solution:** Most neurons in the CNS are multipolar neurons, having one axon and multiple dendrites. This allows them to integrate information from many other neurons.
+
+---
+
+**Q47.** How do enzymes enable the conversion of substrates into products by?
+
+a. Changing equilibrium in the direction of the substrate
+b. Increase the activation energy
+c. Increase the substrate concentration
+d. Lowering the activation energy
+
+**Correct Answer: d. Lowering the activation energy**
+
+**Solution:** Enzymes lower the activation energy (Ea) of a reaction, making it easier for the reaction to proceed. They do not change the equilibrium constant; they only increase the rate at which equilibrium is achieved.
+
+---
+
+**Q48.** According to Lamarckism, the basis of evolution is:
+
+a. Inheritance of acquired characteristics
+b. Mutation
+c. Natural selection
+d. Survival of the fittest
+
+**Correct Answer: a. Inheritance of acquired characteristics**
+
+**Solution:** Lamarckism (Lamarck's theory) proposes that traits acquired during an organism's lifetime (e.g., through use or disuse) can be passed to offspring. This theory has been largely disproven.
+
+---
+
+**Q49.** What best describes the hind leg bones seen in the whale?
+
+a. Analogous to the fin of living fish
+b. Fossil structure from an extinct ancestor
+c. Homologous structure of the wings of a bat
+d. Vestigial structures that had a function in an ancestor
+
+**Correct Answer: d. Vestigial structures that had a function in an ancestor**
+
+**Solution:** Hind leg bones (pelvic remnants) in whales are vestigial structures. They are remnants of legs that ancestors used for walking on land, but they are no longer functional in whales.
+
+---
+
+**Q50.** Which is true about the cells found in gastric glands lining the stomach wall?
+
+a. Chief cells secrete gastrin
+b. Hormone cells secrete intrinsic factor
+c. Mucus cells secrete mucin
+d. Parietal cells secrete pepsinogen
+
+**Correct Answer: c. Mucus cells secrete mucin**
+
+**Solution:** Mucus cells (surface mucous cells and neck cells) secrete mucin, which forms a protective mucus layer over the stomach lining. Chief cells secrete pepsinogen, and parietal cells secrete HCl.
+
+---
+
+**Q51.** What directly triggers the activation of natural killer cells?
+
+a. Free radicals
+b. Hydrogen peroxide
+c. Interferons
+d. Oxygen
+
+**Correct Answer: c. Interferons**
+
+**Solution:** Interferons (Type I interferons) are cytokines that activate natural killer (NK) cells. They enhance the cytotoxic activity of NK cells and promote their proliferation.
+
+---
+
+**Q52.** Which of the following is NOT true about plasmids found in streptococci?
+
+a. Carry fewer genes than the chromosome
+b. Replicate autonomously from the chromosome
+c. They are considered as genetic element
+d. The bacterial chromosome depends on plasmids for replication
+
+**Correct Answer: d. The bacterial chromosome depends on plasmids for replication**
+
+**Solution:** Plasmids replicate independently of the bacterial chromosome. The chromosome does not depend on plasmids for replication. Plasmids are extrachromosomal DNA elements that may carry beneficial genes (e.g., antibiotic resistance).
+
+---
+
+**Q53.** Which of the following bacteria produces endospores?
+
+a. Both gram negative and positive bacteria
+b. Gram negative
+c. Gram positive
+d. Mycobacteria
+
+**Correct Answer: c. Gram positive**
+
+**Solution:** Endospore formation is primarily found in Gram-positive bacteria, particularly in the genera Bacillus and Clostridium. Endospores are highly resistant structures that allow bacteria to survive harsh conditions.
+
+---
+
+**Q54.** _______ is used in the production of Humulin?
+
+a. Bacteria
+b. Fungi
+c. Protozoa
+d. Virus
+
+**Correct Answer: a. Bacteria**
+
+**Solution:** Humulin (human insulin) is produced using recombinant DNA technology in bacteria (Escherichia coli). The human insulin gene is inserted into the bacterial genome, and the bacteria produce human insulin.
+
+---
+
+**Q55.** Which of the following does NOT relate to smooth muscles?
+
+a. Controlled by the autonomic nervous system
+b. Have spindle shaped cells
+c. Line the wall of heart
+d. Lack striations
+
+**Correct Answer: c. Line the wall of heart**
+
+**Solution:** The heart wall is lined by cardiac muscle, not smooth muscle. Smooth muscle is found in walls of hollow organs (blood vessels, digestive tract, bladder, uterus). It is non-striated, involuntarily controlled, and has spindle-shaped cells.
+
+---
+
+**Q56.** Which term best describes an organism's physical characteristic?
+
+a. Allele
+b. Genetic code
+c. Genotype
+d. Trait
+
+**Correct Answer: d. Trait**
+
+**Solution:** A trait is an observable physical characteristic of an organism (e.g., eye color, height). The genotype is the genetic makeup, and alleles are alternative forms of a gene.
+
+---
+
+**Q57.** What will happen with the addition of salt to water?
+
+a. Water potential will increase
+b. Water potential will remain same
+c. Osmotic potential will increase
+d. Osmotic potential will remain same
+
+**Correct Answer: c. Osmotic potential will increase**
+
+**Solution:** Adding salt (solute) to water lowers the water potential (makes it more negative) and increases the osmotic potential (solute potential). Osmotic potential becomes more negative as solute concentration increases.
+
+---
+
+**Q58.** Which of the following is NOT true about viruses?
+
+a. Contain DNA
+b. Can replicate on their own
+c. Can infect bacteria
+d. They have a sub-cellular structure
+
+**Correct Answer: b. Can replicate on their own**
+
+**Solution:** Viruses cannot replicate on their own. They are obligate intracellular parasites that require host cell machinery to replicate. They contain either DNA or RNA (not both) and can infect bacteria (bacteriophages).
+
+---
+
+**Q59.** The genetic code of _______ is bound by a lipid membrane?
+
+a. Enterovirus
+b. Flu virus
+c. Hepatitis A virus
+d. Polio virus
+
+**Correct Answer: b. Flu virus**
+
+**Solution:** Influenza virus (flu virus) is an enveloped virus, meaning its genetic material is surrounded by a lipid membrane (envelope). Enteroviruses, hepatitis A, and polio are non-enveloped (naked) viruses.
+
+---
+
+**Q60.** Viruses can NOT:
+
+a. Crystalise
+b. Excrete
+c. Infect bacteria
+d. Mutate
+
+**Correct Answer: b. Excrete**
+
+**Solution:** Viruses lack metabolic processes and cannot carry out excretion. They cannot produce waste products or expel them. They can crystallize (in a test tube), infect bacteria, and mutate.
+
+---
+
+**Q61.** Where are the enzymes required for the replication of HIV virus located?
+
+a. In the protein spikes
+b. Surrounding the viral core
+c. Inside the capsid
+d. Outside the capsid
+
+**Correct Answer: c. Inside the capsid**
+
+**Solution:** HIV contains reverse transcriptase, integrase, and protease enzymes within the capsid (viral core). These enzymes are carried inside the virion and are released into the host cell upon infection.
+
+---
+
+**Q62.** The process of ATP synthesis through a combination of electrochemical and osmotic events is known as:
+
+a. Fermentation
+b. Glycolysis
+c. Oxidative phosphorylation
+d. Oxidation of pyruvate to acetyl CoA
+
+**Correct Answer: c. Oxidative phosphorylation**
+
+**Solution:** Oxidative phosphorylation is the process by which ATP is synthesized using energy from the electron transport chain and chemiosmosis. The proton gradient (electrochemical gradient) drives ATP synthase to produce ATP.
+
+---
+
+**Q63.** Optimum pH for pancreatic lipase is:
+
+a. 2
+b. 4
+c. 6
+d. 8
+
+**Correct Answer: d. 8**
+
+**Solution:** Pancreatic lipase works optimally at alkaline pH (around pH 8). It is secreted into the small intestine where the pH is alkaline due to bicarbonate from the pancreas. Acidic environments (pH 2-5) inactivate it.
+
+---
+
+**Q64.** Sugarcane contains:
+
+a. Fructose
+b. Glucose
+c. Ribose
+d. Sucrose
+
+**Correct Answer: d. Sucrose**
+
+**Solution:** Sugarcane stores sugar primarily as sucrose, a disaccharide of glucose and fructose. Sucrose is the main commercial sugar extracted from sugarcane.
+
+---
+
+**Q65.** Sickle cell anaemia results from?
+
+a. Reduction in oxygen carrying capacity of haemoglobin
+b. Linkage between the polypeptide chains
+c. Single amino acid substitution in the haemoglobin molecule
+d. Viral infections of RNA viruses
+
+**Correct Answer: c. Single amino acid substitution in the haemoglobin molecule**
+
+**Solution:** Sickle cell anemia is caused by a point mutation in the β-globin gene, leading to a single amino acid substitution: glutamic acid (Glu) is replaced by valine (Val) at position 6 of the β-chain. This causes hemoglobin to polymerize and form sickle-shaped red blood cells.
+
+---
+
+**Q66.** Which is INCORRECT about the globular proteins?
+
+a. Abundantly found in hair
+b. Are spherical in shape
+c. Have polypeptide chains
+d. Soluble in water
+
+**Correct Answer: a. Abundantly found in hair**
+
+**Solution:** Hair contains keratin, a fibrous protein (not globular). Globular proteins are spherical, water-soluble (or dispersible), and have polypeptide chains folded into compact structures. Examples include hemoglobin, enzymes, and antibodies.
+
+---
+
+**Q67.** What is the ester of fatty acids and long chain alcohol called?
+
+a. Acylglycerol
+b. Glycerol
+c. Phospholipid
+d. Wax
+
+**Correct Answer: d. Wax**
+
+**Solution:** Waxes are esters formed from a long-chain fatty acid and a long-chain alcohol (other than glycerol). They are hydrophobic and serve as protective coatings in plants and animals (e.g., beeswax, ear wax).
+
+---
+
+**Q68.** Lipids, which do not contain fatty acid are:
+
+a. Neutral lipids
+b. Phosphatide acids
+c. Steroids
+d. Waxes
+
+**Correct Answer: c. Steroids**
+
+**Solution:** Steroids are lipids that do not contain fatty acid. They have a characteristic structure of four fused carbon rings (cholesterol backbone). Neutral lipids (triglycerides), phospholipids, and waxes all contain fatty acids.
+
+---
+
+## Summary
+
+| Test | Biology Questions | With Solutions |
+|---|---|---|
+| Test 1: MDCAT SOLVED PAST PAPER-2024 | 68 | ✅ |
+| Test 2: Dow University / Sindh MDCAT 2024 | 66 | ✅ |
+| Test 3: Khyber Medical University MDCAT 2024 | 68 | ✅ |
+| **TOTAL** | **202** | **All with solutions** |
+
+This completes the full dataset with **all 202 Biology MCQs, options, correct answers, and detailed solutions** for your RAG evaluation.

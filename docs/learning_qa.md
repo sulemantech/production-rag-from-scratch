@@ -311,6 +311,42 @@ BM25 is pure keyword counting — it doesn't use vectors at all. It tokenizes ch
 
 ---
 
+## Phase 9 — Optimization Planning (Planned, Not Yet Built)
+
+**Q: Why are we planning to upgrade the embedding model from `all-MiniLM-L6-v2` to `BAAI/bge-base-en-v1.5`?**
+
+The current model (`all-MiniLM-L6-v2`) is a general-purpose model trained on diverse web text. It produces decent embeddings but has two weaknesses for MDCAT:
+1. It places biology-specific terms (mitochondria, ribosomes, Krebs cycle) in the same general "biology" region of vector space — not separated finely enough for precise retrieval
+2. It does not distinguish between organelles that share functional language ("essential function", "role in the cell")
+
+`BAAI/bge-base-en-v1.5` is consistently ranked higher on retrieval benchmarks and produces sharper, more discriminative vectors for technical content. A domain-specific model like `pritamdeka/S-PubMedBert-MS-MARCO` (trained on PubMed) would be even better for biology/medical content.
+
+---
+
+**Q: What are the steps involved in upgrading the embedding model?**
+
+You cannot just swap the model and keep the existing ChromaDB collection. Embeddings from different models live in different vector spaces — comparing a `bge` query vector against `MiniLM` chunk vectors produces meaningless scores.
+
+The full upgrade process:
+1. Update `src/embeddings/huggingface_embeddings.py` — change the model name
+2. Delete the embedding cache (`datasets/sample_text/biology_embeddings.json`) — it used the old model
+3. Re-embed all chunks with the new model — run `huggingface_embeddings.py` again (~2–8 minutes)
+4. Delete the existing ChromaDB collection (`chroma_db/` folder) — old vectors are incompatible
+5. Re-run `chroma_store.py` to store the new embeddings
+6. Re-run all retrieval tests to verify the new model performs better
+
+---
+
+**Q: Why do we wait until Phase 9 to optimize instead of upgrading now?**
+
+Optimization before measurement is guesswork. Right now there is no way to objectively compare "old model returns 2/3 correct results" vs "new model returns X/3 correct results" — the comparison is just eyeballing output.
+
+Phase 8 (Evaluation) builds a test set of real MDCAT questions with known correct answers and measures precision/recall scores. Only once you have a baseline number can you upgrade the model, re-run the evaluation, and confirm whether the change actually improved things — and by how much.
+
+**Rule: never optimize what you cannot measure.**
+
+---
+
 ## Key Concepts Summary
 
 | Concept | One-line explanation |

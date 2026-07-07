@@ -54,6 +54,7 @@ if __name__ == "__main__":
     collection = create_collection("biology", persist_directory="chroma_db")
 
     questions = [
+        "What is the percentage of H₂O in bone cells?"
         "what is the role of mitochondria?",
         "how does DNA replication work?",
         "what is the function of ribosomes?"

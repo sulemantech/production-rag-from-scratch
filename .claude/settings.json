@@ -2,10 +2,17 @@
   "permissions": {
     "allow": [
       "Bash(Remove-Item \"d:\\\\Projects\\\\AIPlayGround\\\\production-rag-from-scratch\\\\chunking.py\")",
-      "PowerShell(Remove-Item \"d:\\\\Projects\\\\AIPlayGround\\\\production-rag-from-scratch\\\\chunking.py\" -Confirm:$false)"
+      "PowerShell(Remove-Item \"d:\\\\Projects\\\\AIPlayGround\\\\production-rag-from-scratch\\\\chunking.py\" -Confirm:$false)",
+      "Bash(git -C \"d:\\\\Projects\\\\AIPlayGround\\\\production-rag-from-scratch\" log --oneline -15)",
+      "Bash(git -C \"d:\\\\Projects\\\\AIPlayGround\\\\production-rag-from-scratch\" status)",
+      "Bash(git -C \"d:\\\\Projects\\\\AIPlayGround\\\\production-rag-from-scratch\" diff -- src/ingestion/pdf_loader.py src/retrieval/hybrid_retriever.py)",
+      "PowerShell(Get-ChildItem \"$env:APPDATA\\\\Code\\\\User\" -ErrorAction SilentlyContinue; Get-ChildItem \"$env:USERPROFILE\\\\.vscode\" -ErrorAction SilentlyContinue)",
+      "Read(//c/Users/HP/AppData/Roaming/Code/User/**)",
+      "Read(//c/Users/HP/.vscode/extensions/anthropic.claude-code-2.1.202-win32-x64/**)"
     ],
     "additionalDirectories": [
-      "d:\\Projects\\AIPlayGround\\production-rag-from-scratch\\ingestion"
+      "d:\\Projects\\AIPlayGround\\production-rag-from-scratch\\ingestion",
+      "C:\\Users\\HP\\AppData\\Roaming\\Code\\User"
     ]
   }
 }
