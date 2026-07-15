@@ -1,6 +1,18 @@
-import ollama
+import os
 
-def generate(question: str, chunks: list[str], model: str = "qwen3:latest") -> str:
+from dotenv import load_dotenv
+from groq import Groq
+
+load_dotenv()
+# TODO: create the Groq client using the GROQ_API_KEY from the environment
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+
+
+# Groq model catalog changes over time — check https://console.groq.com/docs/models
+# for the current instant/production model id before picking one.
+DEFAULT_MODEL = "llama-3.1-8b-instant"  # TODO: pick a Groq model id, e.g. a "llama-3.x-...-instant" variant
+
+def generate(question: str, chunks: list[str], model: str = DEFAULT_MODEL) -> str:
 
     context = "\n\n".join(chunks)
 
@@ -27,24 +39,21 @@ Keep the answer clear and concise.
 Answer:
 """
 
-    response = ollama.chat(
+    # TODO: call client.chat.completions.create(model=model, messages=[...])
+    # and return response.choices[0].message.content
+    response = client.chat.completions.create(
         model=model,
         messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
+            {"role": "user", "content": prompt}
         ]
     )
+    return response.choices[0].message.content
 
-    return response["message"]["content"]
 
-
-def generate_mcq(question: str, options: dict, chunks: list[str], model: str = "qwen3:latest") -> str:
+def generate_mcq(question: str, options: dict, chunks: list[str], model: str = DEFAULT_MODEL) -> str:
     context = "\n\n".join(chunks)
     options_text = "\n".join([f"{letter}. {text}" for letter, text in options.items()])
-    prompt = f"""/no_think
-You are an MDCAT exam assistant. Using ONLY the context below, select the correct answer.
+    prompt = f"""You are an MDCAT exam assistant. Using ONLY the context below, select the correct answer.
 
 Context:
 {context}
@@ -56,8 +65,14 @@ Question: {question}
 Reply with only the letter of the correct answer (A, B, C, or D). Nothing else.
 
 Answer:"""
-    response = ollama.chat(model=model, messages=[{"role": "user", "content": prompt}])
-    return response["message"]["content"].strip()
+    # TODO: same Groq call pattern as generate(), then .strip() the result
+    response = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "user", "content": prompt}
+        ]
+    )
+    return response.choices[0].message.content.strip()
 
 
 if __name__ == "__main__":
