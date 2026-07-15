@@ -8,7 +8,8 @@
       "Bash(git -C \"d:\\\\Projects\\\\AIPlayGround\\\\production-rag-from-scratch\" diff -- src/ingestion/pdf_loader.py src/retrieval/hybrid_retriever.py)",
       "PowerShell(Get-ChildItem \"$env:APPDATA\\\\Code\\\\User\" -ErrorAction SilentlyContinue; Get-ChildItem \"$env:USERPROFILE\\\\.vscode\" -ErrorAction SilentlyContinue)",
       "Read(//c/Users/HP/AppData/Roaming/Code/User/**)",
-      "Read(//c/Users/HP/.vscode/extensions/anthropic.claude-code-2.1.202-win32-x64/**)"
+      "Read(//c/Users/HP/.vscode/extensions/anthropic.claude-code-2.1.202-win32-x64/**)",
+      "Bash(python -c ' *)"
     ],
     "additionalDirectories": [
       "d:\\Projects\\AIPlayGround\\production-rag-from-scratch\\ingestion",

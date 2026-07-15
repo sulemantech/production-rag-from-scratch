@@ -1,6 +1,94 @@
 
 import re
 
+def clean_punjab_board_text(text: str) -> str:
+    """
+    Cleans text extracted from Punjab Board eLearn PDFs (pdfplumber).
+
+    Handles:
+    - removes "eLearn.Punjab" headers
+    - removes standalone figure caption lines
+      (e.g. "Fig. 2.1 ...", "Figure 3.4 ...", "Fig: 4.4 ...")
+    - restores degree symbols in temperatures
+      (e.g. "37�C" -> "37°C")
+    - restores apostrophes in words
+      (e.g. "scientist�s" -> "scientist's")
+    - collapses excessive blank lines
+
+    Known NOT fixed here (accepted as inherent source noise):
+    - dropped 'f' in "fi" ligatures
+      (e.g. "speciic" instead of "specific")
+    - detached formula subscripts
+      (e.g. "SnCl\\n4")
+    - U+FFFD replacement characters outside the two known contexts
+      above, since their original glyph cannot be inferred safely.
+    """
+
+    # ------------------------------------------------------------------
+    # Remove eLearn.Punjab page headers/footers
+    # ------------------------------------------------------------------
+    text = re.sub(
+        r"eLearn\.Punjab",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    # ------------------------------------------------------------------
+    # Remove standalone figure captions
+    #
+    # Matches:
+    #   Fig. 2.1. : Unbranched and branched chains...
+    #   Figure 3.4 Variation in resistance...
+    #   Fig: 4.4. Unit membrane
+    #   FIGURE 5.2 Energy band diagram
+    #
+    # Does NOT match:
+    #   "As shown in Fig. 2.1 ..."
+    # ------------------------------------------------------------------
+    text = re.sub(
+        r'^\s*Fig(?:ure)?[:.]?\s*\d+(?:\.\d+)*.*(?:\n|$)',
+        '',
+        text,
+        flags=re.MULTILINE | re.IGNORECASE,
+    )
+
+    # ------------------------------------------------------------------
+    # Restore degree symbol:
+    #
+    #   37�C -> 37°C
+    #   98�F -> 98°F
+    # ------------------------------------------------------------------
+    text = re.sub(
+        r'(\d+)\s*\uFFFD\s*([CF])\b',
+        r'\1°\2',
+        text,
+    )
+
+    # ------------------------------------------------------------------
+    # Restore apostrophes between letters:
+    #
+    #   scientist�s -> scientist's
+    #   Faraday�s -> Faraday's
+    #   it�s -> it's
+    # ------------------------------------------------------------------
+    text = re.sub(
+        r'([A-Za-z])\uFFFD([A-Za-z])',
+        r"\1'\2",
+        text,
+    )
+
+    # ------------------------------------------------------------------
+    # Collapse excessive blank lines
+    # ------------------------------------------------------------------
+    text = re.sub(
+        r'\n{3,}',
+        '\n\n',
+        text,
+    )
+
+    return text.strip()
+
 
 def clean_document(text: str) -> str:
     # remove known footers

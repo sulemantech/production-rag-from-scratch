@@ -2,14 +2,15 @@ import sys
 sys.path.insert(0, ".")
 from src.embeddings.huggingface_embeddings import get_embedding
 
-def retrieve(question: str, collection, top_k: int = 5):
+def retrieve(question: str, collection, metadata_filter: dict = None, top_k: int = 5):
     # Get the embedding of the question
     question_embedding = get_embedding(question)
 
     # Query the collection
     results = collection.query(
         query_embeddings=[question_embedding],
-        n_results=top_k
+        n_results=top_k,
+        where=metadata_filter
     )
 
     return results
@@ -29,7 +30,7 @@ if __name__ == "__main__":
     ]
 
     for q in questions:
-        results = retrieve(q, collection, top_k=3)
+        results = retrieve(q, collection, metadata_filter=None, top_k=3)
         print(f"\nQ: {q}")
         for doc in results["documents"][0]:
             print("---")
