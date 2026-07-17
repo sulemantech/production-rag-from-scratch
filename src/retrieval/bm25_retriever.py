@@ -107,10 +107,8 @@ if __name__ == "__main__":
     sys.path.append(".")
 
     # Load cached chunks
-    with open("datasets/sample_text/biology_embeddings.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    chunks = data["chunks"]
+    with open("datasets/sample_text/mdcat_chunks.json", "r", encoding="utf-8") as f:
+        chunks = json.load(f)
 
     questions = [
         "What is the role of mitochondria?",

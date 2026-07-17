@@ -16,7 +16,7 @@ def retrieve(
     Hybrid retrieval using Reciprocal Rank Fusion (RRF).
 
     Returns:
-        List of chunk dictionaries.
+        List of chunk texts (strings).
     """
 
     # ------------------------------------------------------------
@@ -101,11 +101,11 @@ def retrieve(
     )
 
     # ------------------------------------------------------------
-    # Return top-k chunks
+    # Return top-k chunk texts
     # ------------------------------------------------------------
 
     return [
-        lookup[doc_id]
+        lookup[doc_id]["text"]
         for doc_id in ranked_ids[:top_k]
     ]
 
@@ -117,14 +117,13 @@ if __name__ == "__main__":
     from src.vectorstore.chroma_store import create_collection
 
     with open(
-        "datasets/sample_text/biology_embeddings.json",
+        "datasets/sample_text/mdcat_chunks.json",
         "r",
         encoding="utf-8"
     ) as f:
-        data = json.load(f)
+        chunks = json.load(f)
 
-    chunks = data["chunks"]
-
+    
     collection = create_collection(
         "biology",
         persist_directory="chroma_db"

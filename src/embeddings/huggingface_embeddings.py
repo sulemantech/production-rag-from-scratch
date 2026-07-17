@@ -23,16 +23,15 @@ if __name__ == "__main__":
     with open("datasets/sample_text/biology_clean.txt", "r", encoding="utf-8") as f:
         text = f.read()
 
-    if os.path.exists("datasets/sample_text/biology_embeddings.json"):
-        with open("datasets/sample_text/biology_embeddings.json", "r") as f:
-            data = json.load(f)
-        chunks = data["chunks"]
-        embeddings = data["embeddings"]
+    if os.path.exists("datasets/sample_text/mdcat_chunks.json"):
+        with open("datasets/sample_text/mdcat_chunks.json", "r") as f:
+            chunks = json.load(f)
+        embeddings = chunks["embeddings"]
         print(f"Loaded {len(chunks)} chunks from cache")
     else:
         chunks = recursive_split(text, chunk_size=1000, overlap=200)
         embeddings = get_embeddings_batch(chunks)
-        with open("datasets/sample_text/biology_embeddings.json", "w") as f:
+        with open("datasets/sample_text/mdcat_chunks.json", "w") as f:
             json.dump({"chunks": chunks, "embeddings": embeddings}, f)
         print("Embedded and saved.")
 

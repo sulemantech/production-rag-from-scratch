@@ -86,10 +86,30 @@ def clean_punjab_board_text(text: str) -> str:
         '\n\n',
         text,
     )
+        # TODO: remove (cid:N) glyph-code artifacts (unresolvable font glyphs,
+    #       confirmed via font inspection: this PDF's fonts have no
+    #       ToUnicode table, so these are unrecoverable — safe to strip
+    #       unconditionally, accepting loss of exact equation notation)
+    #       pattern: literal "(cid:" + digits + ")"
+    text = re.sub(
+        r'\(cid:\d+\)',
+        '',
+        text,
+    )
+    # TODO: collapse repeated spaces left behind after stripping (e.g.
+    #       "(cid:3) (cid:3)" often represented actual spaces, so you'll
+    #       get runs of multiple spaces — squeeze to one)
+    text = re.sub(
+        r' {2,}',
+        ' ',
+        text,
+    )
+    text = re.sub(r"[ \t]+", " ", text)
+
 
     return text.strip()
 
-
+    
 def clean_document(text: str) -> str:
     # remove known footers
     text = text.replace("Access for free at openstax.org", "")

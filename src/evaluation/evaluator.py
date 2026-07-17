@@ -8,17 +8,20 @@ from src.retrieval.reranker import rerank
 from src.generation.generator import generate_mcq
 
 
+
 def load_questions(json_path: str) -> list:
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
+
     questions = []
     for test_key, test_data in data.items():
         if isinstance(test_data, dict) and "questions" in test_data:
             for q in test_data["questions"]:
                 q["source"] = test_data.get("name", test_key)
+                q["subject"] = test_data.get("subject")
                 questions.append(q)
-    return questions
 
+    return questions
 
 def parse_options(options: list) -> dict:
     """Convert ["A. Adenovirus", "B. TMV", ...] → {"A": "Adenovirus", "B": "TMV", ...}"""
@@ -52,9 +55,21 @@ def evaluate(questions: list, chunks: list, collection, sample_size: int = 20, t
         options_dict = parse_options(q["options"])
 
         # Run the full pipeline
-        candidates = hybrid_retrieve(q["question"], chunks, collection, top_k=top_k * 2)
+        # Build subject filter for retrieval
+        metadata_filter = None
+        if q.get("subject"):
+            metadata_filter = {"subject": q["subject"]}
+
+        # Run the full pipeline
+        candidates = hybrid_retrieve(
+            q["question"],
+            chunks,
+            collection,
+            metadata_filter=metadata_filter,
+            top_k=top_k * 2,
+        )
         reranked = rerank(q["question"], candidates, top_k=top_k)
-        predicted = generate_mcq(q["question"], options_dict, reranked, model="gemma3:1b")  # returns a str
+        predicted = generate_mcq(q["question"], options_dict, reranked)  # returns a str
 
         predicted_letter = extract_letter(predicted)
         correct_letter = extract_letter(q["correct_answer"])
@@ -64,11 +79,11 @@ def evaluate(questions: list, chunks: list, collection, sample_size: int = 20, t
             correct += 1
         total += 1
 
-        status = "✓" if is_correct else "✗"
+        status = "PASS" if is_correct else "FAIL"
         print(f"Q{q['id']}: predicted={predicted_letter} correct={correct_letter} {status}")
         if not is_correct:
-            print(f"  → Correct: {q['correct_answer']}")
-            print(f"  → Got:     {predicted}")
+            print(f"  -> Correct: {q['correct_answer']}")
+            print(f"  -> Got:     {predicted}")
 
         results.append({
             "id": q["id"],
@@ -93,8 +108,8 @@ def print_summary(eval_results: dict):
 
 if __name__ == "__main__":
     JSON_PATH = "datasets/evaluation/mdcat_mcqs.json"
-    CHUNKS_PATH = "datasets/sample_text/biology_embeddings.json"
-    SAMPLE_SIZE = 20
+    CHUNKS_PATH = "datasets/mdcat_chunks.json"
+    SAMPLE_SIZE = 202
     TOP_K = 5
 
     print("Loading questions...")
@@ -103,12 +118,11 @@ if __name__ == "__main__":
 
     print("Loading chunks...")
     with open(CHUNKS_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    chunks = data["chunks"]
+        chunks = json.load(f)
     print(f"Loaded {len(chunks)} chunks")
 
     print("Connecting to ChromaDB...")
-    collection = create_collection("biology", persist_directory="chroma_db")
+    collection = create_collection("mdcat", persist_directory="chroma_db")
 
     print(f"\nEvaluating {SAMPLE_SIZE} questions...\n")
     eval_results = evaluate(questions, chunks, collection, sample_size=SAMPLE_SIZE, top_k=TOP_K)

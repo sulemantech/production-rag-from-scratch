@@ -84,10 +84,9 @@ if __name__ == "__main__":
 
     # load chunks from cache
     import json
-    with open("datasets/sample_text/biology_embeddings.json", "r") as f:
-        data = json.load(f)
-    chunks = data["chunks"]
-
+    with open("datasets/sample_text/mdcat_chunks.json", "r") as f:
+        chunks = json.load(f)
+   
     # store in ChromaDB
     collection = create_collection("biology", persist_directory="chroma_db")
 

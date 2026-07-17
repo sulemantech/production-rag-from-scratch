@@ -5,6 +5,19 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 RECURSIVE_SEPARATORS = ["\n\n", "\n", " ", ""]
 
+def filter_empty_chunks(chunks: list[dict], min_length: int = 10) -> list[dict]:
+    """
+    Filters out chunks that are empty or below a certain length.
+
+    Args:
+        chunks (list[dict]): List of chunk dictionaries.
+        min_length (int): Minimum length of chunk text to keep.
+
+    Returns:
+        list[dict]: Filtered list of chunks.
+    """
+    return [chunk for chunk in chunks if len(chunk["text"].strip()) >= min_length]
+
 def chunk_textbook(
     textbook: dict,
     chunk_size: int = 450,
