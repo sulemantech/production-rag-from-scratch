@@ -1,11 +1,11 @@
 import sys
 sys.path.insert(0, ".")
-from src.embeddings.huggingface_embeddings import get_embedding
+from src.embeddings.huggingface_embeddings import get_embedding, get_query_embedding
 
 def retrieve(question: str, collection, metadata_filter: dict = None, top_k: int = 5):
     # Get the embedding of the question
-    question_embedding = get_embedding(question)
-
+    # question_embedding = get_embedding(question)
+    question_embedding = get_query_embedding(question)
     # Query the collection
     results = collection.query(
         query_embeddings=[question_embedding],

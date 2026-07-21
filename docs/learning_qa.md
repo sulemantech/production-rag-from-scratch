@@ -172,7 +172,7 @@ Loading the model inside the function means it reloads from disk on every single
 ```python
 # wrong — reloads every call
 def get_embedding(text):
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = SentenceTransformer("BAAI/bge-base-en-v1.5")
     return model.encode(text).tolist()
 
 # right — loads once at import time

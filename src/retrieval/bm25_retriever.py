@@ -1,14 +1,40 @@
+import re
 from typing import List
 from rank_bm25 import BM25Okapi
 
+
+STOP_WORDS = {
+    "what",
+    "is",
+    "the",
+    "a",
+    "an",
+    "and",
+    "or",
+    "but",
+    "in",
+    "on",
+    "at",
+    "to",
+    "for",
+    "of",
+    "with",
+    "by",
+    "how",
+    "does",
+    "do",
+    "it",
+}
 
 def tokenize(text: str) -> List[str]:
     """
     Simple tokenizer.
     Replace with a better tokenizer if needed.
     """
-    return text.lower().split()
-
+    # TODO: lowercase text, extract word tokens with re.findall(r'\b\w+\b', text)
+    #       to strip punctuation, then filter out anything in STOP_WORDS
+    tokens = re.findall(r'\b\w+\b', text.lower())
+    return [token for token in tokens if token not in STOP_WORDS]
 
 def retrieve(question: str, chunks: List[dict], metadata: dict = None, top_k: int = 5) -> list:
     """

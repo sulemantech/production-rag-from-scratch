@@ -1,7 +1,8 @@
 import os
+import time
 
 from dotenv import load_dotenv
-from groq import Groq
+from groq import Groq, APIConnectionError
 
 load_dotenv()
 # TODO: create the Groq client using the GROQ_API_KEY from the environment
@@ -11,6 +12,21 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 # Groq model catalog changes over time — check https://console.groq.com/docs/models
 # for the current instant/production model id before picking one.
 DEFAULT_MODEL = "llama-3.1-8b-instant"  # TODO: pick a Groq model id, e.g. a "llama-3.x-...-instant" variant
+
+
+def _call_groq(model: str, messages: list, max_retries: int = 3, backoff_seconds: int = 5):
+    """
+    Wraps the Groq chat completion call with retry-on-connection-error.
+    Long eval runs (200+ sequential calls) have hit transient DNS/network
+    drops mid-run twice now — a single blip shouldn't kill 15+ minutes of work.
+    """
+    for attempt in range(1, max_retries + 1):
+        try:
+            return client.chat.completions.create(model=model, messages=messages, temperature=0)
+        except APIConnectionError:
+            if attempt == max_retries:
+                raise
+            time.sleep(backoff_seconds)
 
 def generate(question: str, chunks: list[str], model: str = DEFAULT_MODEL) -> str:
 
@@ -39,14 +55,7 @@ Keep the answer clear and concise.
 Answer:
 """
 
-    # TODO: call client.chat.completions.create(model=model, messages=[...])
-    # and return response.choices[0].message.content
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "user", "content": prompt}
-        ]
-    )
+    response = _call_groq(model, [{"role": "user", "content": prompt}])
     return response.choices[0].message.content
 
 
@@ -65,13 +74,7 @@ Question: {question}
 Reply with only the letter of the correct answer (A, B, C, or D). Nothing else.
 
 Answer:"""
-    # TODO: same Groq call pattern as generate(), then .strip() the result
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "user", "content": prompt}
-        ]
-    )
+    response = _call_groq(model, [{"role": "user", "content": prompt}])
     return response.choices[0].message.content.strip()
 
 

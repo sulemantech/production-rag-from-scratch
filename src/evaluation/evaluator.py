@@ -66,7 +66,7 @@ def evaluate(questions: list, chunks: list, collection, sample_size: int = 20, t
             chunks,
             collection,
             metadata_filter=metadata_filter,
-            top_k=top_k * 2,
+            top_k=top_k * 4,
         )
         reranked = rerank(q["question"], candidates, top_k=top_k)
         predicted = generate_mcq(q["question"], options_dict, reranked)  # returns a str

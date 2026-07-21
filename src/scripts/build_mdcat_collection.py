@@ -6,7 +6,8 @@ from src.embeddings.huggingface_embeddings import get_embeddings_batch
 from src.vectorstore.chroma_store import create_collection, add_documents
 
 CHUNKS_PATH = "datasets/mdcat_chunks.json"
-COLLECTION_NAME = "mdcat"
+# COLLECTION_NAME = "mdcat"
+COLLECTION_NAME = "mdcat_bge"  # using BGE embeddings instead of MiniLM for better semantic retrieval
 
 if __name__ == "__main__":
     # TODO: load chunks from CHUNKS_PATH

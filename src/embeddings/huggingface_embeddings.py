@@ -7,6 +7,13 @@ def get_embedding(text: str) -> list:
     # return the result
     return embedding.tolist()
 
+def get_query_embedding(text: str) -> list:
+    # TODO: prepend "Represent this sentence for searching relevant
+    #       passages: " to `text` before encoding — this is BGE's documented
+    #       convention for query-side embeddings specifically
+    text = f"Represent this sentence for searching relevant passages: {text}"
+    return get_embedding(text)
+
 def get_embeddings_batch(texts: list) -> list:
     embeddings = model.encode(texts)
     # return the result
