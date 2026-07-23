@@ -8,3 +8,11 @@ datasets/pdfs/
 datasets/sample_text/
 *.ipynb_checkpoints
 .DS_Store
+
+# ad-hoc diagnostic/audit outputs (regenerable, not project state)
+*_audit.txt
+*_audit_v2.txt
+*_failures.json
+*_failures_v2.json
+mdcat_bge_rerun_results.json
+mdcat_tokenizer_fix_temp0_run*.json
