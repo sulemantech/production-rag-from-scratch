@@ -3,7 +3,7 @@ import sys
 sys.path.insert(0, ".")
 
 from src.ingestion.pdf_loader import load_all_textbooks
-from src.chunking.text_splitters import chunk_all_textbooks, filter_empty_chunks
+from src.chunking.text_splitters import attach_chunk_ids, chunk_all_textbooks, filter_empty_chunks
 
 PDF_DIR = "datasets/pdfs/PunjabBoardTextbooks"
 OUTPUT_PATH = "datasets/mdcat_chunks.json"
@@ -16,6 +16,7 @@ if __name__ == "__main__":
     # TODO: call chunk_all_textbooks(books, chunk_size=450, overlap=100,
     #       method="recursive")
     chunks = chunk_all_textbooks(books, chunk_size=450, overlap=100, method="recursive")
+    chunks = attach_chunk_ids (chunks)
     chunks = filter_empty_chunks(chunks)
     # TODO: print a summary — total chunk count, and a per-subject breakdown
     #       (e.g. count how many chunks have subject == "Biology" vs "Chemistry")

@@ -121,8 +121,8 @@ def retrieve(question: str, chunks: List[dict], metadata: dict = None, top_k: in
     # chunk_id must match ChromaDB ids
     # ------------------------------------------------------------------
     return [
-        (str(original_index), chunk)
-        for original_index, chunk in top_k_results
+        (str(chunk["chunk_id"]), chunk)
+        for _, chunk in top_k_results
     ]
 
 if __name__ == "__main__":

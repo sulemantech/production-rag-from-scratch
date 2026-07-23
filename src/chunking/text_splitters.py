@@ -49,6 +49,20 @@ def chunk_textbook(
     else:
         raise ValueError(f"Unknown chunking method: {method}")
 
+import hashlib
+
+def attach_chunk_ids(chunks: list[dict]) -> list[dict]:
+    """
+    Adds a stable chunk_id (hash of the chunk's text) to each chunk dict.
+    Same text -> same ID, regardless of processing order or when it was
+    added -- this is what makes incremental ingestion safe.
+    """
+    for chunk in chunks:
+        chunk["chunk_id"] = hashlib.md5(
+            chunk["text"].encode("utf-8")
+        ).hexdigest()
+
+    return chunks
 
 def chunk_all_textbooks(
     textbooks: list[dict],

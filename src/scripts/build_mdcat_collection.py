@@ -6,8 +6,7 @@ from src.embeddings.huggingface_embeddings import get_embeddings_batch
 from src.vectorstore.chroma_store import create_collection, add_documents
 
 CHUNKS_PATH = "datasets/mdcat_chunks.json"
-# COLLECTION_NAME = "mdcat"
-COLLECTION_NAME = "mdcat_bge"  # using BGE embeddings instead of MiniLM for better semantic retrieval
+COLLECTION_NAME = "mdcat_v2"  # rebuild with stable hash-based chunk IDs + all 6 books (incl. Physics)
 
 if __name__ == "__main__":
     # TODO: load chunks from CHUNKS_PATH
@@ -26,7 +25,8 @@ if __name__ == "__main__":
     # TODO: create_collection(COLLECTION_NAME, persist_directory="chroma_db")
     collection = create_collection(COLLECTION_NAME, persist_directory="chroma_db")
     # TODO: add_documents(collection, texts, metadatas, embeddings)
-    add_documents(collection, texts, metadatas, embeddings)
+    chunk_ids = [chunk["chunk_id"] for chunk in chunks]
+    add_documents(collection, texts, metadatas, embeddings, chunk_ids)
 
     # TODO: print collection.count() to confirm everything landed
     print(f"Collection count: {collection.count()}")

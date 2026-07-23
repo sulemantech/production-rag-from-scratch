@@ -14,7 +14,7 @@ def create_collection(name: str, persist_directory: str):
 #         ids=[str(i) for i in range(len(chunks))]
 #     )
 
-def add_documents(collection, chunks: list, metadata: list, embeddings: list, batch_size: int = 5000) -> None:
+def add_documents(collection, chunks: list, metadata: list, embeddings: list, chunk_ids:list, batch_size: int = 5000) -> None:
     # TODO: loop over chunks/metadata/embeddings in slices of `batch_size`,
     #       calling collection.add() once per slice. Watch the ids= line —
     #       it currently does str(i) for i in range(len(chunks)), which
@@ -23,14 +23,11 @@ def add_documents(collection, chunks: list, metadata: list, embeddings: list, ba
     #       (not restart from 0 each batch), since hybrid_retriever relies
     #       on these ids lining up with BM25's original chunk indices.
     for i in range(0, len(chunks), batch_size):
-        batch_chunks = chunks[i:i + batch_size]
-        batch_metadata = metadata[i:i + batch_size]
-        batch_embeddings = embeddings[i:i + batch_size]
         collection.add(
-            documents=batch_chunks,
-            metadatas=batch_metadata,
-            embeddings=batch_embeddings,
-            ids=[str(j) for j in range(i, i + len(batch_chunks))]
+            documents=chunks[i:i + batch_size],
+            metadatas=metadata[i:i + batch_size],
+            embeddings=embeddings[i:i + batch_size],
+            ids=chunk_ids[i:i + batch_size]
         )
 
 def query(collection, query_embedding: list, metadata_filter: dict = None, n_results: int = 5):
