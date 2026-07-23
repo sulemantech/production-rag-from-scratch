@@ -109,7 +109,7 @@ def print_summary(eval_results: dict):
 if __name__ == "__main__":
     JSON_PATH = "datasets/evaluation/mdcat_mcqs.json"
     CHUNKS_PATH = "datasets/mdcat_chunks.json"
-    SAMPLE_SIZE = 202
+    SAMPLE_SIZE = 335
     TOP_K = 5
 
     print("Loading questions...")
@@ -122,7 +122,7 @@ if __name__ == "__main__":
     print(f"Loaded {len(chunks)} chunks")
 
     print("Connecting to ChromaDB...")
-    collection = create_collection("mdcat", persist_directory="chroma_db")
+    collection = create_collection("mdcat_v2", persist_directory="chroma_db")
 
     print(f"\nEvaluating {SAMPLE_SIZE} questions...\n")
     eval_results = evaluate(questions, chunks, collection, sample_size=SAMPLE_SIZE, top_k=TOP_K)
