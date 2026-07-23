@@ -106,6 +106,23 @@ def clean_punjab_board_text(text: str) -> str:
     )
     text = re.sub(r"[ \t]+", " ", text)
 
+    # Remove the TopStudyWorld watermark/header
+    text = re.sub(
+        r"Go to www\.topstudyworld\.com/books to download all PDF books\s*for all classes\s*\n?",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    # Remove standalone 1-2 character lines (vertical watermark noise)
+    text = re.sub(
+        r"(?m)^\s*.{1,2}\s*$\n?",
+        "",
+        text,
+    )
+
+    # Optional: Collapse multiple blank lines into a single blank line
+    text = re.sub(r"\n{3,}", "\n\n", text)
 
     return text.strip()
 
