@@ -135,6 +135,53 @@ needs testing against edge cases — don't trust a heuristic just because it's
 
 ---
 
+### Adding "clean" table-derived facts made Chemistry retrieval worse, not better
+**Issue** — Chemistry accuracy stayed stuck around 65-74% despite the corpus
+containing every fact needed. Diagnosed via chunk-boundary inspection: PDF
+table data (electron configs, periodic trends) was flattening into
+unreadable blobs via `extract_text()`, so specific facts (e.g. Cr's and
+Zn's electron configurations) never reached the model.
+**Fix attempted** — used `pdfplumber.extract_tables()` to recover clean
+per-row chunks, then annotated each with a derived fact (Hund's-rule
+unpaired-electron counts) since questions ask about the *derived* property,
+not the raw config string. Iterated three times: raw table rows, annotated
+rows, then de-templated annotations (after discovering the annotation
+phrasing itself was diluting BM25's ability to tell rows apart — see next
+entry).
+**Result** — measured on both the 8B and 70B generation models, across all
+three iterations: **every version scored equal to or worse than doing
+nothing at all** (8B: consistently -3pts vs. baseline; 70B: flat at best,
+-3pts at worst). Reverted all 251 added chunks back out of the corpus and
+collection.
+**Why it matters** — a technically correct, well-reasoned fix (verified
+facts, verified formula, verified bug fixes) can still be a net negative if
+it adds retrieval-pool noise faster than it adds signal. More candidate
+chunks competing for the same top-k slots can crowd out content that was
+already working. Always measure the *net* effect on the full eval set, not
+just whether the specific target case improved — this is the same
+discipline as the wider-candidate-pool regression, applied one level
+deeper (content changes, not just retrieval-window size).
+
+### BM25 "self-cannibalization": identical annotation phrasing dilutes its own signal
+**Issue** — after annotating ~50 electron-configuration table rows with a
+derived fact, BM25 still couldn't surface the one row a question needed.
+**Root cause** — BM25 weights a term by how rare it is across the corpus
+(inverse document frequency). The annotation used the *same* phrase
+template ("N unpaired e-, d: M unpaired") on every row. A word that should
+have been a rare, high-signal match ("unpaired") ended up repeated
+near-verbatim across ~50 sibling documents, so it could no longer
+distinguish one row from another — the fix consumed its own signal.
+**Fix** — rewrote the annotator to add a distinctive phrase only for the
+two genuinely rare/extreme cases a real exam asks about (a subshell that's
+exactly half-filled = "all orbitals unpaired", or exactly full = "all
+orbitals paired"), leaving ordinary rows with just a plain per-row number
+(which varies naturally and isn't a repeated label).
+**Why it matters** — any time the same generated phrase is stamped onto
+many similar chunks, it destroys the very term-rarity signal lexical
+retrieval (BM25/TF-IDF) depends on. Generated annotations need to be
+*distinctive*, not just *correct* — correctness alone doesn't help
+retrieval if it's spread identically across every sibling candidate.
+
 ## Cross-cutting best practices validated this project
 
 - **Measure the noise floor before trusting any comparison.** Rerun the
