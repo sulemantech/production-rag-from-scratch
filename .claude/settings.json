@@ -9,7 +9,19 @@
       "PowerShell(Get-ChildItem \"$env:APPDATA\\\\Code\\\\User\" -ErrorAction SilentlyContinue; Get-ChildItem \"$env:USERPROFILE\\\\.vscode\" -ErrorAction SilentlyContinue)",
       "Read(//c/Users/HP/AppData/Roaming/Code/User/**)",
       "Read(//c/Users/HP/.vscode/extensions/anthropic.claude-code-2.1.202-win32-x64/**)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(HF_HUB_OFFLINE=1 nohup streamlit run app.py --server.headless true --server.port 8502)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8502)",
+      "Bash(python -c \"import matplotlib; print\\(matplotlib.__version__\\)\")",
+      "Bash(git commit -m ' *)",
+      "Bash(python -c \"import streamlit; print\\(streamlit.__version__\\)\")",
+      "Bash(python -m py_compile src/generation/generator.py)",
+      "Bash(HF_HUB_OFFLINE=1 PYTHONIOENCODING=utf-8 python -c ' *)",
+      "Bash(cp d:/Projects/AIPlayGround/production-rag-from-scratch/.env .env)",
+      "Bash(HF_HUB_OFFLINE=1 nohup streamlit run app.py --server.headless true --server.port 8503)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8503)",
+      "Bash(HF_HUB_OFFLINE=1 python -c ' *)",
+      "Bash(git commit *)"
     ],
     "additionalDirectories": [
       "d:\\Projects\\AIPlayGround\\production-rag-from-scratch\\ingestion",

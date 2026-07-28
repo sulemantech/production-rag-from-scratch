@@ -1,0 +1,2326 @@
+{
+  "test1:1": {
+    "subject": "Biology",
+    "question": "Example of viruses having a polyhedral capsid that is with 252 capsomeres is:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:3": {
+    "subject": "Biology",
+    "question": "The causative organism of measles is:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test1:4": {
+    "subject": "Biology",
+    "question": "In the life cycle of a bacteriophage, the lysozymes are required in which of the following steps of infection process?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:5": {
+    "subject": "Biology",
+    "question": "______ is transmitted through infected blood and hypodermic syringes.",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:6": {
+    "subject": "Biology",
+    "question": "In Calvin cycle CO₂ reacts with RuBP to produce:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:7": {
+    "subject": "Biology",
+    "question": "Which option is correct about a chlorophyll molecule?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:8": {
+    "subject": "Biology",
+    "question": "In the journey of electrons from photosystem II to photosystem I plastocyanin is reduced by:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:9": {
+    "subject": "Biology",
+    "question": "Enzyme NADP reductase is responsible for:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:10": {
+    "subject": "Biology",
+    "question": "The PS II during light reactions receives electrons from splitting:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:11": {
+    "subject": "Biology",
+    "question": "Mono-saccharides have a general formula represented by:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:12": {
+    "subject": "Biology",
+    "question": "What is the percentage of H₂O in bone cells?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:13": {
+    "subject": "Biology",
+    "question": "When glycerol reacts with fatty acid, which type of chemical bond will form?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:14": {
+    "subject": "Biology",
+    "question": "Polysaccharides in plants are synthesized by the process of:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:15": {
+    "subject": "Biology",
+    "question": "Which of the following processes is involved in the breakdown of protein into amino acids?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:16": {
+    "subject": "Biology",
+    "question": "The hydrophilic end of a phospholipid molecule is polar because of the presence of:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test1:17": {
+    "subject": "Biology",
+    "question": "Which monosaccharide will form a gluco pyranose ring in solution?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:18": {
+    "subject": "Biology",
+    "question": "Chloroplasts are membrane-bound bodies containing:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:19": {
+    "subject": "Biology",
+    "question": "Which of the following is the function of Golgi Complex?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test1:20": {
+    "subject": "Biology",
+    "question": "The nucleus takes dyes due to the presence of:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:21": {
+    "subject": "Biology",
+    "question": "The organelles only found at the seedling stage in oil seed plants are:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:22": {
+    "subject": "Biology",
+    "question": "Posterior lobe of the pituitary produces:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:23": {
+    "subject": "Biology",
+    "question": "In human myelinated fibers, nerve impulse travels at ______ meters per second.",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:24": {
+    "subject": "Biology",
+    "question": "Nissl's granules are groups of:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:25": {
+    "subject": "Biology",
+    "question": "During the non-conducting state, the neuron membrane is permeable to the efflux of:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:26": {
+    "subject": "Biology",
+    "question": "Which of the following neurotransmitters is lying outside the central nervous system?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:27": {
+    "subject": "Biology",
+    "question": "Depolarization during the conduction of nerve impulse is due to:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:28": {
+    "subject": "Biology",
+    "question": "Which of the following is NOT a feature of the Autonomic Nervous System?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:29": {
+    "subject": "Biology",
+    "question": "Taste receptor is an example of:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test1:30": {
+    "subject": "Biology",
+    "question": "Which of the following belongs to chordates?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:31": {
+    "subject": "Biology",
+    "question": "Which of the following statements is incorrect regarding the enzyme action?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:32": {
+    "subject": "Biology",
+    "question": "Induced fit model of enzyme activity suggests that an enzyme:",
+    "correct": "C",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "test1:33": {
+    "subject": "Biology",
+    "question": "Chromosomal abnormality in Turner syndrome is represented as:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:34": {
+    "subject": "Biology",
+    "question": "The change in frequency of alleles at a locus that occurs by chance is known as:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:35": {
+    "subject": "Biology",
+    "question": "Identify the correct pair of vestigial organs:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:36": {
+    "subject": "Biology",
+    "question": "Which of the following increases variation within a gene pool?",
+    "correct": "C",
+    "predicted": "D",
+    "is_correct": false
+  },
+  "test1:37": {
+    "subject": "Biology",
+    "question": "Which of the following statements about natural selection is not true?",
+    "correct": "A",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "test1:38": {
+    "subject": "Biology",
+    "question": "The formula calculating the frequency of genotypes and alleles in a population gene pool is known as:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:39": {
+    "subject": "Biology",
+    "question": "The idea of inheritance of acquired characteristics was presented by:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:40": {
+    "subject": "Biology",
+    "question": "According to endosymbiosis theory, flagella may have evolved by the ingestion of:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:41": {
+    "subject": "Biology",
+    "question": "The nutrients glucose into:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:42": {
+    "subject": "Biology",
+    "question": "About 70% of the carbon dioxide is carried in the blood as:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:43": {
+    "subject": "Biology",
+    "question": "Range of total lung capacity in humans is:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:44": {
+    "subject": "Biology",
+    "question": "Respiration in Pseudomonas bacteria is:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:45": {
+    "subject": "Biology",
+    "question": "Autotrophic mode of nutrition in organism depends upon",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:46": {
+    "subject": "Biology",
+    "question": "Prokaryotic cells lack:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test1:47": {
+    "subject": "Biology",
+    "question": "Bacterial spores become diploid:",
+    "correct": "D",
+    "predicted": "A",
+    "is_correct": false
+  },
+  "test1:48": {
+    "subject": "Biology",
+    "question": "One of the following is CORRECT regarding flagella:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:49": {
+    "subject": "Biology",
+    "question": "Which option is CORRECT about endospore?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test1:50": {
+    "subject": "Biology",
+    "question": "Bacteria divide at an exponential rate during which growth phase?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:51": {
+    "subject": "Biology",
+    "question": "Mesosomes are the invagination of bacterial cell structure:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:52": {
+    "subject": "Biology",
+    "question": "Female reproductive system consists all of the following EXCEPT:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test1:53": {
+    "subject": "Biology",
+    "question": "Which one of the following hormones is responsible for the labor pains in human female at the time of birth of baby?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:54": {
+    "subject": "Biology",
+    "question": "Fluid secreted by sertoli cells provides liquid medium, protection and nourishment to:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:55": {
+    "subject": "Biology",
+    "question": "Corpus luteum during female reproductive cycle produces:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test1:56": {
+    "subject": "Biology",
+    "question": "Due to the process of follicle atresia:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:57": {
+    "subject": "Biology",
+    "question": "Main function of the epididymis is to:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:58": {
+    "subject": "Biology",
+    "question": "Immediate next stage of spermatogonia differentiation is:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:59": {
+    "subject": "Biology",
+    "question": "Which of the following is included in paired cranial bones?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:60": {
+    "subject": "Biology",
+    "question": "Which of the following skeletal disorder is an example of autoimmune disorder?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:61": {
+    "subject": "Biology",
+    "question": "Which feature is possessed by smooth muscles?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:62": {
+    "subject": "Biology",
+    "question": "The accumulation of 'lactic acid' in the muscles results in:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:63": {
+    "subject": "Biology",
+    "question": "Thick filaments in skeletal muscles are composed of:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test1:64": {
+    "subject": "Biology",
+    "question": "Sarcomere is part of myofibril between:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test1:65": {
+    "subject": "Biology",
+    "question": "Medulla oblongata is a part of:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:66": {
+    "subject": "Biology",
+    "question": "Which of the following is NOT a bone of the upper limb?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test1:67": {
+    "subject": "Biology",
+    "question": "Bone-forming cells are:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test1:68": {
+    "subject": "Biology",
+    "question": "The chromosomes were first observed by:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:1": {
+    "subject": "Biology",
+    "question": "In which part of the brain a set of neurosecretory cells are found that exert control over the anterior pituitary gland by secreting releasing and inhibiting hormones?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:2": {
+    "subject": "Biology",
+    "question": "Frostbites are due to:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:3": {
+    "subject": "Biology",
+    "question": "Stimuli such as pressure, touch, stretch, motion stimulate which of the following receptors?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:5": {
+    "subject": "Biology",
+    "question": "Bacterium, with a tuft of flagella present at each of two poles, is called:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:6": {
+    "subject": "Biology",
+    "question": "What is the correct order of organelles in ultracentrifugation?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:7": {
+    "subject": "Biology",
+    "question": "Which of the following is not essential for photosynthesis?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:8": {
+    "subject": "Biology",
+    "question": "Proteins which cause disease in humans and animals are called:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:9": {
+    "subject": "Biology",
+    "question": "Which size of sponge can filter an entire residential pool in one day?",
+    "correct": "C",
+    "predicted": "T",
+    "is_correct": false
+  },
+  "test2:10": {
+    "subject": "Biology",
+    "question": "Koshland proposed a model for enzyme with the name of \"Induced Fit Model\" in the year:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:11": {
+    "subject": "Biology",
+    "question": "Why do ribosomes require Mg⁺⁺ ions?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:12": {
+    "subject": "Biology",
+    "question": "Glutamic acid is replaced by Valine at which position?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:13": {
+    "subject": "Biology",
+    "question": "Formation of hard uric acid crystals in the joints is identified as:",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test2:14": {
+    "subject": "Biology",
+    "question": "Which virus kills cancer cells and aids immunity?",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test2:15": {
+    "subject": "Biology",
+    "question": "The pigment in the muscles responsible for the binding of oxygen is:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:16": {
+    "subject": "Biology",
+    "question": "In Gram -ve bacteria, the peptidoglycan layer is:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:17": {
+    "subject": "Biology",
+    "question": "The human enzymes are highly active at about:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:18": {
+    "subject": "Biology",
+    "question": "The locomotion in segmented worms is brought about by:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:19": {
+    "subject": "Biology",
+    "question": "The type of carbohydrates, made up of 6 to 10 monosaccharides, which are comparatively less sweet in taste and less soluble in water, are called:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:20": {
+    "subject": "Biology",
+    "question": "This technique is used to determine growth of bacteria, rate of photosynthesis, and minute quantity of DNA:",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test2:21": {
+    "subject": "Biology",
+    "question": "Which of the following is an example of a sub-viral particle that infects plants?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:22": {
+    "subject": "Biology",
+    "question": "In heterotrophs, during digestion, macromolecules are broken into monomers by hydrolysis with the help of:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:23": {
+    "subject": "Biology",
+    "question": "Animals that have a ladder-type nervous system, consisting of two nerve cords and connecting nerves that look like a ladder, belong to the phylum:",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test2:24": {
+    "subject": "Biology",
+    "question": "The term enzyme was coined by:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:25": {
+    "subject": "Biology",
+    "question": "Which lipophilic hormone is found in every tissue of the body and is involved in inflammation, blood flow, and protection from injury?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:26": {
+    "subject": "Biology",
+    "question": "Hardy-Weinberg Equation is:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:27": {
+    "subject": "Biology",
+    "question": "F.C. Steward used this plant for his experiment (tissue culture):",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:28": {
+    "subject": "Biology",
+    "question": "Histone proteins are rich in:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:29": {
+    "subject": "Biology",
+    "question": "The site of maturation and storage of sperms is:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:30": {
+    "subject": "Biology",
+    "question": "A disease resulting in complete lack of spermatozoa in ejaculate is:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:31": {
+    "subject": "Biology",
+    "question": "The type of bacteria which oxidize CO into CO₂ is:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:32": {
+    "subject": "Biology",
+    "question": "What structure holds sister chromatids together?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:33": {
+    "subject": "Biology",
+    "question": "The most widely accepted explanation for ascent of sap is:",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test2:34": {
+    "subject": "Biology",
+    "question": "In which of the following environments are plants, with aerenchyma, most likely to be found?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:35": {
+    "subject": "Biology",
+    "question": "Each helix of DNA is made up of four types of nucleotides and both helices are complementary to each other i.e. if one helix contains Adenine the opposite helix will contain:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:36": {
+    "subject": "Biology",
+    "question": "Bacteriophages escape from host cells by the activity of:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:37": {
+    "subject": "Biology",
+    "question": "Which soft-bodied animal is usually Ambisexual?",
+    "correct": "B",
+    "predicted": "A",
+    "is_correct": false
+  },
+  "test2:38": {
+    "subject": "Biology",
+    "question": "The number of teeth in deciduous and permanent teeth is:",
+    "correct": "E",
+    "predicted": "A",
+    "is_correct": false
+  },
+  "test2:39": {
+    "subject": "Biology",
+    "question": "Which hormone is responsible to convert the ruptured follicle into a yellowish glandular mass known as corpus luteum?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:40": {
+    "subject": "Biology",
+    "question": "Phage genome incorporated with host DNA is called:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:42": {
+    "subject": "Biology",
+    "question": "Sufficient depolarization in neurolemma results in:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:43": {
+    "subject": "Biology",
+    "question": "Fusion of two genetically dissimilar parents through artificial pollination is:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:44": {
+    "subject": "Biology",
+    "question": "In the flowering plant, food is translocated in the form:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:45": {
+    "subject": "Biology",
+    "question": "Which reaction is also known as Z-scheme?",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test2:46": {
+    "subject": "Biology",
+    "question": "In gel electrophoresis, how do molecules migrate through the gel?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:47": {
+    "subject": "Biology",
+    "question": "In carbohydrates, hydrogen and oxygen are present in the simple ratio of:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:48": {
+    "subject": "Biology",
+    "question": "Which of the pigments are common in both human and plant?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:49": {
+    "subject": "Biology",
+    "question": "Two different gene pairs, located at different loci, all work for the same trait and express in an additive manner. This phenomenon is called:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:50": {
+    "subject": "Biology",
+    "question": "Isolation of cellular components to determine their structure and chemical composition is:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test2:51": {
+    "subject": "Biology",
+    "question": "The type of cancer, common in young men between the ages of 15 and 34, that has a high cure rate with early treatment is:",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test2:52": {
+    "subject": "Biology",
+    "question": "This process inhibits metabolism and growth of anaerobic microbes used for the treatment of Gas Gangrene:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:53": {
+    "subject": "Biology",
+    "question": "The branching network-like arrangement of cardiac muscles is called:",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test2:54": {
+    "subject": "Biology",
+    "question": "Molecules that bind to an enzyme away from the active site and increase the function of that active site are known as:",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test2:55": {
+    "subject": "Biology",
+    "question": "The number of oxygen molecules that is transported by one hemoglobin molecule is:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:56": {
+    "subject": "Biology",
+    "question": "The top milk-producing animal is:",
+    "correct": "E",
+    "predicted": "T",
+    "is_correct": false
+  },
+  "test2:57": {
+    "subject": "Biology",
+    "question": "Which one of the following is the precursor for the synthesis of testosterone, progesterone, and estrogens?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:58": {
+    "subject": "Biology",
+    "question": "A neural cable extending from the brain down through the backbone and enclosed in the vertebral column is called:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:59": {
+    "subject": "Biology",
+    "question": "Which of the following accurately describes Helicobacter pylori?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:60": {
+    "subject": "Biology",
+    "question": "Water has very high heat of vaporization i.e.:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test2:61": {
+    "subject": "Biology",
+    "question": "Which cells are responsible for the formation of cartilage?",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test2:62": {
+    "subject": "Biology",
+    "question": "Which statement about tautomerism is correct?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test2:63": {
+    "subject": "Biology",
+    "question": "Behavioral responses are controlled by:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:64": {
+    "subject": "Biology",
+    "question": "In skeletal muscles, which tube runs perpendicularly and is connected with the sarcoplasmic reticulum?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:65": {
+    "subject": "Biology",
+    "question": "The active site of the enzyme is the region that:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test2:66": {
+    "subject": "Biology",
+    "question": "It is a condition of blindness where a person cannot distinguish blue color:",
+    "correct": "E",
+    "predicted": "E",
+    "is_correct": true
+  },
+  "test3:1": {
+    "subject": "Biology",
+    "question": "The peptidoglycan cell wall is specific to.",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:2": {
+    "subject": "Biology",
+    "question": "Where are spindle fibres attached OR a chromosome during cell division",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:3": {
+    "subject": "Biology",
+    "question": "Which organelle contribute towards steroid production?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:4": {
+    "subject": "Biology",
+    "question": "The lysosomes found in eukaryotes contain:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:5": {
+    "subject": "Biology",
+    "question": "Plasma membrane is differentially permeable membrane due to the presence of?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:6": {
+    "subject": "Biology",
+    "question": "The following function/activity is NOT controlled by the autonomic nervous system.",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:7": {
+    "subject": "Biology",
+    "question": "A motor neuron:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:8": {
+    "subject": "Biology",
+    "question": "Diffusion of _________ across the post synaptic membrane causes it to depolarise:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:9": {
+    "subject": "Biology",
+    "question": "A reflex action, does not involve the",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:10": {
+    "subject": "Biology",
+    "question": "What happens to the enzyme after an enzyme-catalysed reaction?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:11": {
+    "subject": "Biology",
+    "question": "Catalase can be activated at pH:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:12": {
+    "subject": "Biology",
+    "question": "Enzymatic activity can be inhibited by?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:13": {
+    "subject": "Biology",
+    "question": "A competitive inhibitor:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:14": {
+    "subject": "Biology",
+    "question": "Wings of birds and that of flying lizards provide evidence of:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:15": {
+    "subject": "Biology",
+    "question": "The embryological stages of ________ show similarity in anatomical features",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:16": {
+    "subject": "Biology",
+    "question": "Which enzyme is secreted in the active form?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:17": {
+    "subject": "Biology",
+    "question": "Which hormone stimulates the secretion of gastric juice?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:18": {
+    "subject": "Biology",
+    "question": "In an inflammatory response, bradykinin causes?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:19": {
+    "subject": "Biology",
+    "question": "Which of the following is an example of passive immunity?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:20": {
+    "subject": "Biology",
+    "question": "Bacteria that lack flagella are called?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:21": {
+    "subject": "Biology",
+    "question": "Antibiotics can be used against:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:22": {
+    "subject": "Biology",
+    "question": "The ______ in semen facilitate the transport of sperms,",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:23": {
+    "subject": "Biology",
+    "question": "The acidity of urine is neutralized by?",
+    "correct": "A",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "test3:24": {
+    "subject": "Biology",
+    "question": "The corpus luteum is essentially formed from",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:25": {
+    "subject": "Biology",
+    "question": "The outer layer of uterus is called as;",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:26": {
+    "subject": "Biology",
+    "question": "________ is spread through sexual contact.",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:27": {
+    "subject": "Biology",
+    "question": "The cells contained in the lacunae of the bone are called",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:28": {
+    "subject": "Biology",
+    "question": "The ______ surrounds the muscle fibre of the skeletal muscle,",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:29": {
+    "subject": "Biology",
+    "question": "What happens to calcium when skeletal muscles recover from contraction?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:30": {
+    "subject": "Biology",
+    "question": "Which of the following blood groups has anti-A and anti-B antibodies in the serum?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:31": {
+    "subject": "Biology",
+    "question": "What is the primary outcome of crossing over during prophase of meiosis I?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:32": {
+    "subject": "Biology",
+    "question": "The genetic makeup that your parents have transferred to you for your hair color, makes up your:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:33": {
+    "subject": "Biology",
+    "question": "Carnivorous plants…product of this digestion is used to supplement the plant's supply of:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:34": {
+    "subject": "Biology",
+    "question": "Which is true for an X linked dominant trait?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:35": {
+    "subject": "Biology",
+    "question": "Malpighian tubules are found in:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:36": {
+    "subject": "Biology",
+    "question": "Shark belongs to class",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:37": {
+    "subject": "Biology",
+    "question": "Canal system is a characteristic of?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:38": {
+    "subject": "Biology",
+    "question": "Mantle is the feature of?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:39": {
+    "subject": "Biology",
+    "question": "The production of energy is __.",
+    "correct": "A",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "test3:40": {
+    "subject": "Biology",
+    "question": "The pathway to the breakdown of glucose, carried out by micro-organisms, is called:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:41": {
+    "subject": "Biology",
+    "question": "Chromosome is typically made up from a combination of?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:42": {
+    "subject": "Biology",
+    "question": "Which cytoplasmic organelle make their own proteins?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:43": {
+    "subject": "Biology",
+    "question": "The active movement of mitochondria in the cytoplasm is due to",
+    "correct": "A",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "test3:44": {
+    "subject": "Biology",
+    "question": "Which part of the brain is controlling your sense of balance?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:45": {
+    "subject": "Biology",
+    "question": "The neurotransmitter ________ is hydrolysed by monoamine oxidase",
+    "correct": "B",
+    "predicted": "D",
+    "is_correct": false
+  },
+  "test3:46": {
+    "subject": "Biology",
+    "question": "Most of the neurons in the CNS are?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:47": {
+    "subject": "Biology",
+    "question": "How do enzymes enable the conversion of substrates into products by?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:48": {
+    "subject": "Biology",
+    "question": "According to Lamarckism, the basis of evolution is:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:49": {
+    "subject": "Biology",
+    "question": "What best describes the hind leg bones seen in the whale?",
+    "correct": "A",
+    "predicted": "D",
+    "is_correct": false
+  },
+  "test3:50": {
+    "subject": "Biology",
+    "question": "Which is true about the cells found in gastric glands lining the stomach wall?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:51": {
+    "subject": "Biology",
+    "question": "What directly triggers the activation of natural killer cells?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:52": {
+    "subject": "Biology",
+    "question": "Which of the following is NOT true about plasmids found in streptococci?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:53": {
+    "subject": "Biology",
+    "question": "Which of the following bacteria produces endospores?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:54": {
+    "subject": "Biology",
+    "question": "_______ is used in the production of Humulin?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:55": {
+    "subject": "Biology",
+    "question": "Which of the following does NOT relate to smooth muscles?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:56": {
+    "subject": "Biology",
+    "question": "Which term best describes an organism's physical characteristic?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:57": {
+    "subject": "Biology",
+    "question": "What will happen with the addition of salt to water?",
+    "correct": "C",
+    "predicted": "D",
+    "is_correct": false
+  },
+  "test3:58": {
+    "subject": "Biology",
+    "question": "Which of the following is NOT true about viruses?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:59": {
+    "subject": "Biology",
+    "question": "The genetic code of _______ is bound by a lipid membrane?",
+    "correct": "B",
+    "predicted": "D",
+    "is_correct": false
+  },
+  "test3:60": {
+    "subject": "Biology",
+    "question": "Viruses can NOT",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "test3:61": {
+    "subject": "Biology",
+    "question": "Where are the enzymes required for the replication of HIV virus located?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:62": {
+    "subject": "Biology",
+    "question": "The process of ATP synthesis through a combination of electrochemical and osmotic events is known as:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:63": {
+    "subject": "Biology",
+    "question": "Optimum pH for pancreatic lipase is:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:64": {
+    "subject": "Biology",
+    "question": "Sugarcane contains .",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:65": {
+    "subject": "Biology",
+    "question": "Sickle cell anaemia results from?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "test3:66": {
+    "subject": "Biology",
+    "question": "Which is INCORRECT about the globular proteins?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "test3:67": {
+    "subject": "Biology",
+    "question": "What is the ester of fatty acids and long chain alcohol called?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "test3:68": {
+    "subject": "Biology",
+    "question": "Lipids, which do not contain fatty acid are:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:1": {
+    "subject": "Biology",
+    "question": "The enzymes integrase, protease and reverse transcriptase are found in which virus?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:2": {
+    "subject": "Biology",
+    "question": "What does the term bacteriophage refer to?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:3": {
+    "subject": "Biology",
+    "question": "What of the following virus contains single stranded DNA?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:4": {
+    "subject": "Biology",
+    "question": "How may tail fibrils are attached to the end plate of a bacteriophage?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:6": {
+    "subject": "Biology",
+    "question": "Each carrier in Electron Transport Chain is first _________ and then _________. 2 The 3 main steps of the electron transport chain?",
+    "correct": "D",
+    "predicted": "C",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_biology:7": {
+    "subject": "Biology",
+    "question": "Electron transport chain explains:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:8": {
+    "subject": "Biology",
+    "question": "What is the colour of Chlorophyll-b molecule?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:9": {
+    "subject": "Biology",
+    "question": "Upon initial hydrolysis starch yields:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:10": {
+    "subject": "Biology",
+    "question": "Human Bone cells contain ……… % of water?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:11": {
+    "subject": "Biology",
+    "question": "Unique three-dimensional shape of the fully folded polypeptide, constitutes:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:12": {
+    "subject": "Biology",
+    "question": "Butyric acid is a ________ carbon fatty acid.",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:13": {
+    "subject": "Biology",
+    "question": "Which of the following is a conjugated molecule?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:14": {
+    "subject": "Biology",
+    "question": "Hydrolysis process is a reverse of -------------- process.",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:15": {
+    "subject": "Biology",
+    "question": "Proteins are the main ----------- of the cell?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:16": {
+    "subject": "Biology",
+    "question": "Cell wall may be absent in which of the following?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:18": {
+    "subject": "Biology",
+    "question": "Which of the following are single membranous organelles?",
+    "correct": "C",
+    "predicted": "D",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_biology:19": {
+    "subject": "Biology",
+    "question": "Movement of molecules against the concentration gradient is?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:20": {
+    "subject": "Biology",
+    "question": "The digestive vacuoles and autophagosomes are also known as?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:21": {
+    "subject": "Biology",
+    "question": "The cell wall of Bacteria is made up of:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:22": {
+    "subject": "Biology",
+    "question": "Which one is common in both prokaryotic and eukaryotic cells?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:23": {
+    "subject": "Biology",
+    "question": "There is no clear difference between dendrites and axons in sensory neurons, except:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:24": {
+    "subject": "Biology",
+    "question": "The neurotransmitter active outside the CNS (Central Nervous System) is:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:26": {
+    "subject": "Biology",
+    "question": "Hormone produced by placenta is:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:27": {
+    "subject": "Biology",
+    "question": "The middle layer of meninges is:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:28": {
+    "subject": "Biology",
+    "question": "The part of brain which guides smooth and accurate motions and maintains body position is:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:29": {
+    "subject": "Biology",
+    "question": "Water vascular system or ambulacral system is a unique and complex system specially present in?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:30": {
+    "subject": "Biology",
+    "question": "Round worms belong to which phylum?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:31": {
+    "subject": "Biology",
+    "question": "Silver fish is a/an?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:33": {
+    "subject": "Biology",
+    "question": "Enzymes lower the activation energy by stabilizing the transition state of a metabolic reaction due to?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:34": {
+    "subject": "Biology",
+    "question": "Competitive inhibitors compete with?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:35": {
+    "subject": "Biology",
+    "question": "Non-competitive inhibitor molecules have:",
+    "correct": "A",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_biology:37": {
+    "subject": "Biology",
+    "question": "What is the best physiological pH for optimum functioning for most of the cellular enzymes of human?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:39": {
+    "subject": "Biology",
+    "question": "For evolutionary process to occur, which of the following is NOT a geographical barrier?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:40": {
+    "subject": "Biology",
+    "question": "According to the Biogenetic Law of Ernst Haeckel:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:41": {
+    "subject": "Biology",
+    "question": "The animal species on Galapagos resemble species living on the:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:42": {
+    "subject": "Biology",
+    "question": "Digested food from intestine is carried to the liver by?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:43": {
+    "subject": "Biology",
+    "question": "-------- proteins are produced by WBCs in response to -------- and provide immunity?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:44": {
+    "subject": "Biology",
+    "question": "The lymphatic vessels of the body empty the lymph into blood stream at?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:45": {
+    "subject": "Biology",
+    "question": "Flow of blood in the capillaries is adjusted by?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:46": {
+    "subject": "Biology",
+    "question": "The pressure exerted by a solution separated by a semipermeable membrane from pure water is ________?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:47": {
+    "subject": "Biology",
+    "question": "Which of the following is NOT a consequence of anaerobic respiration in humans muscles cells?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:48": {
+    "subject": "Biology",
+    "question": "The respiratory surfaces exhibit following characteristic?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:49": {
+    "subject": "Biology",
+    "question": "Which of the following is a prokaryote?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:50": {
+    "subject": "Biology",
+    "question": "Number of layers present in Gram-negative bacterial cell wall:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:51": {
+    "subject": "Biology",
+    "question": "The division of cocci in three planes form Sarcina, which is a cube of ---------- Cocci?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:53": {
+    "subject": "Biology",
+    "question": "Nitrifying bacteria are the examples of:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:54": {
+    "subject": "Biology",
+    "question": "Each human testis is divided into:",
+    "correct": "D",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_biology:55": {
+    "subject": "Biology",
+    "question": "Which cells in the human males are responsible for the release of testosterone?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:56": {
+    "subject": "Biology",
+    "question": "Fertilized ovum is implanted and undergoes further development in the:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:57": {
+    "subject": "Biology",
+    "question": "Level of luteinizing hormone (LH) is maximum in blood during which stage of menstrual cycle?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:58": {
+    "subject": "Biology",
+    "question": "Major source of transmission of syphilis is:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:59": {
+    "subject": "Biology",
+    "question": "What is FALSE about cartilage?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:61": {
+    "subject": "Biology",
+    "question": "Which of the following is NOT found in skeletal muscle fibers in human?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:62": {
+    "subject": "Biology",
+    "question": "Hinge joint is present between which of the following bones?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:63": {
+    "subject": "Biology",
+    "question": "Test cross is made to check the genotype of a trait. Which of the following crosses is a test cross?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:64": {
+    "subject": "Biology",
+    "question": "What happens when a Rh –ve woman, married to a Rh +ve man conceives a child who is Rh +ve?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:65": {
+    "subject": "Biology",
+    "question": "DNA stores biological information in discrete units termed as:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:66": {
+    "subject": "Biology",
+    "question": "To study sex linkages in Drosophila, Morgan mated white eyed males with wild type red eyed females. What will be the phenotype of offspring?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:67": {
+    "subject": "Biology",
+    "question": "Which one of the following is X Linked Dominant disorder?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_biology:68": {
+    "subject": "Biology",
+    "question": "Mode of inheritance in humans can be traced through:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:75": {
+    "subject": "Physics",
+    "question": "What is the shape of velocity-time graph for constant acceleration?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:76": {
+    "subject": "Physics",
+    "question": "Which of the following is the correct definition of variable velocity?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:77": {
+    "subject": "Physics",
+    "question": "A stone thrown horizontally from the top of a tall building follows a path that is:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:78": {
+    "subject": "Physics",
+    "question": "Which of the following is incorrect?",
+    "correct": "A",
+    "predicted": "C",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_physics:79": {
+    "subject": "Physics",
+    "question": "A fireman wants to slide down a rope. The breaking load of the rope is 3/4th of the weight of the man. With what acceleration should the fire man slide down?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:80": {
+    "subject": "Physics",
+    "question": "When a heavy coin falls a short distance towards the ground it does not reach terminal velocity. Why is this so?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:83": {
+    "subject": "Physics",
+    "question": "Ignoring details associated with friction, extra forces exerted by arm and leg muscles, and other factors, we can consider a pole vault as the conversion of an athlete’s running kinetic energy to gravitational potential energy. If an athlete is to lift his body 5 m during a vault, what speed must he have when he plants his pole?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:85": {
+    "subject": "Physics",
+    "question": "The number of revolutions in 3n radians is:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:86": {
+    "subject": "Physics",
+    "question": "If a flywheel is rotating at 3.0 rad/s, the time it takes to complete one revolution is:",
+    "correct": "D",
+    "predicted": "A",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_physics:87": {
+    "subject": "Physics",
+    "question": "A fighter plane is moving in a vertical circle of radius r. Its minimum velocity at the highest point of the circle will be?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:88": {
+    "subject": "Physics",
+    "question": "Which of the following increase by increasing amplitude?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:89": {
+    "subject": "Physics",
+    "question": "An airplane travels at a speed of 0.5v where v is the speed of sound. The airplane approaches a stationary observer. The frequency of sound emitted by the aircraft is Hz. Which frequency does the observer hear?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:91": {
+    "subject": "Physics",
+    "question": "The shortest distance between any two points in phase on a wave is called:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:92": {
+    "subject": "Physics",
+    "question": "When will the oscillations stop in the absence of resistive forces?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:93": {
+    "subject": "Physics",
+    "question": "The mechanical waves are not generated by:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:100": {
+    "subject": "Physics",
+    "question": "What is the potential difference between two points in an electric field if it takes 600 J of energy to move a charge of 2 C between these two points?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:101": {
+    "subject": "Physics",
+    "question": "Gauss law cannot be used to find which of the following quantity?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:102": {
+    "subject": "Physics",
+    "question": "Which one of the following statements is true?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:103": {
+    "subject": "Physics",
+    "question": "The coulomb’s constant k depends upon:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:104": {
+    "subject": "Physics",
+    "question": "A charged particle is moving in a uniform electric field. For the motion of the particle due to the field, which quantity has a constant non-zero value?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:106": {
+    "subject": "Physics",
+    "question": "How much potential drop exist across closed switch?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:107": {
+    "subject": "Physics",
+    "question": "A 3V battery is connected in series with ammeter and 2 ohm resistance after short circuiting. What will be the reading of ammeter?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:108": {
+    "subject": "Physics",
+    "question": "The resistance of a conductor does not depend on which of the following?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:109": {
+    "subject": "Physics",
+    "question": "Which of the following statement is NOT CORRECT about Kirchhoff’s rule?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:110": {
+    "subject": "Physics",
+    "question": "What do the substances whose resistance decreases with increase in temperature have?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:111": {
+    "subject": "Physics",
+    "question": "A low voltage supply with an e.m.f. of 20 V and an internal resistance 6.5 ohms in a fish tank. What is the power supplied to the water in the fish tank?",
+    "correct": "A",
+    "predicted": "C",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_physics:113": {
+    "subject": "Physics",
+    "question": "Which surface has greater magnetic flux in same magnetic field, each has an area 1 m^2.",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:114": {
+    "subject": "Physics",
+    "question": "The source of magnetic field is:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:115": {
+    "subject": "Physics",
+    "question": "One meter long copper rod is moving with speed 20 m/sec in the magnetic field of strength 0.6 tesla. What is the value of induced emf?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:116": {
+    "subject": "Physics",
+    "question": "The unit of /t can be written as?",
+    "correct": "C",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_physics:117": {
+    "subject": "Physics",
+    "question": "Working principal of magnetic levitation train is according to?",
+    "correct": "D",
+    "predicted": "A",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_physics:118": {
+    "subject": "Physics",
+    "question": "A copper hoop is held in a vertical east-west plane in a uniform magnetic field whose field lines run along the north-south direction. The largest induced emf is produced when the hoop is?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:119": {
+    "subject": "Physics",
+    "question": "In transformer, there is no _______ connection between the two coils but the are ________ linked?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:121": {
+    "subject": "Physics",
+    "question": "If electron, proton, neutron, and alpha particle have same velocity, which of them ha: shortest wavelength?",
+    "correct": "D",
+    "predicted": "A",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_physics:123": {
+    "subject": "Physics",
+    "question": "In a photoelectric effect experiment, the stopping potential is:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:124": {
+    "subject": "Physics",
+    "question": "The line spectrum of hydrogen atom contains the spectral lines in the region of:",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:125": {
+    "subject": "Physics",
+    "question": "The speed of electron in the first Bohr orbit is:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:126": {
+    "subject": "Physics",
+    "question": "A low energy neutron has RBE factor of 10. How much energy is absorbed by a man of mass 80kg if the value of equivalent dose is 400 rem?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_physics:128": {
+    "subject": "Physics",
+    "question": "The half-life of Strontium (Sr) is 8.70 hours. Its decay constant is:",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:131": {
+    "subject": "Chemistry",
+    "question": "30 grams of 2-prapanol were mixed with excess acidified K2Cr207 and boiled under reflux for 20 minutes. The organic product was then collected by distillation. The yield of product was 75.0%. What is the mass of product produced?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:132": {
+    "subject": "Chemistry",
+    "question": "According to which scientist, the probability of finding an electron at a certain position is possible?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:133": {
+    "subject": "Chemistry",
+    "question": "Which gas in the discharge tube produces lightest canal ray particles?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:135": {
+    "subject": "Chemistry",
+    "question": "What is the proton (atomic number) of an element that has four unpaired electrons in its ground state?",
+    "correct": "D",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_chemistry:139": {
+    "subject": "Chemistry",
+    "question": "In liquid, with the change in dipole-dipole forces, there is a change in some physical properties. Select the property which is not affected by the strength of dipole-dipole forces?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:140": {
+    "subject": "Chemistry",
+    "question": "Which of the following factor does not affect the magnitude of vapor pressure?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:141": {
+    "subject": "Chemistry",
+    "question": "A small building block which belongs to whole information about crystal structure is called?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:142": {
+    "subject": "Chemistry",
+    "question": "Which type of solid is called as atomic solid?",
+    "correct": "A",
+    "predicted": "C",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_chemistry:144": {
+    "subject": "Chemistry",
+    "question": "The precipitation occurs if the ionic concentration is:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:145": {
+    "subject": "Chemistry",
+    "question": "One can estimate the direction in which equilibrium will shift with the help of:",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:146": {
+    "subject": "Chemistry",
+    "question": "What is the overall order of this rate equation?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:147": {
+    "subject": "Chemistry",
+    "question": "The catalysis in which the catalyst and the reactants are in the same phase is known?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:149": {
+    "subject": "Chemistry",
+    "question": "Which of the following term is state function?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:150": {
+    "subject": "Chemistry",
+    "question": "An electrochemical cell is based upon which reaction?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:152": {
+    "subject": "Chemistry",
+    "question": "Which of the following element has smaller size?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:154": {
+    "subject": "Chemistry",
+    "question": "Which statement describes the conversion of magnesium atoms to magnesium ions for ionic bond formation with chlorine?",
+    "correct": "A",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_chemistry:155": {
+    "subject": "Chemistry",
+    "question": "AB Type with no Lone Pairs geometry enables to form which shape of molecule?",
+    "correct": "B",
+    "predicted": "A",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_chemistry:159": {
+    "subject": "Chemistry",
+    "question": "Which of the following complex show a tetrahedral geometry?",
+    "correct": "B",
+    "predicted": "C",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_chemistry:160": {
+    "subject": "Chemistry",
+    "question": "In which pair one has all unpaired d orbitals while other have all paired d orbitals?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:161": {
+    "subject": "Chemistry",
+    "question": "In which of the following functional groups, the carbon atom is sp hybridized?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:162": {
+    "subject": "Chemistry",
+    "question": "The compounds containing R-SH functional group are known as:",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:165": {
+    "subject": "Chemistry",
+    "question": "Three alternate single and double bonds in benzene are called?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:166": {
+    "subject": "Chemistry",
+    "question": "Which of the following compound is more acidic?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:167": {
+    "subject": "Chemistry",
+    "question": "Consider the chlorination of methane, the attack of chlorine free radical on methane form methyl free radical occurs in?",
+    "correct": "B",
+    "predicted": "B",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:168": {
+    "subject": "Chemistry",
+    "question": "The ratio of sigma to Pi electrons in benzene is?",
+    "correct": "C",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_chemistry:170": {
+    "subject": "Chemistry",
+    "question": "Freon is commonly known as?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:171": {
+    "subject": "Chemistry",
+    "question": "Neopentylchloride belongs to which class of alkyl halides?",
+    "correct": "A",
+    "predicted": "C",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_chemistry:173": {
+    "subject": "Chemistry",
+    "question": "Benzene is formed when Na reacts with which of the following?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:174": {
+    "subject": "Chemistry",
+    "question": "When Phenol reacts with formaldehyde, which of the following product is produced?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:175": {
+    "subject": "Chemistry",
+    "question": "Which of the following is the correct name of CHCHCHCOCHCHO?",
+    "correct": "A",
+    "predicted": "B",
+    "is_correct": false
+  },
+  "mdcat_2021_2022_chemistry:177": {
+    "subject": "Chemistry",
+    "question": "Which of the following is also called silver mirror test?",
+    "correct": "D",
+    "predicted": "D",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:180": {
+    "subject": "Chemistry",
+    "question": "When carboxylic acids and dicarboxylic acids have similar molecular weights, how do their melting points compare?",
+    "correct": "C",
+    "predicted": "C",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:181": {
+    "subject": "Chemistry",
+    "question": "When food reaches stomach, the action of which of the following come to an end due to acidic pH?",
+    "correct": "A",
+    "predicted": "A",
+    "is_correct": true
+  },
+  "mdcat_2021_2022_chemistry:182": {
+    "subject": "Chemistry",
+    "question": "Which of the following proteins acts as carrier of copper in blood plasma?",
+    "correct": "C",
+    "predicted": "A",
+    "is_correct": false
+  }
+}

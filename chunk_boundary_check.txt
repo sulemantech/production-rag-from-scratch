@@ -1,0 +1,224 @@
+
+======================================================================
+Q10: Coulomb's constant k depends upon nature of medium and system of units
+======================================================================
+
+--- MATCH at index 8309 (grade=12th) ---
+later, it depends upon the geometry of the plates and the medium between them. Itis a measure of the ability of capacitotro store charge.(haptel. Electrostatitcatsi/c Electrici[tBy0 The capacitance of a capacitor can be defined as the amount of charge on one plate necessary to raise the potential of that plate by one volt with respect to the other. The Sl unit of capacitance is coulomb per volt, w
+
+  [neighbor idx 8308, offset -1]
+  of V volts between the two plates and the battery places a charge +Q on the plate connected with its positive terminal and a charge -Q on the other plate, connected to its negative terminal. Let Q be the magnitude ofthe charge on eithofe thre plates.
+
+  [neighbor idx 8310, offset +1]
+  The Sl unit of capacitance is coulomb per volt, which because of its frequent use, is commonly called farad (F), after the famous English scientist Michael Faraday. "The capacitance of a capacitor is one farad if a charge of one coulomb, given to one
+
+======================================================================
+Q23: Zn electron configuration (all paired d10)
+======================================================================
+
+--- MATCH at index 1979 (grade=11th) ---
+10. Ne 1s22s22p6 28. Ni 1s22s22p63s23p63d84s2 11. Na 1s22s22p63s1 29. CAu 1s22s22p63s23p63d104s1 12. Mg 1s22s22p63s2 30. Zn 1s22s22p63s23p63d104s2 C e 13. Al 1s22s22p63s23p1 31E. Ga l1s22s22p63s23p63d104s24p1 14. Si 1s22s22p63s23p2 P32. Gse 1s22s22p63s23p63d104s24p2 15. P 1s22s22p63s23p3 f33. r As 1s22s22p63s23p63d104s24p3 o o 16. S 1s22s22p63sn 23 p4 34. f Se 1s22s22p63s23p63d104s24p4 o o 2.6.3 D
+
+  [neighbor idx 1978, offset -1]
+  3. Li 1s22s1 21. Sc 1s22s22p63s23p63d14s2 4. Be 1s22s2 22. Ti 1s22s22p63s23p63d24s2 5. B 1s22s22p1 23. V 1s22s22p63s23p63d34s2 6. C 1s22s22p2 24. Cr 1s22s22p63s23 k p63d54s1 7. N 1s22s22p3 25. Mn 1s22s22p6o3s23p63d54s2 8. O 1s22s22p4 26. Fe 1s22st 22
+
+  [neighbor idx 1980, offset +1]
+  o o 2.6.3 Distribution of EilectronNs in Orbitals The filling of electreons in orbitals is represented by box diagrams, where each box represents an orbitval, as shown in Figure 2.11.  Each box re b presents an atomic orbital.  EachW orbital can occu
+
+--- MATCH at index 6917 (grade=12th) ---
+Mn (25) [Ar] 3d5 4s2 Te (43) [Kr]4d5 5s2 Re (75) [Xe] 4f14 5d5 6s2 Fe (26) [Ar] 3d6 4s2 Ru (44) [Kr]4d7 5s1 Os (76) [Xe] 4f14 5d6 6s2 Co (27) [Ar] 3d7 4s2 Rh (45) [Kr]4d8 5s1 Ir (77) [Xe] 4f14 5d7 6s2 Ni (28) [Ar] 3d8 4s2 Pd (46) [Kr]4d10 Pt (78) [Xe] 4f14 5d9 6s1 Cu (29) [Ar] 3d10 4s1 Ag (47) [Kr]4d10 5s1 Au (79) [Xe] 4f14 5d10 6s1 Zn (30) [Ar] 3d10 4s2 Cd (48) [Kr]4d10 5s2 Hg (80) [Xe] 4f14 5d10
+
+  [neighbor idx 6916, offset -1]
+  Elements Electronic Elements Electronic Elements Electronic configuration configuration configuration Sc (21) [Ar] 3d1 4s2 Y (39) [Kr]4d1 5s2 La (57) [Xe] 5d1 6s2 Ti (22) [Ar] 3d2 4s2 Zr (40) [Kr]4d2 5s2 Hf (72) [Xe] 4f14 5d2 6s2 V (23) [Ar] 3d3 4s2 
+
+  [neighbor idx 6918, offset +1]
+  Zn (30) [Ar] 3d10 4s2 Cd (48) [Kr]4d10 5s2 Hg (80) [Xe] 4f14 5d10 6s2 26. Transition Elements  The d-block and the f-block elements are called transition elements be- cause they are located between the s and p-block elements and their properties are 
+
+--- MATCH at index 6918 (grade=12th) ---
+Zn (30) [Ar] 3d10 4s2 Cd (48) [Kr]4d10 5s2 Hg (80) [Xe] 4f14 5d10 6s2 26. Transition Elements  The d-block and the f-block elements are called transition elements be- cause they are located between the s and p-block elements and their properties are in transition between the metallic elements of the s-block and nonmetallic elements of the p-block.The electronic con- figurations of three series of 
+
+  [neighbor idx 6917, offset -1]
+  Mn (25) [Ar] 3d5 4s2 Te (43) [Kr]4d5 5s2 Re (75) [Xe] 4f14 5d5 6s2 Fe (26) [Ar] 3d6 4s2 Ru (44) [Kr]4d7 5s1 Os (76) [Xe] 4f14 5d6 6s2 Co (27) [Ar] 3d7 4s2 Rh (45) [Kr]4d8 5s1 Ir (77) [Xe] 4f14 5d7 6s2 Ni (28) [Ar] 3d8 4s2 Pd (46) [Kr]4d10 Pt (78) [Xe
+
+  [neighbor idx 6919, offset +1]
+  figurations of three series of d-block elements are given in Table 6.1. Table 6.2 Detailed electronic configurations of the valence shell of first series of transition elements 3d 4s Sc(Ar) Ti (Ar) V (Ar) Cr (Ar) Mn (Ar) Fe (Ar) Co (Ar) Ni (Ar) Cu (A
+
+--- MATCH at index 6940 (grade=12th) ---
+3d2 4s2 2 3 4 V (Ar) 3d3 4s2 2 3 4 5 Cr (Ar) 3d5 4s1 2 3 4 5 6 Mn (Ar) 3d5 4s2 1 2 3 4 5 6 7 Fe (Ar) 3d6 4s2 1 2 3 4 5 6 Co (Ar) 3d7 4s2 2 3 4 5 Ni (Ar) 3d8 4s2 2 3 4 Cu (Ar) 3d10 4s1 1 2 3 Zn (Ar) 3d10 4s2 2 (f) Colour In transition elements, the d orbitals are responsible for the colour develop- ment in their compounds. When these orbitals are involved in bonding, they split up into two energy l
+
+  [neighbor idx 6939, offset -1]
+  all the s and d electrons are used for bonding. After Mn, the number of oxidation states decreases as the d-subshells fill up and fewer un- paired electrons are available for bond formation as shown in Table 6.5. Table 6.5 Commonly Occurring Oxidatio
+
+  [neighbor idx 6941, offset +1]
+  split up into two energy levels, one set has a higher energy than the oth- er. The electrons residing in low energy d-orbitals absorb a part of the visible light and jump to high energy d orbitals. The process is called d-d transition, 126. Transitio
+
+======================================================================
+Q23: Cr electron configuration (all unpaired d5)
+======================================================================
+
+--- MATCH at index 1846 (grade=11th) ---
+energy. v) Spin–pair repulsion When electrons are spin-paired in the same orbital, the repulsion between them can lead to a slightly lower ionization energy compared to removing an unpaired electron. This is because the paired electrons experience increased repulsion, making it slightly easier to remove one of the paired electrons. k Manganese (Mn) has two spin-paired electrons in its 4s orbital. 
+
+  [neighbor idx 1845, offset -1]
+  b) Oxygen has lower ionization energy than nitrogen due to the half-filled subshell of nitrogen. N = 1s2 2s2 2p 1 2p 1 2p 1 = 1403 kJ mol–1 7 x y z i1 O = 1s2 2s2 2p 2 2p 1 2p 1 = 1365 kJ mol–1 8 x y z i1 8iv) Shielding effect Greater the shielding, 
+
+  [neighbor idx 1847, offset +1]
+  Manganese (Mn) has two spin-paired electrons in its 4s orbital. The ionization energy to remove one of these paired electrons is relatively lower due to the increased repulsion between the paired electrons. In contrast, Chromium (Cr) hats one unpaire
+
+--- MATCH at index 1847 (grade=11th) ---
+Manganese (Mn) has two spin-paired electrons in its 4s orbital. The ionization energy to remove one of these paired electrons is relatively lower due to the increased repulsion between the paired electrons. In contrast, Chromium (Cr) hats one unpaired electron in its 4s orbital. Removing one of these unpaired electrons requires more energy due to the absence of spin-pairing repulsion. t Cr = [Ar] 
+
+  [neighbor idx 1846, offset -1]
+  energy. v) Spin–pair repulsion When electrons are spin-paired in the same orbital, the repulsion between them can lead to a slightly lower ionization energy compared to removing an unpaired electron. This is because the paired electrons experience in
+
+  [neighbor idx 1848, offset +1]
+  absence of spin-pairing repulsion. t Cr = [Ar] 3d54s1 (more stable) Mn = [Ar] 3d54s2 (less stable) 25 T Periodic trends in ionization energy C e E l Going down in a group, P s ionization energy decreases from top to bottom due to f r o o increase in 
+
+--- MATCH at index 1848 (grade=11th) ---
+absence of spin-pairing repulsion. t Cr = [Ar] 3d54s1 (more stable) Mn = [Ar] 3d54s2 (less stable) 25 T Periodic trends in ionization energy C e E l Going down in a group, P s ionization energy decreases from top to bottom due to f r o o increase in the atomic size and f shielding effect. In Group I, the t o o ionization energies decrease in i N the following order: Li > Na > K > Rb > Cs. e In mov
+
+  [neighbor idx 1847, offset -1]
+  Manganese (Mn) has two spin-paired electrons in its 4s orbital. The ionization energy to remove one of these paired electrons is relatively lower due to the increased repulsion between the paired electrons. In contrast, Chromium (Cr) hats one unpaire
+
+  [neighbor idx 1849, offset +1]
+  > Rb > Cs. e In moving from left to right across a period, number of shells remains unchanged while the effective nuclear charge increases. Therefore, the ionization energy increases from left to right. The trend of ionization energies of period (1-3
+
+--- MATCH at index 1915 (grade=11th) ---
+repulsion. (Understanding)  Determine the electronic configuration of atoms and ions given the proton or electron number and charge. (Understanding)  Describe free radical as a species with one or more unpaired electrons. (Understanding)  Illustrate the importance of electronic configurations and development of new materials for electronic devices. (For example, semiconductors such as silicon has 
+
+  [neighbor idx 1914, offset -1]
+  not required to memorize these. (d) Students should understand that chemical properties of an atom are governed by valence electrons). (Knowledge and Application).  Explain the electronic configurations to include the number of electrons in each shel
+
+  [neighbor idx 1916, offset +1]
+  electronic devices. (For example, semiconductors such as silicon has a specific electronic configuration that makes them ideal for their use in electronic devices) (Understanding)  Deduce the electronic configurations of elements using successibve io
+
+--- MATCH at index 1978 (grade=11th) ---
+3. Li 1s22s1 21. Sc 1s22s22p63s23p63d14s2 4. Be 1s22s2 22. Ti 1s22s22p63s23p63d24s2 5. B 1s22s22p1 23. V 1s22s22p63s23p63d34s2 6. C 1s22s22p2 24. Cr 1s22s22p63s23 k p63d54s1 7. N 1s22s22p3 25. Mn 1s22s22p6o3s23p63d54s2 8. O 1s22s22p4 26. Fe 1s22st 22p63s23p63d64s2 9. F 1s22s22p5 27. Co 1es22s22p63s23p63d74s2 10. Ne 1s22s22p6 28. Ni 1s22s22p63s23p63d84s2 11. Na 1s22s22p63s1 29. CAu 1s22s22p63s23p63
+
+  [neighbor idx 1977, offset -1]
+  The electronic configuration of Na in subshells is 1s22s22p63s1. The subshell electronic configuration of different elements is provided in Table 2.6. 32Table 2.6 Electronic configuration of ground states of elements Z = 1 –36. Z Element Configuratio
+
+  [neighbor idx 1979, offset +1]
+  10. Ne 1s22s22p6 28. Ni 1s22s22p63s23p63d84s2 11. Na 1s22s22p63s1 29. CAu 1s22s22p63s23p63d104s1 12. Mg 1s22s22p63s2 30. Zn 1s22s22p63s23p63d104s2 C e 13. Al 1s22s22p63s23p1 31E. Ga l1s22s22p63s23p63d104s24p1 14. Si 1s22s22p63s23p2 P32. Gse 1s22s22p6
+
+--- MATCH at index 2004 (grade=11th) ---
+For example: Ti atom: 1s2 2s2 2p6 3s2 3p6 3d2 4s2 37Ti2+ ion: 1s2 2s2 2p6 3s2 3p6 3d2 Cr atom: 1s2 2s2 2p6 3s2 3p6 3d5 4s1 Cr3+ ion: 1s2 2s2 2p6 3s2 3p6 3d3 2.8.2 Free radicals “A free radical is a species that has one or more unpaired electrons”. An example of a simple free radical is free chlorine atom . The electronic configuration of this radical is 1s2 2s2 2p6 3s2 3p5. In the 2p subshell, two
+
+  [neighbor idx 2003, offset -1]
+  as argon, the element with 18 electrons in each atom. Note that, in general, electrons in the outer subshell are removed when metal atoms form the positive ions. However, the d-block elements behave slightly differently. Reading across the Periodic T
+
+  [neighbor idx 2005, offset +1]
+  of this radical is 1s2 2s2 2p6 3s2 3p5. In the 2p subshell, two orbitals have paired electrons whereas, the third one contains a single unpaired electron. The unpairedk electron is shown by a single dot as in Cl. Apart from single atoms, groups of at
+
+--- MATCH at index 6748 (grade=12th) ---
+2 4 6 +2 oxidation state is shown due to 2 unpaired electrons in the p-orbitals. +4 oxidation state is shown when 1 electron from p-orbilal is promoted to the next vacant d-orbital, while + 6 oxidation state is shown when another electron from s-orbital is also promoted to the next vacant d-orbital. 4.4.2 Occurrence Oxygen is the most widely distributed and common of all the elements, comprising a
+
+  [neighbor idx 6747, offset -1]
+  the elements are polymeric in nature ( they form poiy-atomic molecules). They attain the electronic configuration of the nearest noble gas by gaining 2 electrons forming O-2, S-2, Se-2, etc. Except oxygen the other members of the group show a covalen
+
+  [neighbor idx 6749, offset +1]
+  the elements, comprising about 50% of the earth’s crust. About one-fourth of the atmospheric air by weight consists of free oxygen and water contains nearly 89% of combined oxygen. The calcium carbonate which occurs as chalk, limestone, marble etc, c
+
+--- MATCH at index 6916 (grade=12th) ---
+Elements Electronic Elements Electronic Elements Electronic configuration configuration configuration Sc (21) [Ar] 3d1 4s2 Y (39) [Kr]4d1 5s2 La (57) [Xe] 5d1 6s2 Ti (22) [Ar] 3d2 4s2 Zr (40) [Kr]4d2 5s2 Hf (72) [Xe] 4f14 5d2 6s2 V (23) [Ar] 3d3 4s2 Nb (41) [Kr]4d4 5s1 Ta (73) [Xe] 4f14 5d3 6s2 Cr (24) [Ar] 3d5 4s1 Mo (42) [Kr]4d5 5s1 W (74) [Xe] 4f14 5d4 6s2 Mn (25) [Ar] 3d5 4s2 Te (43) [Kr]4d5 5
+
+  [neighbor idx 6915, offset -1]
+  dichromate, potassium permanganate and their properties. 6.1 INTRODUCTION Transition elements may be defined as those elements which have partially filled d or f-subshells in atomic state or in any of their commonly occurring oxidation states. Table 
+
+  [neighbor idx 6917, offset +1]
+  Mn (25) [Ar] 3d5 4s2 Te (43) [Kr]4d5 5s2 Re (75) [Xe] 4f14 5d5 6s2 Fe (26) [Ar] 3d6 4s2 Ru (44) [Kr]4d7 5s1 Os (76) [Xe] 4f14 5d6 6s2 Co (27) [Ar] 3d7 4s2 Rh (45) [Kr]4d8 5s1 Ir (77) [Xe] 4f14 5d7 6s2 Ni (28) [Ar] 3d8 4s2 Pd (46) [Kr]4d10 Pt (78) [Xe
+
+--- MATCH at index 6928 (grade=12th) ---
+the electrons of underlying half-filled d-orbitals also participate in binding. In moving from left to right in any transition series, the number of unpaired electrons increases up to groups VB and VIB, after that pairing takes place and number of unpaired electrons goes on decreasing until it becomes zero at group IIB, Table 6.3 66. Transition Elements  Therefore, binding is stronger upto group V
+
+  [neighbor idx 6927, offset -1]
+  form at least in one if not all the oxidation states. 6.2.1 General charactetistics (a) Binding energies Transition metals show good mechanical properties. They are tough, malleable and ductile. The toughness of these metals indicate strong metallic 
+
+  [neighbor idx 6929, offset +1]
+  66. Transition Elements  Therefore, binding is stronger upto group VIB and weakens progressively upto group IIB. This trend of variation in binding energies is shown in Fig. 6.1. In the first transition series the general increase in binding energy e
+
+--- MATCH at index 6934 (grade=12th) ---
+repelled by a strong magnetic field are called diamagnetic substances. 96. Transition Elements  Paramagnetic behaviour is caused by the presence of unpaired electrons in an atom, molecule or ion because there is a magnetic moment associated with the spinning electron. It increases with increase in the number of unpaired electrons. When the electrons are paired in an orbital, then magnetic moments 
+
+  [neighbor idx 6933, offset -1]
+  Changes in the ionic radii along the series are much less regular, so that periodic trends in the properties of these ions are difficult to rationalize. transition series elements. (d) Paramagnetism Substances which are weakly attracted by a strong m
+
+  [neighbor idx 6935, offset +1]
+  electrons. When the electrons are paired in an orbital, then magnetic moments are cancelled out and the substances become diamagnetic. Table 6.4 No. of Unpaired electrons in the First Series of Transition Elements. ION 3d orbital electronic No. of un
+
+--- MATCH at index 6935 (grade=12th) ---
+electrons. When the electrons are paired in an orbital, then magnetic moments are cancelled out and the substances become diamagnetic. Table 6.4 No. of Unpaired electrons in the First Series of Transition Elements. ION 3d orbital electronic No. of unpaired structure electrons Sc3+ 0 Ti3+ V3+ Cr3+ 3 Mn3+ Mn2+,Fe3+ 5 Fe2+ Co2+ Ni2+ Cu2+ Zn2+ 106. Transition Elements  The paramagnetic behaviour is th
+
+  [neighbor idx 6934, offset -1]
+  repelled by a strong magnetic field are called diamagnetic substances. 96. Transition Elements  Paramagnetic behaviour is caused by the presence of unpaired electrons in an atom, molecule or ion because there is a magnetic moment associated with the 
+
+  [neighbor idx 6936, offset +1]
+  Zn2+ 106. Transition Elements  The paramagnetic behaviour is the strongest for Fe3+ and Mn2+ and decreases on both sides of the first transition series. The reason is that both Mn2+ and Fe3+ have 5 unpaired electrons each. The number of unpaired elec
+
+--- MATCH at index 6936 (grade=12th) ---
+Zn2+ 106. Transition Elements  The paramagnetic behaviour is the strongest for Fe3+ and Mn2+ and decreases on both sides of the first transition series. The reason is that both Mn2+ and Fe3+ have 5 unpaired electrons each. The number of unpaired electrons decreases gradually to zero on both sides, as it is clear from the Table 6.4. Fig.6.4 shows the variation in the paramagnetic effect of the ions
+
+  [neighbor idx 6935, offset -1]
+  electrons. When the electrons are paired in an orbital, then magnetic moments are cancelled out and the substances become diamagnetic. Table 6.4 No. of Unpaired electrons in the First Series of Transition Elements. ION 3d orbital electronic No. of un
+
+  [neighbor idx 6937, offset +1]
+  paramagnetic effect of the ions belonging to the first transition series. selected ions across the first transition series (e ) Oxidation State One of the most important properties of the transition elements is the fact that they exhibit variable val
+
+--- MATCH at index 6937 (grade=12th) ---
+paramagnetic effect of the ions belonging to the first transition series. selected ions across the first transition series (e ) Oxidation State One of the most important properties of the transition elements is the fact that they exhibit variable valency or oxidation state. They show variable valencies because of the involvement of the unpaired d elec- trons in addition to s electrons in bond form
+
+  [neighbor idx 6936, offset -1]
+  Zn2+ 106. Transition Elements  The paramagnetic behaviour is the strongest for Fe3+ and Mn2+ and decreases on both sides of the first transition series. The reason is that both Mn2+ and Fe3+ have 5 unpaired electrons each. The number of unpaired elec
+
+  [neighbor idx 6938, offset +1]
+  trons in addition to s electrons in bond formation. All 3d series ele- ments show an oxidation state of +2 in addition to higher oxidation states. 116. Transition Elements  +2 oxidation state is shown when only the 2s electrons are involved in bondin
+
+--- MATCH at index 6939 (grade=12th) ---
+all the s and d electrons are used for bonding. After Mn, the number of oxidation states decreases as the d-subshells fill up and fewer un- paired electrons are available for bond formation as shown in Table 6.5. Table 6.5 Commonly Occurring Oxidation States of the 1st Series of Transition Elments Oxidation states Sc (Ar) 3d1 4s2 2 3 Ti (Ar) 3d2 4s2 2 3 4 V (Ar) 3d3 4s2 2 3 4 5 Cr (Ar) 3d5 4s1 2 3
+
+  [neighbor idx 6938, offset -1]
+  trons in addition to s electrons in bond formation. All 3d series ele- ments show an oxidation state of +2 in addition to higher oxidation states. 116. Transition Elements  +2 oxidation state is shown when only the 2s electrons are involved in bondin
+
+  [neighbor idx 6940, offset +1]
+  3d2 4s2 2 3 4 V (Ar) 3d3 4s2 2 3 4 5 Cr (Ar) 3d5 4s1 2 3 4 5 6 Mn (Ar) 3d5 4s2 1 2 3 4 5 6 7 Fe (Ar) 3d6 4s2 1 2 3 4 5 6 Co (Ar) 3d7 4s2 2 3 4 5 Ni (Ar) 3d8 4s2 2 3 4 Cu (Ar) 3d10 4s1 1 2 3 Zn (Ar) 3d10 4s2 2 (f) Colour In transition elements, the d 
+
+--- MATCH at index 6940 (grade=12th) ---
+3d2 4s2 2 3 4 V (Ar) 3d3 4s2 2 3 4 5 Cr (Ar) 3d5 4s1 2 3 4 5 6 Mn (Ar) 3d5 4s2 1 2 3 4 5 6 7 Fe (Ar) 3d6 4s2 1 2 3 4 5 6 Co (Ar) 3d7 4s2 2 3 4 5 Ni (Ar) 3d8 4s2 2 3 4 Cu (Ar) 3d10 4s1 1 2 3 Zn (Ar) 3d10 4s2 2 (f) Colour In transition elements, the d orbitals are responsible for the colour develop- ment in their compounds. When these orbitals are involved in bonding, they split up into two energy l
+
+  [neighbor idx 6939, offset -1]
+  all the s and d electrons are used for bonding. After Mn, the number of oxidation states decreases as the d-subshells fill up and fewer un- paired electrons are available for bond formation as shown in Table 6.5. Table 6.5 Commonly Occurring Oxidatio
+
+  [neighbor idx 6941, offset +1]
+  split up into two energy levels, one set has a higher energy than the oth- er. The electrons residing in low energy d-orbitals absorb a part of the visible light and jump to high energy d orbitals. The process is called d-d transition, 126. Transitio
+
+--- MATCH at index 7013 (grade=12th) ---
+• in the manufacture of many organic compounds 346. Transition Elements  KEY POINTS 1. Transition elements have partially filled d or f-subshells in atomic state or in any of their commonly occurring oxidation states. 2. IIB and IIIB group elements are called non-typical transition elements. 3. Binding energies, melting points, paramagnetism and oxidation states of transition metals increase with 
+
+  [neighbor idx 7012, offset -1]
+  4 4 2 4 2 4 4 2 4 3 2 (c ) Reaction with Oxalic Acid It oxidizes oxalic acid to CO and H O 2 2 2KMnO +5H C O +3H SO →K SO + 2MnSO +10CO +8H O 4 2 2 4 2 4 2 4 4 2 2 (d ) Reaction with KOH When an alkaline solution of KMnO is heated, O is evolved. 4 
+
+  [neighbor idx 7014, offset +1]
+  metals increase with increasing number of unpaired electrons. 4. Such compounds containing the complex molecules or complex ions and capable of independent existence are called coordination compounds or complex compounds. 5. When a complex ion absorb
+
+--- MATCH at index 7014 (grade=12th) ---
+metals increase with increasing number of unpaired electrons. 4. Such compounds containing the complex molecules or complex ions and capable of independent existence are called coordination compounds or complex compounds. 5. When a complex ion absorbs a wavelength from visible light, it transmits a set of radiation that impart colour. 6. Wrought iron contains 0.12% - 0.25% carbon, while steel cont
+
+  [neighbor idx 7013, offset -1]
+  • in the manufacture of many organic compounds 346. Transition Elements  KEY POINTS 1. Transition elements have partially filled d or f-subshells in atomic state or in any of their commonly occurring oxidation states. 2. IIB and IIIB group elements a
+
+  [neighbor idx 7015, offset +1]
+  6. Wrought iron contains 0.12% - 0.25% carbon, while steel contains 0.25% - 2.25% carbon. 7. Chromate and dichromate ions exist in equilibrium in an aqueous solution. 8. Chemical decay of metals under the action of their surrounding medium is called 
+
+--- MATCH at index 7021 (grade=12th) ---
+(c) normal transition elements. (d) None is true (iv) The strength of binding energy of transition elements depends upon (a) number of electron pairs (b) number of unpaired electrons (c) number of neutrons (d) tiumber of protons (v) Group VIB of transition elements contains (a) Zn, Cd, Hg (b) Fe, Ru, Os (c) Cr, Mo, W (d) Mn, Te, Re (vi) Which is the formula of tetraammine chloro-nitro-platinum (IV
+
+  [neighbor idx 7020, offset -1]
+  Q 3. Multiple choice questions. Encircle the correct answer. (i) Which of the following is a non-typical transition element? (a) Cr (b) Mn (c) Zn (d) Fe (ii) Which of the following is a typical transition metal? (a) Sc (b) Y (c) Ra (d) Co (iii) f-blo
+
+  [neighbor idx 7022, offset +1]
+  (vi) Which is the formula of tetraammine chloro-nitro-platinum (IV ) sulphate? (a) [Pt(NH ) (NO )]SO (b) [Pt NO 2Cl(NH ) ]SO 3 4 2 4 2 3 4 4 (c) [Pt Cl(NO )(NH ) ]SO (d) [Pt(NH ) (NO )Cl]SO 2 3 4 4 3 4 2 4 366. Transition Elements  (vii) The percenta
+
+======================================================================
+Q14: motional EMF of a rod moving through a magnetic field
+======================================================================
+(no chunk matched all term groups at all)

@@ -109,7 +109,7 @@ def print_summary(eval_results: dict):
 if __name__ == "__main__":
     JSON_PATH = "datasets/evaluation/mdcat_mcqs.json"
     CHUNKS_PATH = "datasets/mdcat_chunks.json"
-    SAMPLE_SIZE = 335
+    SAMPLE_SIZE = 332
     TOP_K = 5
 
     print("Loading questions...")

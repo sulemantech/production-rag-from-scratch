@@ -1,0 +1,851 @@
+======================================================================
+[1] id=2 source=MDCAT SOLVED PAST PAPER-2024 (General)
+Q: The complete, mature & infectious particle of virus is known as:
+Options: ['A. Genome', 'B. Capsomere', 'C. Prion', 'D. Envelope']
+Label: D | Predicted: B
+--- Top 3 context chunks shown to LLM ---
+[0] They depend on the host cell to carry out these vital functions. During reproduction in the host
+cells, viruses may cause disease. All viruses are generally resistant to broad range of available
+antibiotics such as penicillin, streptomycin and others.
+Structure
+The complete, mature and infectious particle is known as virion. The virions are composed of
+a central core of nucleic acid, either DNA or RNA, which is also known as the genome and is
+
+[1] VIRUSES
+About a century ago at the time of Louis Pasteur (1822-1895) and Robert Koch (1843-1910), the
+word “virus” was generally referred to as a poison associated with disease and death. The present
+notion of virus is entirely diferent. Now viruses are recognized as particles of nucleic acid often with
+a protein coat. They replicate in living cells and cause many diseases such as inluenza, hepatitis,
+
+[2] this section. The branch which deals with the study of viruses is known as virology.
+The word virus is derived from Latin word venome meaning poisonous luid. It can be deined as
+non cellular infectious entities which contain either RNA or DNA, normally encased in proteinaceous
+coat, and reproduce only in living cells. Viruses utilize the biosynthetic machinery of the host for its
+
+
+======================================================================
+[2] id=6 source=MDCAT SOLVED PAST PAPER-2024 (General)
+Q: In Calvin cycle CO₂ reacts with RuBP to produce:
+Options: ['A. 3-PGA', 'B. G3P', 'C. 6-Carbon unstable intermediate', 'D. 1,3 bisphosphoglycerate']
+Label: C | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] of CO acceptor (RuBP) (Fig 11.10).
+2
+Phase 1: Carbon ixation: Carbon ixation refers to the initial incorporation of CO into organic
+2
+material. Keep in mind that we are following three molecules of CO through the reaction (because
+2
+3 molecules of CO are required to produce one molecule of carbohydrate, a triose). The Calvin
+2
+cycle begins when a molecule of CO reacts with a highly reactive phosphorylated ive - carbon
+2
+
+[1] from the Calvin cycle. For every three molecules of CO entering the cycle and combining with 3
+2
+molecules of ive-carbon RuBP, six molecules of G3P (containing 18 carbon in all) are produced. But
+only one molecule of G3P can be counted as a net gain of carbohydrate. Out of every six molecules
+of G3P formed, only one molecule leaves the cycle to be used by the plant for making glucose,
+
+[2] The pathway in which RuBP is converted into serine is called photorespiration. The process of
+photorespiration uses ATP and NADPH produced in the light reactions just like Calvin-Benson
+cycle. But, in fact, photorespiration is reverse of Calvin cycle. During photorespiration carbon
+dioxide is released instead of ixation into carbohydrates. In most plants photorespiration reduces
+the amount of carbon ixed into -carbohydrates by 25%.
+
+
+======================================================================
+[3] id=7 source=MDCAT SOLVED PAST PAPER-2024 (General)
+Q: Which option is correct about a chlorophyll molecule?
+Options: ['A. Chemical formula C₅₅ H₇₀ O₆ N₄Mg', 'B. Porphyrin ring with nitrogen in center', 'C. (Methyl) group on second pyrrole ring', 'D. Aldehyde group on second pyrrole ring']
+Label: A | Predicted: B
+--- Top 3 context chunks shown to LLM ---
+[0] A chlorophyll molecule has two
+main parts : One lat, square,
+light absorbing hydrophilic head
+and the other long, anchoring,
+hydrophobic hydrocarbon tail.
+The head is complex porphyrin
+ring which is made up of 4 joined
+smaller pyrrole rings composed
+of carbon and nitrogen atoms. An
+atom of magnesium is present in
+the centre of porphyrin ring and is
+coordinated with the nitrogen of
+each pyrrole ring (Fig. 11.2) That is
+
+[1] In photosynthetic plant cells, there are membrane bound structures containing a green pigment,
+called chloroplasts. The green pigment is an organic compound, chlorophyll, which helps the cell to
+absorb light energy and utilize it to manufacture food. Chlorophyll molecule resembles the haem
+group of haemoglobin, a protein used in the transport of oxygen. The main diference between
+
+[2] chlorophyll a along with a primary electron acceptor, and associated electron carriers of ‘electron
+transport system’. Chlorophyll a molecules of reaction center and associated proteins are closely
+linked to the nearby electron transport system. Electron transport system plays role in generation
+of ATP by chemiosmosis (which will be discussed in later section). Light energy absorbed by the
+
+
+======================================================================
+[4] id=8 source=MDCAT SOLVED PAST PAPER-2024 (General)
+Q: In the journey of electrons from photosystem II to photosystem I plastocyanin is reduced by:
+Options: ['A. Plastoquinone', 'B. Cytochrome complex', 'C. Primary electron acceptor of PSI', 'D. Ferredoxin']
+Label: B | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] of replenishment of atmospheric oxygen.
+3. Each photoexcited electron passes from the primary electron acceptor of photosystem II to
+photosystem I via an electron transport chain. This chain consists of an electron carrier called
+15
+V: 1.111. Bioenergetics
+
+[1] 6. The primary electron acceptor of photosystem I passes the photoexcited electrons to a second
+electron transport chain, which tmasmits them to ferredoxin (Fd), an iron containing protein.
+An enzyme called NADP reductase then transfers the electrons from Fd to NADP. This is the
+redox reaction that stores the high-energy electrons in NADPH. The NADPH molecule will provide
+reducing power for the synthesis of sugar in the Calvin cycle.
+
+[2] through the two photosystems. In less common type of path called cyclic electron low only
+photosystem I is involved. Formation of ATP during non-cyclic electron low is called non-cyclic
+phosphorylation while that during cyclic electron low is called cyclic phosphorylation.
+Non-cyclic Phosphorylation
+1. When photosystem II absorbs light, an electron excited to a higher energy level in the reaction
+
+
+======================================================================
+[5] id=11 source=MDCAT SOLVED PAST PAPER-2024 (General)
+Q: Mono-saccharides have a general formula represented by:
+Options: ['A. Cₙ(H₂O)ₙ', 'B. C(H₂O)ₙ', 'C. C₂(H₂O)ₙ', 'D. Cⁿ(H₂O)ₙ']
+Label: A | Predicted: D
+--- Top 3 context chunks shown to LLM ---
+[0] In nature monosaccharides with 3 to 7 carbon atoms are found. They are called trioses (3C), tetroses
+(4C), pentoses (5C), hexoses (6C), and heptoses (7C). They have general formula (CH O)n. where n is
+2
+the whole number from three to seven thousands.
+Two trioses mentioned above are, intermediates in respiration and photosynthesis. Tetroses are
+rare in nature and occur in some bacteria. Pentoses and hexoses are most common. From the
+
+[1] Carbohydrates are also called ‘saccharides’ (derived from Greek word ‘sakcharon’ meaning sugar) and
+are classiied into three groups: (i) Monosaccharides (ii) Oligosaccharides, and (iii) Polysaccharides.
+Monosaccharides: These are simple sugars. They are sweet in taste, are easily soluble in water,
+and cannot be hydrolysed into simpler sugars. Chemically they are either polyhydroxy aldehydes or
+
+[2] of amino acids.
+All the amino acids have an amino group (-NH ) and a
+2
+carboxyl group (-COOH) attached to the same carbon
+atom, also known as alpha carbon. They have the
+general formula as:
+Animation 2.9: Amino Acid
+Source and Credit: wikipedia
+18
+V: 1.12. Biological Molecules
+
+
+======================================================================
+[6] id=12 source=MDCAT SOLVED PAST PAPER-2024 (General)
+Q: What is the percentage of H₂O in bone cells?
+Options: ['A. 70%', 'B. 20%', 'C. 99%', 'D. 60%']
+Label: A | Predicted: B
+--- Top 3 context chunks shown to LLM ---
+[0] IMPORTANCE OF WATER
+Water is the medium of life. It is the most abundant compound in all organisms. It varies from 65
+to 89 percent in diferent organisms. Human tissues contain about 20 per cent water in bone cells
+and 85 percent in brain cells. Almost all reactions of a cell occur in the presence of water. It also
+takes part in many biochemical reactions such as hydrolysis of macromolecules. It is also used as a
+raw material in photosynthesis.
+
+[1] cytoplasm of red blood cells is the red pigment, called haemoglobin the remaining 5% consists of
+enzymes, salts and other proteins. The red cells once mature, do not divide.
+Red blood cells are formed principally in the red bone marrow of short bones, such as the sternum,
+ribs and vertebrae (Fig. 14.20). In the embryonic life, they are formed in the liver and spleen. The
+
+[2] of cells associated with bone:
+Bone-forming cell (osteoblast ), mature bone cell (osteocyte ), and bone dissolving cells (osteoclast
+).
+1316. Support and Movement
+
+
+======================================================================
+[7] id=32 source=MDCAT SOLVED PAST PAPER-2024 (General)
+Q: Induced fit model of enzyme activity suggests that an enzyme:
+Options: ['A. Cannot modify its active sites', 'B. Can bind to a single substrate', 'C. Can catalyze related reaction', 'D. Usually belongs to non-regulatory enzyme']
+Label: C | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] On the basis of new evidences Koshland (1959) proposed its modiied form. This is known as Induce
+Fit Model.
+He argued that when a substrate combines with an enzyme, it induces changes in the enzyme
+structure. The change in structure enables the enzyme to perform its catalytic activity more
+efectively.
+FACTORS AFFECTING THE RATE OF ENZYME ACTION
+The functional speciicity of every enzyme is the consequence of its speciic chemistry and
+
+[1] (iii) Calvin Malvin proposed Lock and Key model for enzyme action.
+(iv) The active site of an enzyme is composed of four regions.
+(v) Structure of an enzyme has no speciic importance.
+Q.3. Short Questions
+(i) List two conditions that destroy enzymatic activity by disrupting bonds between
+the atoms in an enzyme.
+(ii) How do low and high temperature, afect an enzyme activity?
+(iii) What is a prosthetic group?
+(iv) Deine inhibitors of enzyme.
+
+[2] the transformation of the substrate into product(s). Thus the enzyme after catalysis detaches itself
+from the products unchanged. Enzyme requires aqueous medium for its activity.
+Most enzymes do not loat about in a kind
+Emil Fischer (1890) proposed a Lock and Key model to
+of cytoplasmic soup’ but are attached
+visualize substrate and enzyme interaction. According
+to membrane systems inside the cell
+
+
+======================================================================
+[8] id=36 source=MDCAT SOLVED PAST PAPER-2024 (General)
+Q: Which of the following increases variation within a gene pool?
+Options: ['A. Chromosome Inversion', 'B. Crossing over', 'C. Gene mutation', 'D. Random fusion of gametes']
+Label: C | Predicted: B
+--- Top 3 context chunks shown to LLM ---
+[0] loci on the same chromosome or other chromosomes.
+For convenience, we can focus on the gene pool for a single particular trait. A sample
+population of 100 diploid plants, some of which bear red lowers, others bearing white
+lowers has a sum total of 200 of all the diferent alleles (R or r) for lower colour trait
+as its gene pool.
+422. Variation And Genetics
+
+[1] members from diverging from one another. Emigration and
+immigration of members of a population, cause disturbance in the
+gene pool.
+Genetic drift It is the change in frequency of alleles at a locus that occurs by
+chance. In small populations, such luctuations may lead to the loss
+of particular alleles. This may occur in a small population when a
+few individual fail to reproduce and then genes are lost from the
+population.
+
+[2] Animation 22: Gene Pool
+Source & Credit: GIF SOUP
+222. Variation And Genetics
+322. Variation And Genetics
+
+
+======================================================================
+[9] id=43 source=MDCAT SOLVED PAST PAPER-2024 (General)
+Q: Range of total lung capacity in humans is:
+Options: ['A. 5-6 liter', 'B. 8-9 liter', 'C. 10-11 liter', 'D. 12-13 liter']
+Label: A | Predicted: B
+--- Top 3 context chunks shown to LLM ---
+[0] can least withstand anoxia. Skin muscles and digestive organs and other internal organs receive
+very little blood while an animal is submerged because these areas can survive with less oxygen.
+Muscles shift from aerobic to anaerobic respiration.
+Lung capacities
+In an adult human being when the lungs are fully inlated the total inside capacity of lungs is about
+
+[1] is the maximum capacity of haemoglobin for oxygen when it is fully oxygenated. Under normal
+conditions, blood of alveoli of the lungs is not completely oxygenated. When an oxygen tension is
+115mm mercury, haemoglobin is 98 percent saturated and, therefore, contains 19.6 ml of oxygen
+per 100ml of blood. This means that haemoglobin can be almost completely oxygenated by an
+
+[2] proportion of oxygen also gets dissolved in the blood plasma.
+Hb + O HbO
+m
+2 2
+Haemoglobin can absorb maximum oxygen at the sea level. The maximum amount of oxygen
+which normal human blood absorbs and carries at the sea-level is about 20ml/100ml of blood. This
+is the maximum capacity of haemoglobin for oxygen when it is fully oxygenated. Under normal
+
+
+======================================================================
+[10] id=47 source=MDCAT SOLVED PAST PAPER-2024 (General)
+Q: Bacterial spores become diploid:
+Options: ['A. Before fertilization of gametes', 'B. After binary fission', 'C. During binary fission', 'D. After binary fission']
+Label: D | Predicted: C
+--- Top 3 context chunks shown to LLM ---
+[0] structures called sporangia. When conditions become favourable again, spores germinate into
+bilagellated or amoeboid reproductive or swarm cells which unite to form diploid zygote. Zygote
+produces multinucleate plasmodium, each nucleus being diploid.
+The plasmodial slime mold Physarum polycephalum is a model organism that has been used to
+study many fundamental biological processes, such as growth and diferentiation, cytoplasmic
+
+[1] remaining one fourth is the stomium. Annular cells have their radial and inner walls thickened.
+The stomial cells are thin- walled. Inside the sporangia, haploid spores are formed by reduction
+division, from diploid spore mother cells. The annulus of the sporangium contracts in dry weather,
+the stomial cells being thin-walled rupture and spores are dispersed by wind.
+
+[2] (iv) The spores are asexual reproductive cells.
+(v) Vegetative reproduction are haploid cells.
+(vi) The oospore is gametophytic generation.
+(vii) The gamete is a diploid generation.
+(viii) The spore mother cell is the irst cell of gametophytes.
+(ix) The spore with naked seeds.
+(x) Gymnosperms are the plants divides by reduction division to form
+haploid spores.
+(vii) Sketch and label a fertile pinnule and a sporangium of Adiantium.
+
+
+======================================================================
+[11] id=4 source=Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024
+Q: The situation when two alternative forms is said to have:
+Options: ['a) Codominance', 'b) Sex-influenced traits', 'c) Multiple alleles', 'd) Incomplete dominance', 'e) Sex-limited traits']
+Label: D | Predicted: C
+--- Top 3 context chunks shown to LLM ---
+[0] w+ / w+) o
+( r white eye (w / w) homozygotes.
+MULTIPLE ALLELES
+Gene mutations may produce many diferent alleles of a gene. Some genes may have
+as many as 300 alleles. All such altered alternative forms of a gene, whose number
+is more than two, are called multiple alleles. Any two of these multiple alleles can be
+present in the genome of a diploid organism, but a haploid organism or a gamete can
+have just one of them in its genome.
+
+[1] easy to cultivate and it grew well in his garden. Its lowers were hermaphrodite. It was
+normally self-fertilizing, but could also be cross-fertilized. As the time gap between
+generations was short, Mendel could raise many generations of pea within a short time.
+Pea had many sharply distinct traits. Each trait had two clear cut alternative forms or
+varieties; e.g., seed shape had a round or wrinkled phenotype, plant height was either
+
+[2] relationship among the two members (fungus and plant) is said to be symbiosis; or mycorrhizal
+association. Examples are Psilotum, and Tmesipeteris.
+EVOLUTION OF LEAF
+Early vascular land plants did not have true leaves or roots. They were small in size, with
+13
+V: 1.19. Kingdom Plantae
+
+
+======================================================================
+[12] id=6 source=Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024
+Q: What is the correct order of organelles in ultracentrifugation?
+Options: ['a) Ribosome → Nuclei → Mitochondria', 'b) Lysosome → Ribosome → Mitochondria', 'c) Nuclei → Mitochondria → Ribosome', 'd) Mitochondria → Nuclei → Golgi bodies', 'e) Golgi bodies → Ribosome → Nuclei']
+Label: C | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] cellular parts separate out in diferent layers depending upon their size and weight, and density of
+the medium. Some cellular components require very high speeds for separation from other parts
+of the cells. This is achieved through ultracentrifugation.
+4
+V: 1.14. The Cell 
+A cell consists of the following basic components:
+1. Plasma membrane, also a cell wall in plant cell.
+2. Cytoplasm, containing cell organelles.
+
+[1] RNA. Ribosomes exist in two forms; either freely dispersed in cytoplasm or attached with RER as
+tiny granules. Each eukaryotic ribosome consists of two sub-units. The larger subunit sediments
+at 60S (S= Svedberg unit used in ultracentrifugation), while smaller subunit sediments at 40S. Two
+subunits on attachment with each other form 80S particle. This attachment is controlled by the
+
+[2] The arrangement of the organelles speaks of the division of labour within the cell. The prokaryotes
+have only a limited number and type of organelles in their cytoplasm. Eukaryotes are rich in number
+and kinds of membranous organelles. A cell membrane is however present in all cells whether
+prokoryotic or eukaryotic.
+Animation 11.9 : Cell Organelles
+Source & Credit: answers
+Tissue Level
+
+
+======================================================================
+[13] id=36 source=Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024
+Q: Bacteriophages escape from host cells by the activity of:
+Options: ['a) Non-Ribosome', 'b) Lysozyme', 'c) Peroxisome', 'd) Lysosome']
+Label: B | Predicted: D
+--- Top 3 context chunks shown to LLM ---
+[0] The bacteriophage replicates only inside the bacterial cell. The irst step in the replication of a
+bacteriophage is its attachment (adsorption) to host cell at receptor site on the cell wall of
+bacterium. During attachment, week chemical union between virion and receptor site takes place.
+In the next step, penetration, the tail releases the enzyme lysozyme to dissolve a portion of the
+
+[1] bacteriophages are formed, bacterial cell bursts, i.e., it undergoes lysis. Newly formed phages are
+released to infect the bacteria and another cycle, the lytic cycle begins (Fig. 5.6). The phage which
+causes lysis of the host cell is known as lytic or virulent phage.
+Animation 5.2: Viruses
+Source and Credit: geocities.ws
+12
+V: 1.15. Variety of Life
+
+[2] Video 5.3: Endoplasmic Reticulum (ER),Ribosomes
+Source and Credit: Sabaq
+Animation 5.4: Life Cycle of Bacteriophages
+Source and Credit: faculty.ccbcmd
+13
+V: 1.15. Variety of Life
+Iysogenic cycle, phages can exist harmlessly as a prophage with in the host cell for long periods of time. Each ti.ne the bacterial
+chromosome is replicated, the prophage also is replicated, and hence all daughter bacterial cell are “infected”! with the prophage.
+
+
+======================================================================
+[14] id=37 source=Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024
+Q: Which soft-bodied animal is usually Ambisexual?
+Options: ['a) Tapeworm', 'b) Earthworm', 'c) Jellyfish', 'd) Snail', 'e) Oyster']
+Label: B | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] branch of animal kingdom.
+Because of their close relationship to chordates these animals are called prechordates. The common
+examples of this phylum are Balanoglossus and Saccoglossus.
+General Characters
+1. Soft bodied worm-like animali.
+2. Body is divided into an anterior proboscis, collar and trunk.
+3. Body wall is made of unicellular epidermis with mucus-secreting cells.
+4. Digestive tract is straight and may show variations.
+
+[1] 1. Hydrostatic Skeleton
+In animals that lack a hard skeleton, a luid illed gastrovascular cavity or coelom can act as hydrostatic
+skeleton. Hydrostatic skeleton provides support and resistance to the contraction of muscles so
+that motility results. It is found in cnidarians, annelids and other soft-bodied invertebrates.
+The sea anemone has hydrostatic skeleton. Its cavity is illed with sea water to extend its body and
+
+[2] Phylum: Platyhelminthes -The Flatworms
+General Characteristics
+The name Platyhelminthes means “latworms”. The body of these animals is soft and dorsoventrally
+compressed.
+The Platyhelminthes are triploblastic acoelomates. There is development of a third layer, the
+mesoderm, which separates the ectoderm and endoderm. The Platyhelminthes exhibit bilateral
+symmetry, and body is unsegmented.
+
+
+======================================================================
+[15] id=38 source=Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024
+Q: The number of teeth in deciduous and permanent teeth is:
+Options: ['a) 21 and 32 respectively', 'b) 18 and 22 respectively', 'c) 12 and 32 respectively', 'd) 10 and 32 respectively', 'e) 20 and 32 respectively']
+Label: E | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] This structure is not found in any previous group.
+3. The lower jaw in mammals is composed of only one large bone and articulates directly with
+skull.
+4. External ear or pinna in present. There is a chain of three bones in the ear Malleus, Incus &
+Stapes.
+5. Mammals have deciduous and permanent teeth in some mammals e.g. man the teeth are in
+two sets, one in early life the milk teeth and later the permanent teeth.
+
+[1] two sets, one in early life the milk teeth and later the permanent teeth.
+6. Mammals have 4-chambered heart and only left aortic arch (in birds it is right).
+7. Mammals are warm blooded (Homeothermic) animals.
+8. The red blood cells are non-nucleated.
+9. Mammals have well developed voice apparatus, the larynx and epiglottis.
+10. Most mammals give birth to young (viviparous).
+
+[2] mammals the premolars and molars have large grinding surfaces. There is a large gap between
+the incisors and premolars. Canines are missing. In grazing and browsing herbivores, i.e. deer and
+sheep, there are no upper incisors.
+Carnivores: Animals which feed on other animals are called carnivores. They have large canine
+teeth for catching and tearing the prey. Incisors , premolars and molars are all adapted for cutting
+
+
+======================================================================
+[16] id=41 source=Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024
+Q: Plants oxidize sugar in chloroplasts during day time without production of energy. This process is called:
+Options: ['a) Decarboxylation', 'b) Oxidative phosphorylation', 'c) Non-cyclic photophosphorylation', 'd) Cyclic oxidative phosphorylation', 'e) Lactic acid fermentation']
+Label: C | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] are the only photosynthesising cells of epidermis of leaf and sugars are produced in them during
+day time when light is available. When sugar level rises i.e. solute concentration increases or water
+potential decreases - and the guard cells become turgid due to entry of water and they separate
+from one another, and stoma or pore opnes. During night there is no photosynthesis the sugars
+
+[1] Earth is powered, directly or indirectly, by solar energy. But no organism can make direct use of
+sunlight as source of energy for metabolism; all can use chemical energy in the food such as sugars
+etc. The chloroplasts of the plants capture light energy coming from the sun and convert it into
+chemical energy that gets stored in sugar and then in other organic molecules.
+
+[2] reduce C0 to form sugar during ‘dark reactions’.
+2
+CHLOROPLASTS - THE SITES OF PHOTOSYNTHESIS IN PLANTS
+All green parts of a plant have chloroplasts, but the leaves are the major sites of
+4
+V: 1.111. Bioenergetics
+reactions take place on the grana, and dark reactions in the stroma.
+photosynthesis in most plants. Chloroplasts are present in very large number, about half a million
+
+
+======================================================================
+[17] id=47 source=Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024
+Q: In carbohydrates, hydrogen and oxygen are present in the simple ratio of:
+Options: ['a) 2:1', 'b) 3:1', 'c) 1:1', 'd) 3:4', 'e) 1:3']
+Label: A | Predicted: C
+--- Top 3 context chunks shown to LLM ---
+[0] functional roles. Simple carbohydrates are the main source of energy in cells. Some carbohydrates
+are the main constituents of cell walls in plants and micro-organisms.
+The word carbohydrate literally means hydrated carbons. They are composed of carbon, hydrogen
+and oxygen and the ratio of hydrogen and oxygen is the same as in water. Their general formula
+is C (H 0 ) where(x) is the whole number from three to many thousands whereas y may be the
+
+[1] Carbohydrates occur abundantly in living organisms. They are found in all organisms and in almost
+all parts of the cell. Cellulose of wood, cotton and paper, starches present in cereals, root tubers, cane
+sugar and milk sugar are all examples of carbohydrates. Carbohydrates play both structural and
+functional roles. Simple carbohydrates are the main source of energy in cells. Some carbohydrates
+
+[2] (iii) Trace the fate of hydrogen atoms removed from glucose during glycolysis when
+oxygen is present in muscle cells; compare this to the fate of hydrogen atoms
+removed from glucose when the amount of the available oxygen is insuicient to
+support aerobic respiration.
+(iv) Sketch Kreb’s cycle and discuss its energy yielding steps.
+(v) Describe various steps involved in oxidative break down of glucose to pyruvate.
+
+
+======================================================================
+[18] id=56 source=Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024
+Q: The top milk-producing animal is:
+Options: ['a) Nili-Ravi', 'b) Bhadawari', 'c) Godavari', 'd) Blue-Ravi', 'e) Jaffrabadi']
+Label: E | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] Class Mammalia - Mammals
+The term mammal was given by Linnaeus to the group of animals which are nourished by milk
+from the breast of the mother. The group is considered to be the highest in the animal kingdom.
+Their advancement over other groups is quite pronounced. The most important advancement
+is the evolution and development of their brain (nervous system) over the other vertebrates. It
+
+[1] proteins are incorporated into the animal’s DNA, and the proteins appear in the animal’s
+milk. There are plans to produce drugs for the treatment of cystic ibrosis, cancer, blood
+diseases and other disorders. Antithrombin III, for preventing blood clot during surgery,
+is currently being produced by a herd of goats, and clinical trials have begun. Figure
+23.10 out lines the procedure of producing transgenic mammals. DNA containing the
+
+[2] of Agriculture have been able to genetically engineer mice to produce human growth
+hormone in their urine instead of in milk. They expect to be able to use the same
+technique on larger animals. Urine is a preferable vehicle for a biotechnology product
+than milk because all animals in a herd urinate - only females produce milk; animals
+start to urinate at birth - females don’t produce milk until maturity; and its easier to
+
+
+======================================================================
+[19] id=59 source=Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024
+Q: Which of the following accurately describes Helicobacter pylori?
+Options: ['a) Flagellated rod-shaped bacterium', 'b) Flagellated chain bacterium', 'c) Flagellated spiral-shaped bacterium', 'd) Non-flagellated spiral-shaped bacterium', 'e) Non-flagellated rod-shaped bacterium']
+Label: C | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] require a low concentration of oxygen for growth and are
+Campylobacter is a microaerophilic bacterium.
+known as microaerophilic.
+Growth and Reproduction
+Bacterial growth refers commonly to increase in number of bacterial cells. Bacteria increase in
+number by an asexual means of reproduction, called binary ission. In binary ission parent cell
+enlarges, its chromosome duplicates, and plasma membrane pinches inward at the center of the
+
+[1] Acoelomates, Pseudocoelomates and Coelomates
+The following account would help to explain the above mentioned terms.
+Acoelomates
+In phylum Platyhelminthes there is no body cavity or coelom, and the mesoderm forms a loose,
+cellular tissue called mesenchyma or parenchyma which ills the space between the ectoderm and
+endoderm. It forms a packing around the internal organs of the animals to support and protect
+
+[2] (i) Describe in detail the structure of bacterial cell wall, emphasizing Gram positive
+and Gram negative properties.
+(ii) Write an account of diferent methods used for controlling microbes.
+(iii) Discuss the role of antibiotics and immunization in controlling bacterial diseases.
+What problem can arise due to misuse of antibiotics.
+(iv) Describe general characteristics of Cyanobacteria with special reference to
+Nostoc.
+21
+
+
+======================================================================
+[20] id=62 source=Dow University of Health Sciences / Medical Universities of Sindh MDCAT - Test 2024
+Q: Which statement about tautomerism is correct?
+Options: ['a) Only occurs in organic compound', 'b) Not influenced by temperature', 'c) Have same molecular formula', 'd) Have different molecular formula', 'e) Identical chemical properties']
+Label: C | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] (v) The soluble part of the cytoplasm is called.
+Q.2. Write whether the statement is ‘true’ or ‘false’ and write the correct statement if it
+is false.
+(i) Cell membrane is present in all eukaryotic cells.
+(ii) Chloroplast and mitochondria do not have hereditary material.
+(iii) Centriole is involved in cell secretions.
+(iv) Sometimes many ribosomes get attached to the same stretch of mRNA forming a
+structure called the cytosome.
+
+[1] Q.2 Write whether the statement is true or false and write the correct statement
+if false.
+i). Primary growth leads to increase in length, while secondary growth leads to increase
+in width.
+ii). The plants in which lowering is not at all efected by the day length are called day
+neutral plants.
+iii). The somatic mesoderm soon splits in the middle to form two layers
+(a) Outer parietal layer (b) Inner visceral layer
+
+[2] Q.2 Write whether the statement is true or false and write the correct statement
+if false.
+1. At diferent places in an environment when you study only one population, it will be synecology.
+2. Abiotic components include all living components.
+3. Primary succession starting in a pond is called xerosere.
+4. The animal that is caught and eaten is the predator.
+5. Endoparasites live inside the body of the host.
+Q.4 Short questions.
+
+
+======================================================================
+[21] id=5 source=Khyber Medical University - MDCAT 2024
+Q: Plasma membrane is differentially permeable membrane due to the presence of?
+Options: ['a. Carbohydrates', 'b. Lipids', 'c. Proteins', 'd. Vitamins']
+Label: C | Predicted: B
+--- Top 3 context chunks shown to LLM ---
+[0] cell contents and their environment, allowing only selective substances to pass through it, thus it
+is known as diferentially permeable or selectively permeable membrane. The substances which
+are lipid soluble cross it more easily than others, therefore, it regulates the low of materials and
+ions to maintain a deinite gradient. Many small gas molecules, water, glucose etc. being neutral can
+
+[1] permeability of Na+ ions moving inwards upsetting the potential momentarily, making the inside
+more positive than outside. Neurophysiologists believe that the increased permeability is due to
+the opening of speciic pores in the membrane, termed “sodium gates”. When these gates open,
+sodium ions rush into the neuron by difusion. Some K+ moves out.
+2. Charges are reversed: The inner side of the cell membrane has excess of positive ions (thus
+
+[2] Just beneath the cell wall is the cell membrane or plasma membrane. It is very thin, lexible and
+completely surrounds the cytoplasm. Plasma membrane is very delicate in nature any damage to
+it results in death o f the organism. Bacterial membranes difer from eukaryotic membranes in
+lacking sterols such as cholesterol.
+Cell membrane regulates the transport of proteins, nutrients, sugar and electrons or other
+
+
+======================================================================
+[22] id=10 source=Khyber Medical University - MDCAT 2024
+Q: What happens to the enzyme after an enzyme-catalysed reaction?
+Options: ['a. Reduced to inactive form', 'b. Becomes inert', 'c. Changes into substrate', 'd. Used for another reaction']
+Label: D | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] the transformation of the substrate into product(s). Thus the enzyme after catalysis detaches itself
+from the products unchanged. Enzyme requires aqueous medium for its activity.
+Most enzymes do not loat about in a kind
+Emil Fischer (1890) proposed a Lock and Key model to
+of cytoplasmic soup’ but are attached
+visualize substrate and enzyme interaction. According
+to membrane systems inside the cell
+
+[1] By increasing the enzyme molecules an increase in the number of active sites takes place. More
+active sites will convert the substrate molecules into product(s), in the given period of time. After a
+certain limiting concentration, the rate of reaction will no longer depend upon this increase.
+2. Substrate Concentration
+At low concentration of substrate the reaction rate is directly proportional to the substrate available.
+
+[2] ig.3.5. Efect of temperature on the rate of an enzyme catalyzed reaction
+4. pH Value
+Every enzyme functions most efectively over a narrow range of pH known as the optimum pH as
+shown in Table 4.1.
+A slight change in pH can change the ionization of the amino acids at the active site. Moreover,
+it may afect the ionization of the substrates. Under these changed conditions enzyme activity is
+either retarded or blocked completely.
+
+
+======================================================================
+[23] id=13 source=Khyber Medical University - MDCAT 2024
+Q: A competitive inhibitor:
+Options: ['a. Accelerates the chemical reaction', 'b. Competes with the enzyme', 'c. Is irreversible', 'd. Is reversible']
+Label: D | Predicted: B
+--- Top 3 context chunks shown to LLM ---
+[0] They are further divided into two major types: A. Competitive B. Non-competitive
+A. Competitive Inhibitors
+Because of the structural similarity with the substrate they may be selected by the binding sites,
+but are not able to activate the catalytic sites. Thus product(s) are not formed (Fig.3.6).
+10
+V: 1.13. Enzymes
+
+[1] B. Non-competitive Inhibitors
+They form enzyme inhibitor complex at a point other than the active site. They alter the structure
+of the enzyme in such a way that even if genuine substrate binds the active site, catalysis fails to
+take place.
+Animated 3.5: Non-competitive Inhibitors
+Source and Credit: academic.brooklyn
+11
+V: 1.13. Enzymes
+
+[2] They check the reaction rate by occupying the active sites or destroying the globular structure.
+They occupy the active sites by forming covalent bonds or they may physically block the active sites.
+Reversible Inhibitors
+They form weak linkages with the enzyme. Their efect can be neutralized completely or partly by
+an increase in the concentration of the substrate.
+They are further divided into two major types: A. Competitive B. Non-competitive
+
+
+======================================================================
+[24] id=16 source=Khyber Medical University - MDCAT 2024
+Q: Which enzyme is secreted in the active form?
+Options: ['a. Amylase', 'b. Lipase', 'c. Peptidase', 'd. Protease']
+Label: A | Predicted: D
+--- Top 3 context chunks shown to LLM ---
+[0] Pepsin is an enzyme secreted in an inactive form called pepsinogen. Pepsinogen is activated to
+pepsin when exposed to the acidic medium or to some already activated pepsin. Pepsin hydrolyzes
+protein to yield peptones and polypeptides.
+The muscles of stomach wall thoroughly mix up the food with gastric juice and eventually convert it
+to semi-solid mass called chyme. Gradually the stomach empties into the duodenum through the
+
+[1] Enzymes are composed of hundreds of amino acids joined together and coiled upon themselves
+to form a globular structure. The catalytic activity is restricted to a small portion of the structure
+known as the active site. The reactant called substrate is attached to the active site consisting of
+only a few amino acids, while rest of the bulk of the amino acids maintains the globular structure
+of the enzyme.
+
+[2] An enzyme and its substrate react with each other through a deinite charge-bearing site of an
+enzyme called active site. The charge and shape of the active site is formed by some amino acids
+present in the polypeptide chain of the active site of the enzyme. These amino acids are brought
+closer and are arranged in a speciic way by coiling and folding of the polypeptide chain within the
+globular symmetry of the enzyme (Fig. 3.3).
+Model)
+
+
+======================================================================
+[25] id=34 source=Khyber Medical University - MDCAT 2024
+Q: Which is true for an X linked dominant trait?
+Options: ['a. All female offspring of the affected father will be affected', 'b. Half of the female off springs of the affected father will be affected', 'c. No male offspring of an affected mother will be affected', 'd. No female offspring of the affected father will be affected']
+Label: A | Predicted: B
+--- Top 3 context chunks shown to LLM ---
+[0] Sex - Linkage in Humans
+Humans have many X - linked traits of which some like haemophilia and colour blindness
+are recessive while others like hypophosphatemic or vitamin D resistant rickets are
+dominant. X - linked dominant is a trait which is determined by an X linked dominant
+gene, while X - linked recessive is a trait that is determined by an X - linked recessive
+gene. Their patterns of inheritance are very diferent from each other.
+
+[1] X - linked dominant inheritance : Pattern of X - linked dominant inheritance is diferent
+from X - linked recessive. It is more common in females than males. All daughters of an
+afected father, but none of his sons are afected. Any heterozygous afected mother
+will pass the trait equally to half of her sons and half of her daughters (Fig. 22.29).
+Hypophosphatemic rickets is an X - linked dominant trait. It is a rare hereditary disease.
+
+[2] having no counterpart on Y chromosome, is called X - linked gene.
+Sex-linked inheritance follows a very speciic pattern. As a son inherits his X chromosome
+only from his mother, and a daughter gets an X chromosome from each parent, an X
+- linked trait passes in a crisscross fashion from maternal grandfather (Pi) through his
+daughter (Fi) to the grandson (F2). It never passes direct from father to son because a
+
+
+======================================================================
+[26] id=37 source=Khyber Medical University - MDCAT 2024
+Q: Canal system is a characteristic of?
+Options: ['a. Cnidarians', 'b. Protozoans', 'c. Porifera', 'd. Segmented worms']
+Label: C | Predicted: D
+--- Top 3 context chunks shown to LLM ---
+[0] Peristalsis These are characteristic movements of the digestive tract by which food is moved along
+the cavity of the canal. It consists of the wave of contraction of the circular and longitudinal muscles
+preceded by the wave of relaxation thus squeezing the food down along the canal. Peristalsis starts
+just behind the mass of food from the buccal cavity along the esophagus to the stomach and then
+
+[1] system is simple. A luid illed space is present between the body wall and alimentary canal. It
+provides “tube within tube” type structure in nematodes. The excretory system consists of
+17
+V: 1.110. Kingdom Animalia
+
+[2] The annelids show specialization of body structures. The organ systems are well developed.
+Digestive system is in the form of alimentary canal which is divided into distinct parts, each
+performing a speciic function. It has two openings, the mouth at the anterior end, and the anus
+at the posterior end. The mouth is overhung by a lobed structure, the prostomium. In parasitic
+species, the digestive system is poorly developed.
+
+
+======================================================================
+[27] id=39 source=Khyber Medical University - MDCAT 2024
+Q: The production of energy is __.
+Options: ['a. Faster in anaerobic respiration', 'b. Faster in aerobic respiration', 'c. Same in both types of respiration', 'd. Not associated with respiration']
+Label: A | Predicted: B
+--- Top 3 context chunks shown to LLM ---
+[0] The low of Energy in Food Chain of an Ecosystem
+Energy in the form of radiant heat and light from the sun lows through an ecosystem
+passing through the diferent trophic levels (links) and radiates again back into outer
+space. The total amount of energy ixed by plants is gross primary production. The
+amount of energy left after plants have met their respiratory needs is net primary
+production, which shows up as plant biomass.
+
+[1] About 1% of the total energy from the sun is trapped by the producers in an ecosystem.
+The remaining 99% of solar energy is used to evaporate water, heat up soil and is then
+lost to the outer space. As energy is transferred from one trophic level to the next,
+from producer to primary consumer, between 80 to 90% of last as the original energy
+is heat as a by product of respiration. However, a continuous lux of energy from the
+
+[2] cellular respiration is directly involved in the production of energy, necessary for all living activities.
+Cellular respiration is the process by which cell utilizes oxygen, produces carbon dioxide, extracts and
+conserves the energy from food molecules in biologically useful form, such as, ATP.
+ADVANTAGES AND DISADVANTAGES OF
+GAS EXCHANGE IN AIR AND IN WATER
+
+
+======================================================================
+[28] id=43 source=Khyber Medical University - MDCAT 2024
+Q: The active movement of mitochondria in the cytoplasm is due to
+Options: ['a. Cyclosis', 'b. Endoplasmic streaming movements', 'c. Golgi apparatus', 'd. Transfer RNA']
+Label: A | Predicted: B
+--- Top 3 context chunks shown to LLM ---
+[0] a site for certain metabolic processes such as glycolysis.
+In living cells the cytoplasm contains several cell organelles such as endoplasmic reticulum,
+mitochondria, Golgi complex, nucleus, plastids, ribosomes, lysosomes and centriole. The free
+loating cell organelles e.g. mitochondria move about in cytoplasm due to cytoplasmic streaming
+movements. This is an active mass movement of cytoplasm.
+11
+V: 1.14. The Cell 
+Endoplasmic Reticulum
+
+[1] is the passive movement of chloroplast due to cyclosis. This movement helps the chloroplast to
+absorb maximum light for C0 ixation. The light intensity and direction both afect the intra cellular
+2
+distribution of chloroplasts. (b) Chemotactic movement : The movement in response to stimulus
+of chemicals is called chemotactic movement. The movements shown by sperms of liver-worts,
+
+[2] Role of mitochondria in respiration Mitochondria are large granular or ilamentous organelles
+that are distributed throughout the cytoplasm of animal and plant cells. Each mitochondrion is
+constructed of an outer enclosing membrane and an inner membrane with elaborate folds or
+cristae that extend into the interior of the organelle.
+Mitochondria play a part in cellular respiration by transferring the energy of the organic molecules
+
+
+======================================================================
+[29] id=59 source=Khyber Medical University - MDCAT 2024
+Q: The genetic code of _______ is bound by a lipid membrane?
+Options: ['a. Enterovirus', 'b. Flu virus', 'c. Hepatitis A virus', 'd. Polio virus']
+Label: B | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] - 80% are proteins, while 20-40% are lipids. In addition there is a small quantity of carbohydrates.
+Many biologists contributed to establish the structural organization of cell membrane. It was
+proposed earlier that cell membrane is composed of lipid bilayer sandwiched between inner and
+outer layers of protein (Fig.4.4). This, basic structure is called the unit membrane and is present in all
+
+[1] Genetic code is a combination of 3 nucleotides, which specify a particular amino acid.
+There are three nucleotides in .a codon, because a two nucleotide codon would not
+yield enough combinations to code for the 20 diferent amino acids that commonly
+occur in proteins. With four DNA nucleotides (G,C, T and A ) only 42 or 16, diferent pairs
+of nucleotides could be formed. However, these same nucleotides can be arranged in
+
+[2] The genetic code is universal. It is the same in almost all the organisms. For example AGA
+speciies arginine in bacteria, in humans and all other organisms whose genetic code
+has been studied. Because of the universality of codon, the genes can be transferred
+from one organism to another and be successfully transcribed and translated in their
+new host.
+The study of genetic code of mitochondrial DNA however, showed that genetic code is
+
+
+======================================================================
+[30] id=60 source=Khyber Medical University - MDCAT 2024
+Q: Viruses can NOT
+Options: ['a. Crystalise', 'b. Excrete', 'c. Infect bacteria', 'd. Mutate']
+Label: B | Predicted: C
+--- Top 3 context chunks shown to LLM ---
+[0] which bacteria cannot pass. Viruses cannot be grown on artiicial media. They can reproduce only
+in animal and plant cells or in microorganisms, where they reproduce by replication (a process by
+which many copies or replicas of virus are formed). Thus the viruses are obligate intracellular
+parasites. Viruses lack metabolic machinery for the synthesis of their own nucleic acid and protein.
+
+[1] Characteristics
+Viruses are extremely small infectious agents, which can only be seen under an electron microscope.
+They range in size from 250 nanometer (nm) of poxviruses to the 20 nm of parvoviruses. They are
+10 to 1000 times smaller than most bacteria, so they can pass through the pores of ilter, from
+which bacteria cannot pass. Viruses cannot be grown on artiicial media. They can reproduce only
+
+[2] this section. The branch which deals with the study of viruses is known as virology.
+The word virus is derived from Latin word venome meaning poisonous luid. It can be deined as
+non cellular infectious entities which contain either RNA or DNA, normally encased in proteinaceous
+coat, and reproduce only in living cells. Viruses utilize the biosynthetic machinery of the host for its
+
+
+======================================================================
+[31] id=61 source=Khyber Medical University - MDCAT 2024
+Q: Where are the enzymes required for the replication of HIV virus located?
+Options: ['a. In the protein spikes', 'b. Surrounding the viral core', 'c. Inside the capsid', 'd. Outside the capsid']
+Label: C | Predicted: A
+--- Top 3 context chunks shown to LLM ---
+[0] cells that possess required receptors. In the case of AIDS virus, the host cell possesses a receptor
+that allows the viral adsorption and penetration in several types of leukocytes (white blood cells)
+and tissue cells. The retroviruses have a special enzyme called reverse transcriptase, which can
+convert a single -stranded RNA genome into double stranded viral DNA. Not only this DNA can
+
+[1] The Replication Process
+The DNA replication begins at one or more sites on the DNA molecule, where there
+is a speciic sequence of nucleotides (Fig 20.16), The DNA polymerase III and other
+enzymes begin a complex process that catalyzes the addition of nucleotides to the
+growing complementary strands of DNA (Fig 20.17).
+comle
+2220.Chromosomes And DNA
+
+[2] The bacteriophage replicates only inside the bacterial cell. The irst step in the replication of a
+bacteriophage is its attachment (adsorption) to host cell at receptor site on the cell wall of
+bacterium. During attachment, week chemical union between virion and receptor site takes place.
+In the next step, penetration, the tail releases the enzyme lysozyme to dissolve a portion of the
+
+

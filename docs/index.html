@@ -367,6 +367,67 @@
     line-height: 1.45;
   }
 
+  /* ---------- architecture diagram ---------- */
+  .arch-lane { margin-bottom: 36px; }
+  .arch-lane:last-child { margin-bottom: 0; }
+  .arch-lane-label {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    margin-bottom: 12px;
+  }
+  .arch-row {
+    display: flex;
+    align-items: stretch;
+    gap: 22px;
+  }
+  .arch-row > * { position: relative; }
+  .arch-row > *:not(:last-child)::after {
+    content: "→";
+    position: absolute;
+    right: -18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--ink-dim);
+    font-family: var(--mono);
+    font-size: 15px;
+    z-index: 2;
+  }
+  .arch-box {
+    flex: 1 1 0;
+    background: var(--surface);
+    border: 1px solid var(--rule-strong);
+    border-radius: 3px;
+    padding: 14px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    text-align: center;
+  }
+  .arch-box strong {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .arch-tech {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-dim);
+    letter-spacing: 0.01em;
+    line-height: 1.3;
+  }
+  .arch-fanout {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .arch-fanout .arch-box { flex: 1; padding: 8px 10px; }
+  .arch-fanout .arch-box strong { font-size: 11.5px; }
+
   /* ---------- results table ---------- */
   .results {
     width: 100%;
@@ -419,6 +480,44 @@
     left: 0; top: 0;
   }
   .bar-fill.after { background: var(--accent); }
+
+  /* ---------- current vs production comparison ---------- */
+  .compare {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .compare th, .compare td {
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  .compare thead th {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-dim);
+    border-bottom: 1px solid var(--rule-strong);
+  }
+  .compare td.concern {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .compare td.current {
+    color: var(--ink-dim);
+    font-family: var(--sans);
+    font-size: 13px;
+  }
+  .compare td.target {
+    font-family: var(--sans);
+    font-size: 13px;
+    background: color-mix(in srgb, var(--accent) 7%, transparent);
+    border-left: 2px solid var(--accent-dim);
+  }
 
   /* ---------- journey timeline ---------- */
   .journey {
@@ -592,6 +691,19 @@
     .results { font-size: 13px; }
     .bar-cell { width: 90px; }
     .target-marker::after { right: auto; left: 0; transform: none; }
+    .arch-row { flex-direction: column; gap: 26px; }
+    .arch-fanout { flex-direction: row; }
+    .arch-row > *:not(:last-child)::after {
+      content: "↓";
+      right: 50%;
+      top: auto;
+      bottom: -22px;
+      transform: translateX(50%);
+    }
+    .compare thead { display: none; }
+    .compare tr { display: block; border-bottom: 1px solid var(--rule-strong); padding: 10px 0; }
+    .compare td { display: block; border-bottom: none; padding: 3px 0; }
+    .compare td.target { border-left: none; padding-left: 10px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -608,8 +720,9 @@
     </a>
     <nav class="nav-links">
       <a href="#journey">Journey</a>
-      <a href="#pipeline">Pipeline</a>
+      <a href="#architecture">Architecture</a>
       <a href="#results">Results</a>
+      <a href="#future">Roadmap</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -751,6 +864,40 @@
     </div>
   </section>
 
+  <section id="architecture">
+    <div class="kicker">Under the hood</div>
+    <h2>Two pipelines: build the index once, query it many times</h2>
+    <p class="intro">
+      Ingestion and querying run on different schedules and different constraints — indexing runs
+      offline whenever the corpus changes; retrieval runs on every single request and has to stay fast.
+    </p>
+
+    <div class="arch-lane">
+      <div class="arch-lane-label">Indexing — offline, runs when the corpus changes</div>
+      <div class="arch-row">
+        <div class="arch-box"><strong>PDF sources</strong><span class="arch-tech">6 textbooks + past papers</span></div>
+        <div class="arch-box"><strong>Cleaning</strong><span class="arch-tech">per-noise-type regex rules</span></div>
+        <div class="arch-box"><strong>Chunking</strong><span class="arch-tech">recursive + table extraction</span></div>
+        <div class="arch-box"><strong>Embedding</strong><span class="arch-tech">MiniLM-L6, 384-dim</span></div>
+        <div class="arch-box"><strong>Vector store</strong><span class="arch-tech">ChromaDB, content-hash IDs</span></div>
+      </div>
+    </div>
+
+    <div class="arch-lane">
+      <div class="arch-lane-label">Query — online, per request</div>
+      <div class="arch-row">
+        <div class="arch-box"><strong>Question</strong><span class="arch-tech">student's exam query</span></div>
+        <div class="arch-fanout">
+          <div class="arch-box"><strong>BM25</strong><span class="arch-tech">lexical match</span></div>
+          <div class="arch-box"><strong>Semantic</strong><span class="arch-tech">embedding match</span></div>
+        </div>
+        <div class="arch-box"><strong>RRF fusion</strong><span class="arch-tech">rank-based merge</span></div>
+        <div class="arch-box"><strong>Rerank</strong><span class="arch-tech">cross-encoder, 20→5</span></div>
+        <div class="arch-box"><strong>Generate</strong><span class="arch-tech">Groq · Llama 3.3 70B</span></div>
+      </div>
+    </div>
+  </section>
+
   <section id="results">
     <div class="kicker">Results</div>
     <h2>Subject-by-subject, before and after</h2>
@@ -797,6 +944,67 @@
           <td class="bar-cell"></td>
           <td class="num">89.8%</td>
           <td class="num delta">9.8</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="future">
+    <div class="kicker">Where this goes next</div>
+    <h2>What changes between a working demo and a production system</h2>
+    <p class="intro">
+      The live demo proves the pipeline works end to end. Turning it into something an institution
+      could actually depend on is mostly an operations problem, not an algorithm problem — this is
+      the honest gap between "it works" and "it's a product."
+    </p>
+    <table class="compare">
+      <thead>
+        <tr>
+          <th>Concern</th>
+          <th>Current (demo)</th>
+          <th>Production target</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="concern">Serving</td>
+          <td class="current">Single Streamlit instance</td>
+          <td class="target">FastAPI behind a load balancer, horizontally scaled</td>
+        </tr>
+        <tr>
+          <td class="concern">Vector store</td>
+          <td class="current">Local ChromaDB file, ~9k chunks</td>
+          <td class="target">Managed vector DB (Qdrant / Pinecone), durable and built for scale</td>
+        </tr>
+        <tr>
+          <td class="concern">Caching</td>
+          <td class="current">None — every question re-runs the full pipeline</td>
+          <td class="target">Redis cache for repeated and near-duplicate queries</td>
+        </tr>
+        <tr>
+          <td class="concern">Auth &amp; limits</td>
+          <td class="current">Open, unauthenticated demo</td>
+          <td class="target">API keys, per-tenant rate limiting</td>
+        </tr>
+        <tr>
+          <td class="concern">Observability</td>
+          <td class="current">Manual eval runs, checked by hand</td>
+          <td class="target">Continuous accuracy monitoring, latency/cost dashboards, drift alerts</td>
+        </tr>
+        <tr>
+          <td class="concern">Corpus updates</td>
+          <td class="current">Manual re-ingestion scripts, run locally</td>
+          <td class="target">CI/CD: new source → auto clean/chunk/embed → shadow-test → promote</td>
+        </tr>
+        <tr>
+          <td class="concern">Content compliance</td>
+          <td class="current">Licensing risk flagged, not resolved</td>
+          <td class="target">Formal licensing review before any commercial use of source material</td>
+        </tr>
+        <tr>
+          <td class="concern">Feedback loop</td>
+          <td class="current">None</td>
+          <td class="target">User corrections feed back into the eval set and corpus over time</td>
         </tr>
       </tbody>
     </table>

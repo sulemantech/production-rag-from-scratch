@@ -15,17 +15,6 @@
         "correct_answer": "A. Adenovirus"
       },
       {
-        "id": 2,
-        "question": "The complete, mature & infectious particle of virus is known as:",
-        "options": [
-          "A. Genome",
-          "B. Capsomere",
-          "C. Prion",
-          "D. Envelope"
-        ],
-        "correct_answer": "D. Envelope"
-      },
-      {
         "id": 3,
         "question": "The causative organism of measles is:",
         "options": [
@@ -133,7 +122,7 @@
           "C. 99%",
           "D. 60%"
         ],
-        "correct_answer": "A. 70%"
+        "correct_answer": "B. 20%"
       },
       {
         "id": 13,
@@ -794,18 +783,6 @@
         "correct_answer": "b) Mechanoreceptors"
       },
       {
-        "id": 4,
-        "question": "The situation when two alternative forms is said to have:",
-        "options": [
-          "a) Codominance",
-          "b) Sex-influenced traits",
-          "c) Multiple alleles",
-          "d) Incomplete dominance",
-          "e) Sex-limited traits"
-        ],
-        "correct_answer": "d) Incomplete dominance"
-      },
-      {
         "id": 5,
         "question": "Bacterium, with a tuft of flagella present at each of two poles, is called:",
         "options": [
@@ -1231,18 +1208,6 @@
           "d) Prions"
         ],
         "correct_answer": "c) Prophage"
-      },
-      {
-        "id": 41,
-        "question": "Plants oxidize sugar in chloroplasts during day time without production of energy. This process is called:",
-        "options": [
-          "a) Decarboxylation",
-          "b) Oxidative phosphorylation",
-          "c) Non-cyclic photophosphorylation",
-          "d) Cyclic oxidative phosphorylation",
-          "e) Lactic acid fermentation"
-        ],
-        "correct_answer": "c) Non-cyclic photophosphorylation"
       },
       {
         "id": 42,
