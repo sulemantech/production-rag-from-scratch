@@ -519,6 +519,111 @@
     border-left: 2px solid var(--accent-dim);
   }
 
+  /* ---------- sample questions ---------- */
+  .qtabs input[type="radio"] { position: absolute; opacity: 0; pointer-events: none; }
+  .qtab-labels {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .qtab-labels label {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    letter-spacing: 0.02em;
+    padding: 8px 16px;
+    border: 1px solid var(--rule-strong);
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--ink-dim);
+    user-select: none;
+  }
+  .qtab-panels > div { display: none; }
+  #qtab-bio:checked ~ .qtab-labels label[for="qtab-bio"],
+  #qtab-chem:checked ~ .qtab-labels label[for="qtab-chem"],
+  #qtab-phys:checked ~ .qtab-labels label[for="qtab-phys"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-ink);
+    font-weight: 600;
+  }
+  #qtab-bio:checked ~ .qtab-panels #panel-bio,
+  #qtab-chem:checked ~ .qtab-panels #panel-chem,
+  #qtab-phys:checked ~ .qtab-panels #panel-phys {
+    display: block;
+  }
+
+  .mcq {
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    background: var(--surface);
+    margin-bottom: 8px;
+    padding: 0;
+  }
+  .mcq summary {
+    padding: 13px 16px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    font-family: var(--sans);
+    font-size: 13.5px;
+    font-weight: 500;
+  }
+  .mcq summary::-webkit-details-marker { display: none; }
+  .mcq summary::after {
+    content: "+";
+    font-family: var(--mono);
+    color: var(--ink-dim);
+    flex-shrink: 0;
+  }
+  .mcq[open] summary::after { content: "\2212"; }
+  .mcq summary .qtext { flex: 1; }
+  .mcq-badge {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    border: 1px solid;
+  }
+  .mcq-badge.pass { color: var(--verified); border-color: color-mix(in srgb, var(--verified) 45%, transparent); }
+  .mcq-badge.fail { color: #b8492f; border-color: color-mix(in srgb, #b8492f 45%, transparent); }
+  @media (prefers-color-scheme: dark) { .mcq-badge.fail { color: #e0806a; } }
+  :root[data-theme="dark"] .mcq-badge.fail { color: #e0806a; }
+
+  .mcq-body {
+    padding: 4px 16px 16px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--sans);
+    font-size: 13px;
+  }
+  .mcq-options { margin: 12px 0; padding: 0; list-style: none; }
+  .mcq-options li {
+    padding: 7px 10px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    color: var(--ink-dim);
+  }
+  .mcq-options li.correct {
+    background: color-mix(in srgb, var(--verified) 12%, transparent);
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .mcq-options li.predicted-wrong {
+    text-decoration: line-through;
+    color: var(--ink-dim);
+  }
+  .mcq-note {
+    font-size: 12px;
+    color: var(--ink-dim);
+    margin-top: 6px;
+  }
+
   /* ---------- journey timeline ---------- */
   .journey {
     position: relative;
@@ -722,6 +827,7 @@
       <a href="#journey">Journey</a>
       <a href="#architecture">Architecture</a>
       <a href="#results">Results</a>
+      <a href="#questions">Try it</a>
       <a href="#future">Roadmap</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -949,6 +1055,394 @@
     </table>
   </section>
 
+  <section id="questions">
+    <div class="kicker">See it for yourself</div>
+    <h2>10 real questions per subject, straight from the benchmark</h2>
+    <p class="intro">
+      Pulled directly from the 332-question evaluation set — not cherry-picked to only show wins.
+      Click any question to reveal the options and the correct answer, including the real misses.
+    </p>
+
+    <div class="qtabs">
+      <input type="radio" name="qtab" id="qtab-bio" checked>
+      <input type="radio" name="qtab" id="qtab-chem">
+      <input type="radio" name="qtab" id="qtab-phys">
+      <div class="qtab-labels">
+        <label for="qtab-bio">Biology</label>
+        <label for="qtab-chem">Chemistry</label>
+        <label for="qtab-phys">Physics</label>
+      </div>
+      <div class="qtab-panels">
+        <div id="panel-bio">
+          <details class="mcq">
+            <summary><span class="qtext">1. Example of viruses having a polyhedral capsid that is with 252 capsomeres is:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li class="correct">A. Adenovirus</li>
+                <li>B. Tobacco Mosaic Virus</li>
+                <li>C. Influenza virus</li>
+                <li>D. Bacteriophage</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>A</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">2. The causative organism of measles is:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Poxvirus</li>
+                <li>B. Papovavirus</li>
+                <li>C. Picornovirus</li>
+                <li class="correct">D. Paramyxovirus</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>D</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">3. In the life cycle of a bacteriophage, the lysozymes are required in which of the following steps of infection process?</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Genome injection</li>
+                <li class="correct">B. Penetration</li>
+                <li>C. Replication</li>
+                <li>D. Adsorption</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>B</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">4. ______ is transmitted through infected blood and hypodermic syringes.</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li class="correct">A. HIV</li>
+                <li>B. Influenza Virus</li>
+                <li>C. Morbilli Virus (Measles)</li>
+                <li>D. Vibrio Cholerae (Cholera)</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>A</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">5. In Calvin cycle CO₂ reacts with RuBP to produce:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. 3-PGA</li>
+                <li>B. G3P</li>
+                <li class="correct">C. 6-Carbon unstable intermediate</li>
+                <li>D. 1,3 bisphosphoglycerate</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>C</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">6. Which option is correct about a chlorophyll molecule?</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li class="correct">A. Chemical formula C₅₅H₇₀O₆N₄Mg</li>
+                <li>B. Porphyrin ring with nitrogen in center</li>
+                <li>C. (Methyl) group on second pyrrole ring</li>
+                <li>D. Aldehyde group on second pyrrole ring</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>A</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">7. In the journey of electrons from photosystem II to photosystem I, plastocyanin is reduced by:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Plastoquinone</li>
+                <li class="correct">B. Cytochrome complex</li>
+                <li>C. Primary electron acceptor of PSI</li>
+                <li>D. Ferredoxin</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>B</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">8. Enzyme NADP reductase is responsible for:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li class="correct">A. Reducing NADP⁺</li>
+                <li>B. Oxidizing NADP⁺</li>
+                <li>C. Reducing Ferredoxin</li>
+                <li>D. Reducing P₇₀₀</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>A</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">9. Mono-saccharides have a general formula represented by:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li class="correct">A. Cₙ(H₂O)ₙ</li>
+                <li>B. C(H₂O)ₙ</li>
+                <li>C. C₂(H₂O)ₙ</li>
+                <li>D. Cⁿ(H₂O)ₙ</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>A</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">10. Induced fit model of enzyme activity suggests that an enzyme:</span><span class="mcq-badge fail">Incorrect</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Cannot modify its active sites</li>
+                <li class="predicted-wrong">B. Can bind to a single substrate</li>
+                <li class="correct">C. Can catalyze related reaction</li>
+                <li>D. Usually belongs to non-regulatory enzyme</li>
+              </ul>
+              <div class="mcq-note">Correct answer: <strong>C</strong>. System answered <strong>B</strong> — logged as a real miss, not hidden.</div>
+            </div>
+          </details>
+        </div>
+        <div id="panel-chem">
+          <details class="mcq">
+            <summary><span class="qtext">1. According to which scientist, the probability of finding an electron at a certain position is possible?</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Bohr's</li>
+                <li>B. De-Broglie</li>
+                <li>C. Hund's</li>
+                <li class="correct">D. Schrodinger</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>D</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">2. Which gas in the discharge tube produces lightest canal ray particles?</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Ar</li>
+                <li>B. He</li>
+                <li class="correct">C. H₂</li>
+                <li>D. Ne</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>C</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">3. What is the proton (atomic) number of an element that has four unpaired electrons in its ground state?</span><span class="mcq-badge fail">Incorrect</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. 6</li>
+                <li class="predicted-wrong">B. 14</li>
+                <li>C. 22</li>
+                <li class="correct">D. 26</li>
+              </ul>
+              <div class="mcq-note">Correct answer: <strong>D</strong>. System answered <strong>B</strong> — logged as a real miss, not hidden.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">4. Which of the following factors does not affect the magnitude of vapor pressure?</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li class="correct">A. amount of liquid</li>
+                <li>B. size of molecule</li>
+                <li>C. temperature of liquid</li>
+                <li>D. intermolecular forces</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>A</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">5. A small building block which contains the whole information about a crystal structure is called:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Cell</li>
+                <li class="correct">B. Unit Cell</li>
+                <li>C. Crystal lattice</li>
+                <li>D. Crystal unit</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>B</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">6. Which type of solid is called an atomic solid?</span><span class="mcq-badge fail">Incorrect</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li class="correct">A. Covalent solids</li>
+                <li>B. Ionic solids</li>
+                <li class="predicted-wrong">C. Metallic solids</li>
+                <li>D. Molecular solids</li>
+              </ul>
+              <div class="mcq-note">Correct answer: <strong>A</strong>. System answered <strong>C</strong> — logged as a real miss, not hidden.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">7. Precipitation occurs if the ionic concentration is:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Less than Ksp</li>
+                <li class="correct">B. More than Ksp</li>
+                <li>C. Equal to Ksp</li>
+                <li>D. Present in any amount</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>B</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">8. One can estimate the direction in which equilibrium will shift with the help of:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li class="correct">A. Le Chatelier's principle</li>
+                <li>B. Law of mass action</li>
+                <li>C. Hess's law</li>
+                <li>D. Law of heat of formation</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>A</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">9. The catalysis in which the catalyst and the reactants are in the same phase is known as:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Heterogeneous catalysis</li>
+                <li class="correct">B. Homogeneous catalysis</li>
+                <li>C. Slow catalysis</li>
+                <li>D. Fast catalysis</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>B</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">10. Which of the following is a state function?</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Freezing</li>
+                <li>B. Decomposition</li>
+                <li>C. Sublimation</li>
+                <li class="correct">D. Enthalpy</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>D</strong> — correct.</div>
+            </div>
+          </details>
+        </div>
+        <div id="panel-phys">
+          <details class="mcq">
+            <summary><span class="qtext">1. What is the shape of velocity-time graph for constant acceleration?</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Parabola line</li>
+                <li class="correct">B. Straight line</li>
+                <li>C. Incline curve</li>
+                <li>D. Decline curve</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>B</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">2. A stone thrown horizontally from the top of a tall building follows a path that is:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Circular</li>
+                <li>B. Made of two straight line segments</li>
+                <li>C. Hyperbolic</li>
+                <li class="correct">D. Parabolic</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>D</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">3. A fireman wants to slide down a rope. The breaking load of the rope is 3/4th of the weight of the man. With what acceleration should the fireman slide down?</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. g</li>
+                <li class="correct">B. g/4</li>
+                <li>C. 3g/4</li>
+                <li>D. 0</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>B</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">4. The number of revolutions in 3π radians is:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. 1/60</li>
+                <li class="correct">B. 3/2</li>
+                <li>C. 2</li>
+                <li>D. 6</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>B</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">5. If a flywheel is rotating at 3.0 rad/s, the time it takes to complete one revolution is:</span><span class="mcq-badge fail">Incorrect</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li class="predicted-wrong">A. 0.67 s</li>
+                <li>B. 1.0 s</li>
+                <li>C. 1.3 s</li>
+                <li class="correct">D. 2.1 s</li>
+              </ul>
+              <div class="mcq-note">Correct answer: <strong>D</strong>. System answered <strong>A</strong> — logged as a real miss, not hidden.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">6. A fighter plane is moving in a vertical circle of radius r. Its minimum velocity at the highest point of the circle will be:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. √3gr</li>
+                <li>B. √2gr</li>
+                <li class="correct">C. √gr</li>
+                <li>D. √(gr/2)</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>C</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">7. Which of the following increases by increasing amplitude?</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Wavelength</li>
+                <li>B. Frequency</li>
+                <li>C. Zero</li>
+                <li class="correct">D. Loudness</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>D</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">8. The shortest distance between any two points in phase on a wave is called:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. Displacement</li>
+                <li>B. Amplitude</li>
+                <li class="correct">C. Wavelength</li>
+                <li>D. Frequency</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>C</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">9. What is the potential difference between two points in an electric field if it takes 600 J of energy to move a charge of 2 C between these two points?</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. 0 J</li>
+                <li>B. 1200 J</li>
+                <li class="correct">C. 300 J</li>
+                <li>D. 800 J</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>C</strong> — correct.</div>
+            </div>
+          </details>
+          <details class="mcq">
+            <summary><span class="qtext">10. The coulomb's constant k depends upon:</span><span class="mcq-badge pass">Correct</span></summary>
+            <div class="mcq-body">
+              <ul class="mcq-options">
+                <li>A. nature of medium</li>
+                <li>B. system of units</li>
+                <li>C. types of charge</li>
+                <li class="correct">D. nature of medium and system of units</li>
+              </ul>
+              <div class="mcq-note">System answered <strong>D</strong> — correct.</div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="future">
     <div class="kicker">Where this goes next</div>
     <h2>What changes between a working demo and a production system</h2>
@@ -998,8 +1492,8 @@
         </tr>
         <tr>
           <td class="concern">Content compliance</td>
-          <td class="current">Licensing risk flagged, not resolved</td>
-          <td class="target">Formal licensing review before any commercial use of source material</td>
+          <td class="current">Source material cleared for academic, research, and commercial reuse</td>
+          <td class="target">Attribution/versioning tracked per source as more textbooks are added</td>
         </tr>
         <tr>
           <td class="concern">Feedback loop</td>
