@@ -363,8 +363,48 @@
     font-family: var(--sans);
     font-size: 12.5px;
     color: var(--ink-dim);
-    margin: 0;
+    margin: 0 0 8px;
     line-height: 1.45;
+  }
+  .stage .tech-tag {
+    display: block;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--accent);
+    letter-spacing: 0.01em;
+  }
+
+  /* ---------- corpus stats strip ---------- */
+  .stats-strip {
+    display: flex;
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  .stat-cell {
+    flex: 1 1 120px;
+    background: var(--surface);
+    padding: 14px 16px;
+    text-align: center;
+  }
+  .stat-cell .num {
+    display: block;
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-cell .label {
+    display: block;
+    font-family: var(--sans);
+    font-size: 11px;
+    color: var(--ink-dim);
+    margin-top: 2px;
   }
 
   /* ---------- architecture diagram ---------- */
@@ -960,26 +1000,35 @@
       at least once over the course of the build.
     </p>
     <div class="pipeline">
-      <div class="stage"><h3>Ingest</h3><p>Real textbook PDFs, parsed page by page — including scanned and broken-font sources.</p></div>
-      <div class="stage"><h3>Clean</h3><p>Watermark bleed, glyph artifacts, and OCR noise stripped with subject-specific rules.</p></div>
-      <div class="stage"><h3>Chunk</h3><p>Recursive splitting plus dedicated table extraction for dense tabular data.</p></div>
-      <div class="stage"><h3>Embed</h3><p>Content-hash IDs so the corpus can grow incrementally without a full re-embed.</p></div>
-      <div class="stage"><h3>Retrieve</h3><p>Hybrid BM25 + semantic search, fused with Reciprocal Rank Fusion.</p></div>
-      <div class="stage"><h3>Rerank</h3><p>Cross-encoder reranking narrows the candidate pool before generation.</p></div>
-      <div class="stage"><h3>Generate</h3><p>Grounded answer generation, graded against a real 332-question exam set.</p></div>
+      <div class="stage"><h3>Ingest</h3><p>Real textbook PDFs, parsed page by page — including scanned and broken-font sources.</p><span class="tech-tag">pdfplumber, per-page extraction</span></div>
+      <div class="stage"><h3>Clean</h3><p>Watermark bleed, glyph artifacts, and OCR noise stripped with subject-specific rules.</p><span class="tech-tag">11 regex rules, subject-specific</span></div>
+      <div class="stage"><h3>Chunk</h3><p>Recursive splitting plus dedicated table extraction for dense tabular data.</p><span class="tech-tag">450 chars / 100 overlap</span></div>
+      <div class="stage"><h3>Embed</h3><p>Content-hash IDs so the corpus can grow incrementally without a full re-embed.</p><span class="tech-tag">MiniLM-L6, 384-dim</span></div>
+      <div class="stage"><h3>Retrieve</h3><p>Hybrid BM25 + semantic search, fused with Reciprocal Rank Fusion.</p><span class="tech-tag">RRF, k=60</span></div>
+      <div class="stage"><h3>Rerank</h3><p>Cross-encoder reranking narrows the candidate pool before generation.</p><span class="tech-tag">ms-marco-MiniLM-L-6-v2</span></div>
+      <div class="stage"><h3>Generate</h3><p>Grounded answer generation, graded against a real 332-question exam set.</p><span class="tech-tag">Groq · Llama 3.3 70B, temp=0</span></div>
     </div>
   </section>
 
   <section id="architecture">
     <div class="kicker">Under the hood</div>
-    <h2>Two pipelines: build the index once, query it many times</h2>
+    <h2>Three pipelines: build the index, answer the question, prove it works</h2>
     <p class="intro">
       Ingestion and querying run on different schedules and different constraints — indexing runs
-      offline whenever the corpus changes; retrieval runs on every single request and has to stay fast.
+      offline whenever the corpus changes; retrieval runs on every single request and has to stay
+      fast. A third, equally real pipeline — evaluation — is what turned every claim on this page
+      from a guess into a measurement.
     </p>
 
+    <div class="stats-strip">
+      <div class="stat-cell"><span class="num">6</span><span class="label">source textbooks</span></div>
+      <div class="stat-cell"><span class="num">8,968</span><span class="label">indexed chunks</span></div>
+      <div class="stat-cell"><span class="num">3 × 2</span><span class="label">subjects × grades</span></div>
+      <div class="stat-cell"><span class="num">332</span><span class="label">benchmark questions</span></div>
+    </div>
+
     <div class="arch-lane">
-      <div class="arch-lane-label">Indexing — offline, runs when the corpus changes</div>
+      <div class="arch-lane-label">1. Indexing — offline, runs when the corpus changes</div>
       <div class="arch-row">
         <div class="arch-box"><strong>PDF sources</strong><span class="arch-tech">6 textbooks + past papers</span></div>
         <div class="arch-box"><strong>Cleaning</strong><span class="arch-tech">per-noise-type regex rules</span></div>
@@ -990,7 +1039,7 @@
     </div>
 
     <div class="arch-lane">
-      <div class="arch-lane-label">Query — online, per request</div>
+      <div class="arch-lane-label">2. Query — online, per request</div>
       <div class="arch-row">
         <div class="arch-box"><strong>Question</strong><span class="arch-tech">student's exam query</span></div>
         <div class="arch-fanout">
@@ -1000,6 +1049,17 @@
         <div class="arch-box"><strong>RRF fusion</strong><span class="arch-tech">rank-based merge</span></div>
         <div class="arch-box"><strong>Rerank</strong><span class="arch-tech">cross-encoder, 20→5</span></div>
         <div class="arch-box"><strong>Generate</strong><span class="arch-tech">Groq · Llama 3.3 70B</span></div>
+      </div>
+    </div>
+
+    <div class="arch-lane">
+      <div class="arch-lane-label">3. Evaluation — the loop that keeps everything else honest</div>
+      <div class="arch-row">
+        <div class="arch-box"><strong>Golden set</strong><span class="arch-tech">332 real past-paper Qs</span></div>
+        <div class="arch-box"><strong>Run pipeline</strong><span class="arch-tech">temp=0, deterministic</span></div>
+        <div class="arch-box"><strong>Score</strong><span class="arch-tech">per subject, vs. answer key</span></div>
+        <div class="arch-box"><strong>Classify failures</strong><span class="arch-tech">miss / gen error / corpus gap</span></div>
+        <div class="arch-box"><strong>Feed back</strong><span class="arch-tech">into indexing &amp; generation</span></div>
       </div>
     </div>
   </section>
