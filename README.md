@@ -9,7 +9,7 @@ reranking, and generation — applied to MDCAT (Pakistan's medical-entrance exam
 Biology, Chemistry, and Physics, and graded against a 332-question benchmark of real past-paper
 questions.
 
-**[Live demo](https://mdcat-copilot.streamlit.app)** · **[Full case study](https://sulemantech.github.io/production-rag-from-scratch/)** · **[Engineering log](docs/LEARNINGS.md)**
+**[Live demo](https://mdcat-rag-demo.streamlit.app/)** · **[Full case study](https://sulemantech.github.io/production-rag-from-scratch/)** · **[Engineering log](docs/LEARNINGS.md)**
 
 ---
 
@@ -71,7 +71,7 @@ cause, and fix — including the ones that didn't pan out.
 
 ## Try it
 
-The [live demo](https://mdcat-copilot.streamlit.app) runs the actual pipeline above — ask a
+The [live demo](https://mdcat-rag-demo.streamlit.app/) runs the actual pipeline above — ask a
 Biology, Chemistry, or Physics question and see the real retrieved context alongside the answer,
 nothing hidden.
 
@@ -138,7 +138,7 @@ a single pipeline.
 
 ### Phase 10 — Production API / Deployment
 Expose the pipeline as a usable interface — realized as the
-[Streamlit live demo](https://mdcat-copilot.streamlit.app) rather than a raw API.
+[Streamlit live demo](https://mdcat-rag-demo.streamlit.app/) rather than a raw API.
 
 **Status: all phases complete.** See [docs/LEARNINGS.md](docs/LEARNINGS.md) for what was actually
 learned building each one.
