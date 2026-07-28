@@ -1,266 +1,146 @@
-# Production RAG From Scratch
+# MDCAT Copilot — Production RAG, Built From Scratch
 
-A hands-on learning project. Every component is built and understood before moving on.
-Not a tutorial to copy — a roadmap to *do*.
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Accuracy](https://img.shields.io/badge/benchmark_accuracy-89.8%25-c97a1f)
+![Status](https://img.shields.io/badge/status-active-2ea44f)
+
+A retrieval-augmented generation system built end-to-end — ingestion, cleaning, hybrid retrieval,
+reranking, and generation — applied to MDCAT (Pakistan's medical-entrance exam) prep across
+Biology, Chemistry, and Physics, and graded against a 332-question benchmark of real past-paper
+questions.
+
+**[Live demo](https://mdcat-copilot.streamlit.app)** · **[Full case study](https://sulemantech.github.io/production-rag-from-scratch/)** · **[Engineering log](docs/LEARNINGS.md)**
 
 ---
 
-## How This Works
+## Results
+
+<img src="docs/assets/results_chart.png" alt="Before/after accuracy by subject" width="700" />
+
+| Subject | Before | After | Δ |
+|---|---|---|---|
+| Biology | 85.5% | 92.7% | +7.2 |
+| Physics | 56.4% | 84.6% | +28.2 |
+| Chemistry | 64.7% | 73.5% | +8.8 |
+| **Overall** | **80.0%** | **89.8%** | **+9.8** |
+
+Measured on the same 332-question benchmark, same corpus, one variable isolated at a time. The
+single largest gain came from testing generation-model capacity directly — not another retrieval
+tweak — and it was verified on the full question set, not a cherry-picked sample.
+
+Full before/after methodology, including two experiments that were tested and **reverted** after
+measuring a net-negative effect, is in the [case study](https://sulemantech.github.io/production-rag-from-scratch/)
+and [engineering log](docs/LEARNINGS.md).
+
+---
+
+## Pipeline
+
+```mermaid
+flowchart LR
+    A[Ingest<br/>raw PDFs] --> B[Clean<br/>OCR & watermark noise]
+    B --> C[Chunk<br/>recursive + table extraction]
+    C --> D[Embed<br/>content-hash IDs]
+    D --> E[Retrieve<br/>BM25 + semantic, RRF-fused]
+    E --> F[Rerank<br/>cross-encoder]
+    F --> G[Generate<br/>grounded answer]
+```
+
+No stage was assumed to be working — every one of these was independently broken, measured, fixed,
+and re-measured at least once over the course of the build.
+
+---
+
+## The discipline behind the numbers
+
+- **Measure the noise floor before trusting any comparison.** Every before/after result was
+  re-run once on identical input (temp=0) before being trusted — a comparison that isn't
+  reproducible against itself isn't a comparison yet.
+- **Audit failures against actual retrieved context, not guesswork.** Every wrong answer was
+  traced back to what the model actually saw, and classified before any fix was attempted.
+- **Fix the source before the code.** Weak PDF extraction was solved with better source
+  documents and dedicated table extraction, not more cleanup regex against unrecoverable noise.
+- **Revert when the data says to.** A technically correct Chemistry fix was tested across three
+  iterations, measured net-negative every time, and fully reverted rather than left in place
+  because it "should" have worked.
+
+See [docs/LEARNINGS.md](docs/LEARNINGS.md) for the full, specific write-up of each bug, root
+cause, and fix — including the ones that didn't pan out.
+
+---
+
+## Try it
+
+The [live demo](https://mdcat-copilot.streamlit.app) runs the actual pipeline above — ask a
+Biology, Chemistry, or Physics question and see the real retrieved context alongside the answer,
+nothing hidden.
+
+To run it locally:
+
+```bash
+pip install -r requirements.txt
+python src/scripts/build_mdcat_chunks.py       # ingest + chunk the corpus
+python src/scripts/build_mdcat_collection.py   # embed + build the vector store
+python src/evaluation/evaluator.py             # run the full benchmark
+```
+
+Requires a `GROQ_API_KEY` in `.env` for generation.
+
+---
+
+<details>
+<summary><strong>Project origin: a phase-by-phase learning roadmap</strong> (click to expand)</summary>
+
+This project started as a hands-on learning exercise — every component built and understood
+before moving to the next, not copied from a tutorial. The original phase-by-phase plan is kept
+below for reference; all phases through evaluation and deployment are now complete.
+
+### How This Worked
 
 1. Read the task for the current phase
 2. Build it yourself (look things up, experiment, break things)
-3. Answer the comprehension questions with Claude before moving to the next phase
+3. Answer the comprehension questions before moving to the next phase
 4. Only then move on
 
-Claude will NOT write the solution for you. It will ask questions, give hints, and explain when you're stuck.
-
----
-
-## Project Structure
-
-```
-production-rag-from-scratch/
-│
-├── src/                        # Production-quality implementations (built phase by phase)
-│   ├── ingestion/              # Phase 1 — Document loading
-│   ├── chunking/               # Phase 2 — Text splitting strategies
-│   ├── embeddings/             # Phase 3 — Embedding models
-│   ├── vectorstore/            # Phase 4 — Vector DB layer
-│   ├── retrieval/              # Phase 5 — Retrieval pipeline
-│   ├── reranking/              # Phase 6 — Re-ranking
-│   ├── llm/                    # Phase 7 — LLM integration & prompting
-│   ├── evaluation/             # Phase 8 — Metrics & benchmarking
-│   └── pipeline/               # Phase 9 — Full orchestration
-│
-├── experiments/                # YOUR playground — messy, exploratory, no pressure
-│   ├── phase_1_ingestion/
-│   ├── phase_2_chunking/
-│   ├── phase_3_embeddings/
-│   ├── phase_4_vectorstore/
-│   ├── phase_5_retrieval/
-│   ├── phase_6_reranking/
-│   ├── phase_7_generation/
-│   └── phase_8_evaluation/
-│
-├── notebooks/                  # Jupyter notebooks for visual experiments
-│
-├── datasets/                   # Documents to load, chunk, and retrieve from
-│   ├── sample_text/            # Start here — plain .txt files
-│   ├── pdfs/                   # Phase 1 extension
-│   └── web/                    # Phase 1 extension
-│
-├── tests/                      # Tests written AFTER you understand what you're testing
-│
-├── api/                        # Phase 10 — Production API (FastAPI)
-│
-├── docs/                       # Architecture diagrams, design decisions, benchmark results
-│
-├── text_splitters.py           # Early experiment — will move to src/chunking/ in Phase 2
-├── chunking.py                 # Early experiment
-├── chroma_db/                  # Early ChromaDB experiment
-│
-├── requirements.txt
-├── .env.example
-├── CLAUDE.md                   # Teaching rules for Claude in this project
-└── README.md
-```
-
----
-
-## The Learning Roadmap
-
 ### Phase 1 — Document Ingestion
-**What you'll build:** A loader that reads a document and turns it into a Python string (or list of strings) you can work with.
-
-**Your tasks:**
-- [ ] Put a `.txt` file (any text you care about) in `datasets/sample_text/`
-- [ ] Write `src/ingestion/txt_loader.py` — a function that reads it and returns the raw text
-- [ ] Print the first 500 characters to verify it worked
-- [ ] Add a PDF to `datasets/pdfs/` and write `src/ingestion/pdf_loader.py` using `PyPDF2` or `pdfplumber`
-- [ ] Write `src/ingestion/document_cleaner.py` — strip extra whitespace, weird characters, page headers/footers
-
-**Comprehension checkpoint (answer these before Phase 2):**
-1. Why do we load documents as raw text first rather than going straight to chunks?
-2. What information might you lose when extracting text from a PDF that you wouldn't lose from a .txt file?
-3. If your document had tables, what problem would raw text extraction cause for retrieval later?
-
----
+Load a document into raw text/strings. Handle `.txt` and PDF sources; strip whitespace, headers,
+and footers.
 
 ### Phase 2 — Chunking
-**What you'll build:** Multiple chunking strategies and an experiment comparing them.
-
-**Starting point:** `text_splitters.py` already has a recursive chunker. Read it, run it, understand it.
-
-**Your tasks:**
-- [ ] Run the existing `recursive_split()` on your loaded document — print and inspect the chunks
-- [ ] Change `chunk_size` from 100 → 500 → 1000 — what do you observe?
-- [ ] Change `chunk_overlap` from 10 → 0 → 50 — what changes?
-- [ ] Write `src/chunking/fixed_chunker.py` — split by character count, no awareness of sentences
-- [ ] Write `src/chunking/sentence_chunker.py` — split on sentence boundaries using `nltk` or `spacy`
-- [ ] Write `experiments/phase_2_chunking/compare.py` — run all three on the same document and print: number of chunks, average chunk size, min/max sizes
-- [ ] Move and refactor the good code from `text_splitters.py` into `src/chunking/recursive_chunker.py`
-
-**Comprehension checkpoint:**
-1. Why does chunk overlap exist? What problem does it solve?
-2. If chunk_size is too small, what happens to retrieval quality? What if it's too large?
-3. A user asks "what happened in Q3?" — which chunking strategy would handle this better: fixed-size or sentence-based? Why?
-
----
+Compare fixed-size, sentence-based, and recursive chunking strategies; measure chunk count and
+size distribution for each.
 
 ### Phase 3 — Embeddings
-**What you'll build:** A function that takes a chunk of text and returns a vector (list of numbers).
-
-**Your tasks:**
-- [ ] Install `sentence-transformers` — use `all-MiniLM-L6-v2` as your first model (it's small and fast)
-- [ ] Write `src/embeddings/huggingface_embeddings.py` — function takes a string, returns a numpy array
-- [ ] Embed 5 sentences, print their shapes — all the same length?
-- [ ] Compute cosine similarity between: (a) two similar sentences, (b) two unrelated sentences — do the numbers match your intuition?
-- [ ] Embed all the chunks from Phase 2 — how long does it take? How much memory?
-- [ ] Try a different model (`all-mpnet-base-v2`) — compare embedding quality on the same 5 sentences
-
-**Comprehension checkpoint:**
-1. What does cosine similarity actually measure? Why do we use it instead of Euclidean distance?
-2. If you embed "dog" and "cat" — do you expect their vectors to be similar or different? Why?
-3. Why do all embeddings from the same model have the same dimension (e.g. 384)?
-
----
+Turn a chunk of text into a vector using `sentence-transformers`; verify similarity behaves as
+expected on known-similar and known-different sentence pairs.
 
 ### Phase 4 — Vector Store
-**What you'll build:** A database that stores your embeddings and lets you query them by similarity.
-
-**Your tasks:**
-- [ ] Write `src/vectorstore/chroma_store.py` — functions: `create_collection`, `add_documents`, `query`
-- [ ] Take your chunks + embeddings from Phases 2 & 3 and store them in ChromaDB
-- [ ] Query it with a question — print the top-5 returned chunks
-- [ ] Look at the raw `chroma_db/` folder that already exists — understand what's in those `.bin` files (hint: HNSW index)
-- [ ] Run the same query twice — confirm results are deterministic
-
-**Comprehension checkpoint:**
-1. What is an HNSW index? Why do vector stores use it instead of comparing every vector to every other vector?
-2. ChromaDB stores both the embedding AND the original text. Why do we need to store both?
-3. If you had 10 million chunks, what problems would you start to hit with ChromaDB?
-
----
+Store embeddings in ChromaDB; query by similarity; confirm deterministic results across repeated
+queries.
 
 ### Phase 5 — Retrieval
-**What you'll build:** A retriever that takes a user question and returns the most relevant chunks.
-
-**Your tasks:**
-- [ ] Write `src/retrieval/semantic_retriever.py` — embed the query, search ChromaDB, return top-k chunks
-- [ ] Write `src/retrieval/bm25_retriever.py` — keyword-based retrieval using `rank_bm25`
-- [ ] Write `experiments/phase_5_retrieval/compare.py` — for 10 test questions, compare what each retriever returns
-- [ ] Write `src/retrieval/hybrid_retriever.py` — combine semantic + BM25 results using Reciprocal Rank Fusion (RRF)
-- [ ] Test edge cases: very short queries, very long queries, queries with typos
-
-**Comprehension checkpoint:**
-1. When would BM25 outperform semantic search? Give a concrete example.
-2. What is Reciprocal Rank Fusion and why is it a simple but effective way to combine ranked lists?
-3. A user searches for "Q3 revenue" — the document says "third-quarter earnings." Which retriever finds it, and why?
-
----
+Build semantic (embedding) and BM25 (keyword) retrievers, then combine them with Reciprocal Rank
+Fusion into a hybrid retriever.
 
 ### Phase 6 — Reranking
-**What you'll build:** A second-pass scorer that re-orders retrieved chunks by true relevance.
-
-**Your tasks:**
-- [ ] Install `sentence-transformers` cross-encoder: `cross-encoder/ms-marco-MiniLM-L-6-v2`
-- [ ] Write `src/reranking/cross_encoder.py` — takes (query, list of chunks) → returns chunks sorted by score
-- [ ] Compare: take top-10 from Phase 5 retriever → rerank → take top-3. Do the top-3 change?
-- [ ] Measure latency: retrieval alone vs retrieval + reranking — what's the tradeoff?
-
-**Comprehension checkpoint:**
-1. Why can't we just use the cross-encoder directly for retrieval (skipping Phase 5 entirely)?
-2. What is the difference between a bi-encoder (used in Phase 3) and a cross-encoder?
-3. Why do we retrieve top-20 then rerank to top-5, rather than just retrieving top-5 directly?
-
----
+Add a cross-encoder second pass that re-scores retrieved chunks by true relevance to the query.
 
 ### Phase 7 — Generation
-**What you'll build:** The final answer generation step — take retrieved chunks + user question → answer.
-
-**Your tasks:**
-- [ ] Install and run Ollama locally — pull `llama3.2` (3B, fast enough for experiments)
-- [ ] Write `src/llm/prompt_builder.py` — formats: system prompt + context chunks + user question
-- [ ] Write `src/llm/ollama_client.py` — sends the prompt, streams the response
-- [ ] Write `src/llm/response_generator.py` — orchestrates prompt building + LLM call
-- [ ] Test: ask a question your document can answer vs. a question it cannot — how does the LLM behave?
-- [ ] Experiment with the prompt: what happens if you remove "only answer from the provided context"?
-
-**Comprehension checkpoint:**
-1. What is "hallucination" in this context and why does RAG reduce (but not eliminate) it?
-2. Your prompt includes retrieved chunks — what's the risk if you include too many chunks?
-3. What is the difference between "faithfulness" and "relevance" when evaluating a RAG answer?
-
----
+Wire retrieved context and the user's question into a prompt, and generate a grounded answer.
 
 ### Phase 8 — Evaluation
-**What you'll build:** A way to measure whether your RAG system actually works.
-
-**Your tasks:**
-- [ ] Create a small "golden dataset": 10 questions + the correct answers + which document passages contain the answer
-- [ ] Write `src/evaluation/hit_rate.py` — for each question, did the correct passage appear in top-k?
-- [ ] Write `src/evaluation/precision_at_k.py` — of the top-k results, what fraction are relevant?
-- [ ] Write `src/evaluation/benchmark_runner.py` — runs all questions through your pipeline and computes all metrics
-- [ ] Use your benchmark to compare: (Phase 2 chunking strategy A) vs (chunking strategy B) — which gives better retrieval?
-- [ ] Run the benchmark before and after adding the reranker from Phase 6 — does it improve metrics?
-
-**Comprehension checkpoint:**
-1. Why do you need a "golden dataset" to evaluate RAG? Can't you just read the answers and judge?
-2. What is the difference between Precision@k and Hit Rate@k?
-3. Your Hit Rate@5 is 0.7 but Precision@5 is 0.3 — what does this tell you about your retriever?
-
----
+Build a golden dataset and measure Hit Rate@k and Precision@k — this phase grew into the full
+332-question MDCAT benchmark documented in the Results section above.
 
 ### Phase 9 — Full Pipeline
-**What you'll build:** Wire everything together into a single pipeline object.
+Orchestrate ingestion → chunking → embedding → storage → retrieval → reranking → generation into
+a single pipeline.
 
-**Your tasks:**
-- [ ] Write `src/pipeline/rag_pipeline.py` — a class that: loads docs → chunks → embeds → stores → retrieves → reranks → generates
-- [ ] Write `demo/cli_chat.py` — interactive terminal chat over your document collection
-- [ ] Profile the full pipeline — where is time being spent?
-- [ ] Test with a completely new document the system has never seen
+### Phase 10 — Production API / Deployment
+Expose the pipeline as a usable interface — realized as the
+[Streamlit live demo](https://mdcat-copilot.streamlit.app) rather than a raw API.
 
----
+**Status: all phases complete.** See [docs/LEARNINGS.md](docs/LEARNINGS.md) for what was actually
+learned building each one.
 
-### Phase 10 — Production API
-**What you'll build:** A FastAPI server that exposes your pipeline as an HTTP API.
-
-**Your tasks:**
-- [ ] Write `api/app.py` and `api/routes.py` — POST /query endpoint
-- [ ] Add `api/schemas.py` — Pydantic models for request/response
-- [ ] Write a `docker-compose.yml` that starts your API + ChromaDB
-- [ ] Write `api/middleware.py` — add request logging and latency tracking
-
----
-
-## Key Experiments to Run (Optional but Valuable)
-
-| Experiment | Question it answers |
-|---|---|
-| `experiments/chunking_comparison/` | Does chunk size affect retrieval quality? |
-| `experiments/embedding_comparison/` | Is a bigger model always better? |
-| `experiments/long_context_vs_rag/` | When is just using a big context window better than RAG? |
-| `experiments/retrieval_quality/` | How does hybrid search compare to pure semantic? |
-
----
-
-## Environment Setup
-
-```bash
-# Python venv already created — activate it
-venv\Scripts\activate   # Windows
-
-# Install dependencies as you need them, phase by phase
-pip install langchain-text-splitters   # Phase 2
-pip install sentence-transformers      # Phase 3
-pip install chromadb                   # Phase 4
-pip install rank-bm25                  # Phase 5
-pip install ollama                     # Phase 7
-pip install fastapi uvicorn            # Phase 10
-```
-
----
-
-## Current Status
-
-**Phase 1** — Not started (but `text_splitters.py` gives you a head start on Phase 2)
+</details>
