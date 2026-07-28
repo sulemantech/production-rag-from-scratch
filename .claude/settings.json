@@ -21,7 +21,11 @@
       "Bash(HF_HUB_OFFLINE=1 nohup streamlit run app.py --server.headless true --server.port 8503)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8503)",
       "Bash(HF_HUB_OFFLINE=1 python -c ' *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)",
+      "Bash(PYTHONIOENCODING=utf-8 python3)",
+      "Bash(python3)",
+      "Bash(rm -f _mcq_section.html)"
     ],
     "additionalDirectories": [
       "d:\\Projects\\AIPlayGround\\production-rag-from-scratch\\ingestion",
