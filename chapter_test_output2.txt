@@ -1,0 +1,71 @@
+Extracted metadata from filename: {'grade': '11th', 'class': 'Class', 'subject': 'Biology', 'board': 'PunjabBoard', 'year': 'Year', 'title': '11th Class Biology PunjabBoard', 'extension': '2018.pdf'}
+Loaded and cleaned textbook: 11th Class Biology PunjabBoard (13 chapter transitions detected)
+Extracted metadata from filename: {'grade': '11th', 'class': 'Class', 'subject': 'Chemistry', 'board': 'PunjabBoard', 'year': 'Year', 'title': '11th Class Chemistry PunjabBoard', 'extension': '2025.pdf'}
+Loaded and cleaned textbook: 11th Class Chemistry PunjabBoard (1 chapter transitions detected)
+Extracted metadata from filename: {'grade': '11th', 'class': 'Class', 'subject': 'Physics', 'board': 'PunjabBoard', 'year': 'Year', 'title': '11th Class Physics PunjabBoard', 'extension': '2026.pdf'}
+Loaded and cleaned textbook: 11th Class Physics PunjabBoard (1 chapter transitions detected)
+Extracted metadata from filename: {'grade': '12th', 'class': 'Class', 'subject': 'Biology', 'board': 'PunjabBoard', 'year': 'Year', 'title': '12th Class Biology PunjabBoard', 'extension': '2026.pdf'}
+Loaded and cleaned textbook: 12th Class Biology PunjabBoard (12 chapter transitions detected)
+Extracted metadata from filename: {'grade': '12th', 'class': 'Class', 'subject': 'Chemistry', 'board': 'PunjabBoard', 'year': 'Year', 'title': '12th Class Chemistry PunjabBoard', 'extension': '2026.pdf'}
+Loaded and cleaned textbook: 12th Class Chemistry PunjabBoard (13 chapter transitions detected)
+Extracted metadata from filename: {'grade': '12th', 'class': 'Class', 'subject': 'Physics', 'board': 'PunjabBoard', 'year': 'Year', 'title': '12th Class Physics PunjabBoard', 'extension': '2026.pdf'}
+Loaded and cleaned textbook: 12th Class Physics PunjabBoard (1 chapter transitions detected)
+=== 11th Class Biology PunjabBoard ===
+chapter transitions: 13
+  @91: 1. Introduction
+  @32744: 2. Biological Molecules
+  @68984: 3. Enzymes
+  @81816: 4. The Cell
+  @119760: 5. Variety of Life
+  @147923: 6. Kingdom
+  @200336: 8. Fungi The Kingdom of Recyclers
+  @227137: 9. Kingdom Plantae
+  @281651: 10. Kingdom Animalia
+  @358379: 11. Bioenergetics
+  @401994: 12. Nutrition
+  @448547: 13. Gaseous Exchange
+  @483491: 14. Transport
+
+=== 11th Class Chemistry PunjabBoard ===
+chapter transitions: 1
+  @0: Front Matter
+
+=== 11th Class Physics PunjabBoard ===
+chapter transitions: 1
+  @0: Front Matter
+
+=== 12th Class Biology PunjabBoard ===
+chapter transitions: 12
+  @74: 15. Homeostasis
+  @41934: 16. Support and Movement
+  @102229: 17. Coordination and Control
+  @177970: 18. Reproduction
+  @209857: 19. Growth and development
+  @243949: 20.Chromosomes And DNA
+  @288348: 21. Cell Cycle
+  @310833: 22. Variation And Genetics
+  @381327: 23.Biotechnology
+  @423072: 24. Evolution
+  @454969: 25. Ecosystem
+  @478608: 26.Some Major Ecosystem
+
+=== 12th Class Chemistry PunjabBoard ===
+chapter transitions: 13
+  @110: 1. Periodic Classification of Elements and Periodicity
+  @43285: 2. s-Block Elements
+  @80443: 3. Group IIIA and Group IVA Elements
+  @120817: Group VA and VIA Elements
+  @163442: 5. The Halogens and the Noble Gases
+  @202913: 6. Transition Elements
+  @242719: 7. Fundamental Principles of Organic Chemistry
+  @275101: 8. ALIPHATIC HYDROCARBONS
+  @320517: 9. Aromatic Hydrocarbons
+  @350479: 10. ALKYL HALIDES
+  @374451: 11. ALCOHOLS, PHENOLS AND ETHERS
+  @425246: 13. CARBOXYLIC ACIDS
+  @522357: 16. ENVIRONMENTAL CHEMISTRY
+
+=== 12th Class Physics PunjabBoard ===
+chapter transitions: 1
+  @0: Front Matter
+

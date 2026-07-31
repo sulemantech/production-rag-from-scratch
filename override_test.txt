@@ -1,0 +1,7 @@
+Extracted metadata from filename: {'grade': '11th', 'class': 'Class', 'subject': 'Biology', 'board': 'PunjabBoard', 'year': 'Year', 'title': '11th Class Biology PunjabBoard', 'extension': '2018.pdf'}
+Loaded and cleaned textbook: 11th Class Biology PunjabBoard (13 chapter transitions detected)
+Extracted metadata from filename: {'grade': '11th', 'class': 'Class', 'subject': 'Chemistry', 'board': 'PunjabBoard', 'year': 'Year', 'title': '11th Class Chemistry PunjabBoard', 'extension': '2025.pdf'}
+Loaded and cleaned textbook: 11th Class Chemistry PunjabBoard (16 chapter transitions detected)
+Extracted metadata from filename: {'grade': '11th', 'class': 'Class', 'subject': 'Physics', 'board': 'PunjabBoard', 'year': 'Year', 'title': '11th Class Physics PunjabBoard', 'extension': '2026.pdf'}
+Loaded and cleaned textbook: 11th Class Physics PunjabBoard (1 chapter transitions detected)
+Extracted metadata from filename: {'grade': '12th', 'class': 'Class', 'subject': 'Biology', 'board': 'PunjabBoard', 'year': 'Year', 'title': '12th Class Biology PunjabBoard', 'extension': '2026.pdf'}
