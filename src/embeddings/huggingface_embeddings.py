@@ -1,5 +1,9 @@
 from sentence_transformers import SentenceTransformer
-model = SentenceTransformer("all-MiniLM-L6-v2")
+
+# BGE-base (768-dim) was tried and reverted -- see docs/LEARNINGS.md,
+# "BGE-base vs MiniLM Chemistry checkpoint didn't reproduce."
+MODEL_NAME = "all-MiniLM-L6-v2"
+model = SentenceTransformer(MODEL_NAME)
 
 def get_embedding(text: str) -> list:
     # encode the text

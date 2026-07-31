@@ -182,6 +182,44 @@ retrieval (BM25/TF-IDF) depends on. Generated annotations need to be
 *distinctive*, not just *correct* — correctness alone doesn't help
 retrieval if it's spread identically across every sibling candidate.
 
+### BGE-base vs MiniLM Chemistry checkpoint didn't reproduce — reverted
+**Issue** — tried swapping the embedding model from `all-MiniLM-L6-v2`
+(384-dim) to `BAAI/bge-base-en-v1.5` (768-dim), hoping for a retrieval
+quality gain. Before committing to the ~40-minute full-corpus re-embed, ran
+a cheap checkpoint: embedded only the Chemistry subset (3,357 chunks, ~14
+min) into a new `mdcat_v3_bge` collection and re-ran the 34-question
+Chemistry benchmark against 70B generation. First run: 26/34 (76.5%) vs.
+the known MiniLM baseline of 25/34 (73.5%) — a +3pt delta, encouraging but
+below the pre-committed +5pt bar for proceeding.
+**Root cause of the non-reproduction** — re-ran the identical config to
+check the delta wasn't noise, and got 24/34 (70.6%) instead — a 2-question
+swing on an unchanged model, unchanged collection, temp=0 generation.
+Traced this to `hybrid_retriever.retrieve()`'s RRF fusion:
+`all_ids = set(semantic_ranks.keys()) | set(bm25_ranks.keys())` iterates a
+Python `set`, whose order for string keys depends on per-process hash
+randomization (`PYTHONHASHSEED`, randomized by default). When two chunks
+land on an exact fused-score tie, `sorted(scores, key=..., reverse=True)`
+is stable but breaks the tie by insertion order into `scores` — which
+inherits the set's randomized order. Different process runs can therefore
+select a different chunk at the top-k cutoff, changing what the LLM sees
+and, occasionally, its answer.
+**Decision** — averaging the two runs (~25/34, 73.5%) lands exactly on the
+MiniLM baseline. The observed variance (±3pts) is larger than the effect
+being measured, so the Chemistry checkpoint does not clear the gate.
+Reverted `MODEL_NAME` back to `all-MiniLM-L6-v2`, deleted the partial
+`mdcat_v3_bge` collection (only ever had the Chemistry subset embedded —
+not a real "negative result" collection worth keeping since it was never
+completed), and did not proceed to the full 9-book re-embed.
+**Why it matters** — this is the noise-floor check working exactly as
+designed: it caught a false-positive-looking +3pt gain before a 40-minute
+re-embed and a full 332-question re-eval got spent chasing it. It also
+surfaced a real, separate reliability bug (non-deterministic tie-breaking
+in RRF fusion) that pre-dates this experiment and would affect *any* eval
+comparison run across separate processes, not just this one. Worth a
+follow-up: add a deterministic secondary sort key (e.g. `chunk_id`) to
+`ranked_ids = sorted(scores, key=lambda x: (scores[x], x), reverse=True)`
+so ties resolve the same way every run.
+
 ## Cross-cutting best practices validated this project
 
 - **Measure the noise floor before trusting any comparison.** Rerun the
