@@ -1,9 +1,24 @@
+import bisect
 import re
 from typing import List
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 RECURSIVE_SEPARATORS = ["\n\n", "\n", " ", ""]
+
+
+def _chapter_for_offset(chapter_boundaries: list, start_index: int) -> str:
+    """
+    Picks the chapter whose boundary offset is the last one <= start_index.
+    chapter_boundaries is [(offset, chapter), ...] sorted ascending (as
+    produced by pdf_loader.locate_chapter_boundaries /
+    locate_override_boundaries).
+    """
+    if not chapter_boundaries:
+        return "Unknown chapter"
+    offsets = [b[0] for b in chapter_boundaries]
+    idx = bisect.bisect_right(offsets, start_index) - 1
+    return chapter_boundaries[idx][1] if idx >= 0 else "Unknown chapter"
 
 def filter_empty_chunks(chunks: list[dict], min_length: int = 10) -> list[dict]:
     """
@@ -39,13 +54,14 @@ def chunk_textbook(
     text = textbook["text"]
     subject = textbook.get("subject", "")
     grade = textbook.get("grade", "")
+    chapter_boundaries = textbook.get("chapter_boundaries", [])
 
     if method == "fixed":
         return fixed_size_split(text, chunk_size, overlap, subject, grade)
     elif method == "sentence":
         return sentence_split(text, chunk_size, subject, grade)
     elif method == "recursive":
-        return recursive_split(text, chunk_size, overlap, subject, grade)
+        return recursive_split(text, chunk_size, overlap, subject, grade, chapter_boundaries)
     else:
         raise ValueError(f"Unknown chunking method: {method}")
 
@@ -129,25 +145,34 @@ def sentence_split(document, chunk_size=1000, subject:str="", grade:str="") -> L
     return chunks
 
 
-def recursive_split(document, chunk_size=100, overlap=200, subject:str="", grade:str="") -> List[dict]:
+def recursive_split(document, chunk_size=100, overlap=200, subject:str="", grade:str="", chapter_boundaries: list = None) -> List[dict]:
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
         chunk_overlap=overlap,
-        separators=RECURSIVE_SEPARATORS
+        separators=RECURSIVE_SEPARATORS,
+        add_start_index=True,
     )
 
-    chunks = splitter.split_text(document)
+    # create_documents() (vs. split_text()) uses the exact same underlying
+    # splitting logic and produces byte-identical chunk text -- verified
+    # directly -- but additionally tags each chunk with its start_index in
+    # the original document, which is what lets a chapter get assigned
+    # without touching chunk text (and therefore without changing
+    # chunk_id, which is a hash of text only).
+    docs = splitter.create_documents([document])
 
     print("Original Text length:", len(document))
-    print("Number of Chunks:", len(chunks))
-    print("Chunks Sizes:", [len(chunk) for chunk in chunks])
-    
+    print("Number of Chunks:", len(docs))
+    print("Chunks Sizes:", [len(doc.page_content) for doc in docs])
+
+    chapter_boundaries = chapter_boundaries or []
     chunk_dicts = []
-    for chunk in chunks:
+    for doc in docs:
         chunk_dicts.append({
-            "text": chunk,
+            "text": doc.page_content,
             "subject": subject,
-            "grade": grade
+            "grade": grade,
+            "chapter": _chapter_for_offset(chapter_boundaries, doc.metadata["start_index"]),
         })
     return chunk_dicts
 
