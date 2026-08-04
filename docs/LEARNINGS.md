@@ -220,6 +220,54 @@ follow-up: add a deterministic secondary sort key (e.g. `chunk_id`) to
 `ranked_ids = sorted(scores, key=lambda x: (scores[x], x), reverse=True)`
 so ties resolve the same way every run.
 
+### Latency profiling: no single stage dominates, and retrieval's variance traces to disk, not BM25
+**Context** — before optimizing anything (caching, model choice, cost), built
+reusable instrumentation (`src/observability/timing.py`'s `timed_stage()`
+context manager, safe to no-op when no `timings` dict is passed so every
+existing caller of `hybrid_retriever.retrieve()` keeps working unchanged)
+and profiled real per-stage wall-clock latency via `latency_profile.py`
+across a 5-question Biology sample, first at coarse granularity
+(retrieval / rerank / generation), then with `hybrid_retrieve()`'s internals
+split into `semantic_retrieve` / `bm25_retrieve` / `rrf_fusion`.
+
+**Finding 1 — no stage reliably dominates.** The "biggest stage" ranking
+flipped across three separate measurements: retrieval 1.05s vs. rerank
+1.82s (N=1); retrieval avg 0.81s vs. rerank avg 0.53s (first N=5, coarse);
+retrieval avg 0.47s vs. rerank avg 0.80s (N=5, fine-grained). `generation`
+was consistently the smallest of the three. At this sample size, retrieval
+and reranking are comparably expensive — treating either alone as "the"
+bottleneck would have been wrong in at least two of the three measurements.
+
+**Finding 2 — within retrieval, the volatility is entirely in the semantic
+search, not BM25.** Across the same 5 questions: `semantic_retrieve` ranged
+0.067s–0.736s (~11x spread), `bm25_retrieve` stayed tight at 0.238s–0.312s
+(~1.3x), and `rrf_fusion` was negligible (tens of microseconds). Sanity
+check passed cleanly: `semantic_retrieve + bm25_retrieve + rrf_fusion`
+(0.206 + 0.268 + 0.00005 ≈ 0.474s avg) matched the outer `retrieval` timer's
+own average (0.475s) almost exactly, confirming the sub-stage instrumentation
+is measuring the same work the coarse timer sees.
+
+**Likely root cause of the variance (flagged, not yet confirmed with a
+dedicated test)** — `bm25_retrieve` rebuilds a fresh `BM25Okapi` index from
+chunks already resident in process memory on every call: pure CPU work, no
+I/O, so it's steady. `semantic_retrieve` calls out to ChromaDB, which reads
+its HNSW index from a SQLite-backed file on disk
+(`chroma_db/chroma.sqlite3`); whether that read hits the OS file cache or
+requires an actual disk read plausibly varies run to run, which is the most
+likely source of the 11x swing.
+
+**Why it matters** — same discipline as the BGE-checkpoint entry above,
+applied to latency instead of accuracy: don't trust a single measurement
+(or even one N=5 run) to declare a bottleneck. Only the sub-stage breakdown
+revealed a stable, explainable pattern — the coarse 3-stage view alone
+would have kept pointing at a different "biggest stage" every time. This
+also confirms the reranker's cost is structural, not a bug worth "fixing":
+a cross-encoder score is a property of the *(query, chunk)* pair, so unlike
+chunk embeddings it can't be precomputed — its cost scales directly with
+however many candidates `hybrid_retrieve()` hands it (currently `top_k=20`),
+which is a real, tunable lever for a future latency-vs-accuracy tradeoff,
+not something to eliminate.
+
 ## Cross-cutting best practices validated this project
 
 - **Measure the noise floor before trusting any comparison.** Rerun the

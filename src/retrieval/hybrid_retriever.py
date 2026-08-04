@@ -1,6 +1,7 @@
 import sys
 sys.path.insert(0, ".")
 
+from src.observability.timing import timed_stage
 from src.retrieval.semantic_retriever import retrieve as semantic_retrieve
 from src.retrieval.bm25_retriever import retrieve as bm25_retrieve
 
@@ -10,7 +11,8 @@ def retrieve(
     chunks: list[dict],
     collection,
     metadata_filter: dict = None,
-    top_k: int = 5
+    top_k: int = 5,
+    timings=None,
 ):
     """
     Hybrid retrieval using Reciprocal Rank Fusion (RRF).
@@ -22,12 +24,13 @@ def retrieve(
     # ------------------------------------------------------------
     # Semantic Retrieval
     # ------------------------------------------------------------
-    semantic_results = semantic_retrieve(
-        question,
-        collection,
-        metadata_filter=metadata_filter,
-        top_k=top_k * 2
-    )
+    with timed_stage("semantic_retrieve", timings):
+        semantic_results = semantic_retrieve(
+            question,
+            collection,
+            metadata_filter=metadata_filter,
+            top_k=top_k * 2
+        )
 
     semantic_ids = semantic_results["ids"][0]
     semantic_chunks = semantic_results["documents"][0]
@@ -42,12 +45,13 @@ def retrieve(
     # ------------------------------------------------------------
     # BM25 Retrieval
     # ------------------------------------------------------------
-    bm25_results = bm25_retrieve(
-        question,
-        chunks,
-        metadata_filter,
-        top_k=top_k * 2
-    )
+    with timed_stage("bm25_retrieve", timings):
+        bm25_results = bm25_retrieve(
+            question,
+            chunks,
+            metadata_filter,
+            top_k=top_k * 2
+        )
 
     # Rank by ID
     bm25_ranks = {
@@ -72,24 +76,24 @@ def retrieve(
     # ------------------------------------------------------------
     # Reciprocal Rank Fusion
     # ------------------------------------------------------------
+    with timed_stage("rrf_fusion", timings=timings):
+        all_ids = set(semantic_ranks.keys()) | set(bm25_ranks.keys())
 
-    all_ids = set(semantic_ranks.keys()) | set(bm25_ranks.keys())
+        k = 60
 
-    k = 60
+        scores = {}
 
-    scores = {}
+        for doc_id in all_ids:
 
-    for doc_id in all_ids:
+            score = 0.0
 
-        score = 0.0
+            if doc_id in semantic_ranks:
+                score += 1 / (k + semantic_ranks[doc_id])
 
-        if doc_id in semantic_ranks:
-            score += 1 / (k + semantic_ranks[doc_id])
+            if doc_id in bm25_ranks:
+                score += 1 / (k + bm25_ranks[doc_id])
 
-        if doc_id in bm25_ranks:
-            score += 1 / (k + bm25_ranks[doc_id])
-
-        scores[doc_id] = score
+            scores[doc_id] = score
 
     # ------------------------------------------------------------
     # Sort by fused score
