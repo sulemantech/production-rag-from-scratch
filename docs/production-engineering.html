@@ -1,0 +1,445 @@
+<title>Production Engineering — From Working Demo to Production System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+  :root {
+    --bg: #eef0ee;
+    --surface: #ffffff;
+    --surface-2: #e4e7e2;
+    --ink: #171a18;
+    --ink-dim: #4b524d;
+    --accent: #c97a1f;
+    --accent-ink: #fff8ef;
+    --accent-dim: #e4c08a;
+    --verified: #1f7a5c;
+    --pending: #9a6b1f;
+    --rule: rgba(23, 26, 24, 0.14);
+    --rule-strong: rgba(23, 26, 24, 0.28);
+    --mono: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono", Consolas, "Liberation Mono", monospace;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
+    --sans: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12151b;
+      --surface: #1b2129;
+      --surface-2: #232a33;
+      --ink: #ece9e1;
+      --ink-dim: #a9ada7;
+      --accent: #e8a33d;
+      --accent-ink: #1b1204;
+      --accent-dim: #8a6a2e;
+      --verified: #5fb89c;
+      --pending: #e0b25c;
+      --rule: rgba(236, 233, 225, 0.14);
+      --rule-strong: rgba(236, 233, 225, 0.26);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12151b; --surface: #1b2129; --surface-2: #232a33;
+    --ink: #ece9e1; --ink-dim: #a9ada7; --accent: #e8a33d;
+    --accent-ink: #1b1204; --accent-dim: #8a6a2e; --verified: #5fb89c;
+    --pending: #e0b25c; --rule: rgba(236, 233, 225, 0.14); --rule-strong: rgba(236, 233, 225, 0.26);
+  }
+  :root[data-theme="light"] {
+    --bg: #eef0ee; --surface: #ffffff; --surface-2: #e4e7e2;
+    --ink: #171a18; --ink-dim: #4b524d; --accent: #c97a1f;
+    --accent-ink: #fff8ef; --accent-dim: #e4c08a; --verified: #1f7a5c;
+    --pending: #9a6b1f; --rule: rgba(23, 26, 24, 0.14); --rule-strong: rgba(23, 26, 24, 0.28);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: linear-gradient(var(--rule) 1px, transparent 1px) 0 0 / 100% 32px, var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  a { color: var(--accent); }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 28px; }
+
+  header.site {
+    position: sticky; top: 0; z-index: 10;
+    backdrop-filter: blur(10px);
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 16px; padding: 16px 0; font-family: var(--mono); font-size: 13px;
+  }
+  .brand { display: flex; align-items: baseline; gap: 10px; text-decoration: none; color: var(--ink); }
+  .brand .mark { color: var(--accent); font-weight: 700; }
+  .brand .role { color: var(--ink-dim); letter-spacing: 0.02em; }
+  .nav-links { display: flex; gap: 22px; }
+  .nav-links a { color: var(--ink-dim); text-decoration: none; letter-spacing: 0.02em; }
+  .nav-links a:hover { color: var(--accent); }
+
+  .hero { padding: 64px 0 36px; }
+  .eyebrow {
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--pending); display: flex; align-items: center; gap: 8px; margin-bottom: 18px;
+  }
+  .eyebrow::before {
+    content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--pending);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--pending) 22%, transparent);
+  }
+  h1 {
+    font-family: var(--mono); font-weight: 600; font-size: clamp(28px, 4vw, 40px);
+    line-height: 1.18; letter-spacing: -0.01em; margin: 0 0 18px; text-wrap: balance; max-width: 22ch;
+  }
+  .hero p.lede { color: var(--ink-dim); font-size: 18px; max-width: 58ch; margin: 0 0 26px; }
+  .hero-stat {
+    display: inline-flex; align-items: baseline; gap: 10px; font-family: var(--mono);
+    padding: 14px 18px; border: 1px solid var(--rule-strong); background: var(--surface); border-radius: 3px;
+  }
+  .hero-stat .num { font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--accent); }
+  .hero-stat .cap { font-size: 12px; color: var(--ink-dim); max-width: 34ch; line-height: 1.35; }
+
+  section { padding: 56px 0; border-top: 1px solid var(--rule); }
+  section > .kicker {
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--ink-dim); margin-bottom: 10px;
+  }
+  section > h2 { font-family: var(--mono); font-size: clamp(22px, 3vw, 28px); margin: 0 0 14px; text-wrap: balance; }
+  section > p.intro { color: var(--ink-dim); max-width: 64ch; margin: 0 0 34px; }
+
+  /* ---------- milestone roadmap (adapted journey pattern) ---------- */
+  .journey { position: relative; padding-left: 28px; }
+  .journey::before {
+    content: ""; position: absolute; left: 5px; top: 6px; bottom: 6px; width: 1px; background: var(--rule-strong);
+  }
+  .journey-item { position: relative; padding-bottom: 34px; }
+  .journey-item:last-child { padding-bottom: 0; }
+  .journey-item::before {
+    content: ""; position: absolute; left: -28px; top: 5px; width: 11px; height: 11px;
+    border-radius: 50%; background: var(--surface); border: 2px solid var(--ink-dim);
+  }
+  .journey-item.verified::before { border-color: var(--verified); background: var(--verified); }
+  .journey-item.pending::before { border-color: var(--pending); background: var(--surface); }
+  .journey-meta { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
+  .journey-step { font-family: var(--mono); font-size: 11px; color: var(--ink-dim); letter-spacing: 0.04em; }
+  .journey-verdict {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 2px 8px; border-radius: 20px; border: 1px solid var(--rule-strong); color: var(--ink-dim);
+  }
+  .journey-item.verified .journey-verdict { color: var(--verified); border-color: color-mix(in srgb, var(--verified) 45%, transparent); }
+  .journey-item.pending .journey-verdict { color: var(--pending); border-color: color-mix(in srgb, var(--pending) 45%, transparent); }
+  .journey-item h3 { font-family: var(--sans); font-size: 15.5px; font-weight: 600; margin: 0 0 6px; }
+  .journey-item p { font-family: var(--sans); font-size: 13.5px; color: var(--ink-dim); margin: 0 0 10px; line-height: 1.55; max-width: 62ch; }
+  .journey-item ul.scope { margin: 0; padding-left: 18px; font-family: var(--sans); font-size: 12.5px; color: var(--ink-dim); }
+  .journey-item ul.scope li { margin-bottom: 3px; }
+
+  /* ---------- stage-timing bars ---------- */
+  .timing-table { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 14px; margin-bottom: 8px; }
+  .timing-table th, .timing-table td { text-align: left; padding: 11px 12px; border-bottom: 1px solid var(--rule); font-variant-numeric: tabular-nums; }
+  .timing-table thead th {
+    font-family: var(--sans); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--ink-dim); border-bottom: 1px solid var(--rule-strong);
+  }
+  .timing-table td.num, .timing-table th.num { text-align: right; }
+  .timing-table .bar-cell { width: 200px; }
+  .timing-table .bar-track { height: 6px; background: var(--surface-2); border-radius: 2px; overflow: hidden; position: relative; }
+  .timing-table .bar-fill { height: 100%; background: var(--accent); position: absolute; left: 0; top: 0; }
+  .timing-table .bar-fill.sub { background: var(--accent-dim); }
+  .timing-table tr.sub td { padding-left: 26px; color: var(--ink-dim); font-size: 13px; }
+  .timing-table tr.sub td:first-child::before { content: "↳ "; color: var(--rule-strong); }
+  .timing-caption { font-family: var(--sans); font-size: 12px; color: var(--ink-dim); margin: 0 0 16px; }
+
+  .sanity-check {
+    font-family: var(--mono); font-size: 13px; background: var(--surface); border: 1px solid var(--rule-strong);
+    border-radius: 3px; padding: 14px 16px; margin: 20px 0 0; color: var(--ink-dim);
+  }
+  .sanity-check strong { color: var(--verified); }
+
+  /* ---------- findings notes ---------- */
+  .notes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 3px; overflow: hidden; margin-top: 34px; }
+  .note { background: var(--surface); padding: 20px 22px 18px; }
+  .note .tag { font-family: var(--mono); font-size: 11px; color: var(--accent); letter-spacing: 0.04em; display: block; margin-bottom: 8px; }
+  .note h3 { font-family: var(--sans); font-size: 14.5px; margin: 0 0 6px; }
+  .note p { font-family: var(--sans); font-size: 13px; color: var(--ink-dim); margin: 0; line-height: 1.55; }
+  .note a { font-size: 12.5px; }
+
+  /* ---------- planned milestones grid ---------- */
+  .plan-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 3px; overflow: hidden; }
+  .plan-card { background: var(--surface); padding: 20px 20px 18px; }
+  .plan-card .plan-head {
+    display: flex; align-items: center; gap: 8px; margin-bottom: 10px;
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pending);
+  }
+  .plan-card .plan-head::before {
+    content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--pending); flex-shrink: 0;
+  }
+  .plan-card h3 { font-family: var(--sans); font-size: 14.5px; margin: 0 0 8px; }
+  .plan-card ul { margin: 0; padding-left: 16px; font-family: var(--sans); font-size: 12.5px; color: var(--ink-dim); line-height: 1.6; }
+
+  /* ---------- closing ---------- */
+  .closing { padding: 64px 0 80px; border-top: 1px solid var(--rule); }
+  .closing h2 { font-family: var(--mono); font-size: clamp(24px, 3.4vw, 32px); margin: 0 0 14px; text-wrap: balance; }
+  .closing p { color: var(--ink-dim); max-width: 56ch; margin: 0 0 28px; }
+  .cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn { font-family: var(--mono); font-size: 13.5px; text-decoration: none; padding: 13px 20px; border-radius: 3px; letter-spacing: 0.01em; }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); }
+  .btn.ghost { border: 1px solid var(--rule-strong); color: var(--ink); }
+  .btn:focus-visible, a:focus-visible, .nav-links a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  footer {
+    padding: 26px 0 50px; font-family: var(--mono); font-size: 11.5px; color: var(--ink-dim);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+  }
+
+  @media (max-width: 760px) {
+    .notes { grid-template-columns: 1fr; }
+    .plan-grid { grid-template-columns: 1fr; }
+    .nav-links { display: none; }
+    .timing-table { font-size: 12.5px; }
+    .timing-table .bar-cell { width: 90px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<header class="site">
+  <div class="wrap nav">
+    <a href="index.html#top" class="brand">
+      <span class="mark">&gt;_</span>
+      <span>Suleman Shah</span>
+      <span class="role">/ RAG &amp; retrieval engineering</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html#top">Case study</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#latency">Latency</a>
+      <a href="#upcoming">What's next</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <section class="hero" style="border-top:none;">
+    <div class="eyebrow">Milestone 1 of 4 — measured, not aspirational</div>
+    <h1>What changes between a working demo and a production system</h1>
+    <p class="lede">
+      The <a href="index.html#top">main case study</a> proves the RAG pipeline itself works — 89.8% on a
+      332-question benchmark. This page tracks the separate, ongoing work of turning that pipeline into
+      something an institution could actually depend on: knowing where the time goes, what happens under
+      real load, and how failure gets caught before a student sees it. Same discipline as the accuracy work —
+      every claim here is measured against the real pipeline, not stated as a plan.
+    </p>
+    <div class="hero-stat">
+      <span class="num">1 / 4</span>
+      <span class="cap">milestones with real, measured findings so far — the other three are scoped, not started</span>
+    </div>
+  </section>
+
+  <section id="roadmap">
+    <div class="kicker">The roadmap</div>
+    <h2>Four milestones, in dependency order</h2>
+    <p class="intro">
+      Each milestone produces the data the next one needs — you can't reason about caching or cost before you
+      know where latency actually goes, and you can't monitor a system whose failure modes you haven't
+      classified yet.
+    </p>
+    <div class="journey">
+      <div class="journey-item verified">
+        <div class="journey-meta"><span class="journey-step">A</span><span class="journey-verdict">in progress</span></div>
+        <h3>Visibility — measure before touching anything</h3>
+        <p>Where does latency actually go, and is retrieval quality separable from generation quality?</p>
+        <ul class="scope">
+          <li>Latency profiling, stage by stage — <a href="#latency">done, see below</a></li>
+          <li>Retrieval evaluation using chapter metadata as a proxy metric — not started</li>
+        </ul>
+      </div>
+      <div class="journey-item pending">
+        <div class="journey-meta"><span class="journey-step">B</span><span class="journey-verdict">scoped</span></div>
+        <h3>Resilience — survive real usage, not just benchmark questions</h3>
+        <p>What happens on an empty question, an off-topic question, or a genuine failure — and how is that failure classified afterward?</p>
+        <ul class="scope">
+          <li>Guardrails (input/output validation, Llama Guard via Groq)</li>
+          <li>Failure analysis taxonomy</li>
+        </ul>
+      </div>
+      <div class="journey-item pending">
+        <div class="journey-meta"><span class="journey-step">C</span><span class="journey-verdict">scoped</span></div>
+        <h3>Efficiency — make it cheap and fast, informed by Milestone A's numbers</h3>
+        <p>Token cost per query, and caching for the traffic that's genuinely repeated.</p>
+        <ul class="scope">
+          <li>Cost tracking (Groq's own token usage, logged per query)</li>
+          <li>Caching layer, exact-match first</li>
+        </ul>
+      </div>
+      <div class="journey-item pending">
+        <div class="journey-meta"><span class="journey-step">D</span><span class="journey-verdict">scoped</span></div>
+        <h3>Operability — run it like a real service</h3>
+        <p>Structured logging, incremental corpus updates, and evaluation that runs on its own instead of by memory.</p>
+        <ul class="scope">
+          <li>Monitoring (structured query logging)</li>
+          <li>Incremental indexing (add one book without a full re-embed)</li>
+          <li>Continuous evaluation (CI-driven benchmark subset)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="latency">
+    <div class="kicker">Milestone A — Visibility</div>
+    <h2>Latency profiling: no single stage dominates</h2>
+    <p class="intro">
+      Instrumented every pipeline stage with a reusable timer, then ran it against a real 5-question sample —
+      first coarse (retrieval / rerank / generation), then with retrieval split into its three actual
+      sub-operations. The coarse view alone would have been misleading.
+    </p>
+
+    <table class="timing-table">
+      <caption class="timing-caption">Wall-clock seconds, 5-question Biology sample, fine-grained run. Bar shows the average.</caption>
+      <thead>
+        <tr><th>Stage</th><th class="num">Min</th><th class="num">Avg</th><th class="num">Max</th><th class="bar-cell"></th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Retrieval</strong></td>
+          <td class="num">0.31</td><td class="num">0.47</td><td class="num">1.05</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill" style="width:27%"></div></div></td>
+        </tr>
+        <tr class="sub">
+          <td>semantic_retrieve</td>
+          <td class="num">0.07</td><td class="num">0.21</td><td class="num">0.74</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill sub" style="width:12%"></div></div></td>
+        </tr>
+        <tr class="sub">
+          <td>bm25_retrieve</td>
+          <td class="num">0.24</td><td class="num">0.27</td><td class="num">0.31</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill sub" style="width:15%"></div></div></td>
+        </tr>
+        <tr class="sub">
+          <td>rrf_fusion</td>
+          <td class="num">&lt;0.001</td><td class="num">&lt;0.001</td><td class="num">&lt;0.001</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill sub" style="width:0.3%"></div></div></td>
+        </tr>
+        <tr>
+          <td><strong>Rerank</strong></td>
+          <td class="num">0.61</td><td class="num">0.80</td><td class="num">1.22</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill" style="width:46%"></div></div></td>
+        </tr>
+        <tr>
+          <td><strong>Generation</strong></td>
+          <td class="num">0.15</td><td class="num">0.46</td><td class="num">1.34</td>
+          <td class="bar-cell"><div class="bar-track"><div class="bar-fill" style="width:27%"></div></div></td>
+        </tr>
+        <tr class="total" style="border-top:1px solid var(--rule-strong)">
+          <td style="padding-top:14px;font-weight:700">Total</td>
+          <td class="num" style="padding-top:14px;font-weight:700">1.07</td>
+          <td class="num" style="padding-top:14px;font-weight:700">1.73</td>
+          <td class="num" style="padding-top:14px;font-weight:700">3.61</td>
+          <td class="bar-cell"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="sanity-check">
+      Instrumentation check: 0.21 (semantic) + 0.27 (BM25) + &lt;0.001 (fusion) ≈ <strong>0.47</strong> —
+      matches the outer retrieval timer's own average almost exactly, confirming the sub-stage breakdown
+      measures the same work the coarse timer sees.
+    </div>
+
+    <div class="notes">
+      <div class="note">
+        <span class="tag">finding 01</span>
+        <h3>The "biggest stage" isn't stable across measurements</h3>
+        <p>Across three separate runs, the ranking between retrieval and reranking flipped every time
+        (1.05s vs 1.82s; 0.81s vs 0.53s; 0.47s vs 0.80s). Generation was consistently the smallest of the
+        three. At this sample size, retrieval and reranking should be treated as comparably expensive —
+        not "one is the bottleneck."</p>
+      </div>
+      <div class="note">
+        <span class="tag">finding 02</span>
+        <h3>Retrieval's volatility is entirely in semantic search</h3>
+        <p><code>semantic_retrieve</code> swung 11x (0.07s–0.74s) while <code>bm25_retrieve</code> stayed
+        within 1.3x (0.24s–0.31s). Likely cause: BM25 rebuilds its index from data already in process memory
+        every call, while semantic search reads ChromaDB's index from a disk-backed file — subject to
+        OS file-cache state. Flagged for a dedicated follow-up test, not yet confirmed.</p>
+      </div>
+      <div class="note">
+        <span class="tag">finding 03</span>
+        <h3>Reranking's cost is structural, not a bug</h3>
+        <p>A cross-encoder score is a property of the <em>(query, chunk)</em> pair — unlike chunk embeddings,
+        which depend only on the chunk, it can't be precomputed. Its cost scales directly with how many
+        candidates retrieval hands it (currently 20). A real, tunable lever for a future latency/accuracy
+        tradeoff — not something to eliminate.</p>
+      </div>
+      <div class="note">
+        <span class="tag">discipline</span>
+        <h3>Same noise-floor rule as the accuracy work</h3>
+        <p>The full write-up — including the exact numbers from all three measurement attempts — is in
+        <a href="https://github.com/sulemantech/production-rag-from-scratch/blob/main/docs/LEARNINGS.md">the engineering log</a>.
+        This is the same "don't trust a single measurement" discipline that caught a false-positive embedding
+        model result earlier in the project.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="upcoming">
+    <div class="kicker">What's next</div>
+    <h2>Three more milestones, scoped but not yet measured</h2>
+    <p class="intro">
+      Listed here for transparency, not to overclaim progress — these are planned, not done. Each will get
+      the same treatment as latency profiling: real instrumentation, real numbers, findings written up
+      before moving on.
+    </p>
+    <div class="plan-grid">
+      <div class="plan-card">
+        <div class="plan-head">Milestone B — Resilience</div>
+        <h3>Guardrails &amp; failure analysis</h3>
+        <ul>
+          <li>Input/output validation on the free-text question box</li>
+          <li>Llama Guard (via Groq) for content moderation</li>
+          <li>A real failure taxonomy — retrieval-miss vs. generation-misread vs. ambiguous-question — replacing ad hoc notes</li>
+        </ul>
+      </div>
+      <div class="plan-card">
+        <div class="plan-head">Milestone C — Efficiency</div>
+        <h3>Cost &amp; caching</h3>
+        <ul>
+          <li>Per-query token/cost logging from Groq's own usage data</li>
+          <li>Exact-match caching for the fixed quiz-bank questions, which repeat by design</li>
+          <li>A swappable cache interface so a hosted store can replace the local one without a rewrite</li>
+        </ul>
+      </div>
+      <div class="plan-card">
+        <div class="plan-head">Milestone D — Operability</div>
+        <h3>Monitoring &amp; incremental updates</h3>
+        <ul>
+          <li>Structured per-query logging (latency, tokens, retrieved chunks)</li>
+          <li>Generalizing this session's metadata-only Chroma update into "add one new book" without a full re-embed</li>
+          <li>CI-driven evaluation on a benchmark subset, not just manual runs</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing" id="contact" style="border-top: 1px solid var(--rule);">
+    <div class="kicker">Get in touch</div>
+    <h2>Building something that needs to survive real traffic, not just a demo?</h2>
+    <p>
+      I build and debug production RAG systems the way this one was built — every claim measured, every
+      regression caught before it ships. Open to consulting and contract engineering work.
+    </p>
+    <div class="cta-row">
+      <a class="btn primary" href="https://mdcat-rag-demo.streamlit.app/">Try the live demo</a>
+      <a class="btn ghost" href="index.html#top">Read the full case study</a>
+      <a class="btn ghost" href="https://github.com/sulemantech/production-rag-from-scratch">View the repo</a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>Production engineering log — the operational half of the RAG case study.</span>
+  <span>Updated as each milestone is actually measured, not on a schedule.</span>
+</footer>

@@ -9,7 +9,7 @@ reranking, and generation — applied to MDCAT (Pakistan's medical-entrance exam
 Biology, Chemistry, and Physics, and graded against a 332-question benchmark of real past-paper
 questions.
 
-**[Live demo](https://mdcat-rag-demo.streamlit.app/)** · **[Full case study](https://sulemantech.github.io/production-rag-from-scratch/)** · **[Engineering log](docs/LEARNINGS.md)**
+**[Live demo](https://mdcat-rag-demo.streamlit.app/)** · **[Full case study](https://sulemantech.github.io/production-rag-from-scratch/)** · **[Production engineering](https://sulemantech.github.io/production-rag-from-scratch/production-engineering.html)** · **[Engineering log](docs/LEARNINGS.md)**
 
 ---
 
