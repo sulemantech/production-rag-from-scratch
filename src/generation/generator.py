@@ -68,7 +68,7 @@ Keep the answer clear and concise.
 
 Answer:
 """
-
+    print("USING GROQ MODEL:", model)
     response = _call_groq(model, [{"role": "user", "content": prompt}])
     answer = response.choices[0].message.content
 
