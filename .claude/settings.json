@@ -57,11 +57,27 @@
       "Bash(PYTHONIOENCODING=utf-8 python -u -m src.evaluation.evaluator)",
       "Bash(PYTHONIOENCODING=utf-8 python -u -m src.scripts.build_mdcat_collection_bge Chemistry)",
       "Bash(PYTHONIOENCODING=utf-8 python -u chemistry_bge_checkpoint.py chemistry_bge_run1.json)",
-      "Bash(PYTHONIOENCODING=utf-8 python -u chemistry_bge_checkpoint.py chemistry_bge_run2.json)"
+      "Bash(PYTHONIOENCODING=utf-8 python -u chemistry_bge_checkpoint.py chemistry_bge_run2.json)",
+      "Bash(python3 -c ' *)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,1200 --screenshot=d:/Projects/AIPlayGround/production-rag-from-scratch/docs/assets/linkedin-post-1-latency.png file:///C:/Users/HP/AppData/Local/Temp/claude/d--Projects-AIPlayGround-production-rag-from-scratch/3901e837-0bd8-4189-9803-30e61fc45c9e/scratchpad/linkedin-latency-post.html)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,1500 --screenshot=d:/Projects/AIPlayGround/production-rag-from-scratch/docs/assets/linkedin-post-2-progress.png file:///C:/Users/HP/AppData/Local/Temp/claude/d--Projects-AIPlayGround-production-rag-from-scratch/3901e837-0bd8-4189-9803-30e61fc45c9e/scratchpad/linkedin-post-2-progress.html)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --version)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,1200 --screenshot=d:/Projects/AIPlayGround/production-rag-from-scratch/docs/assets/linkedin-post-1-latency.png file:///C:/Users/HP/AppData/Local/Temp/claude/d--Projects-AIPlayGround-production-rag-from-scratch/3901e837-0bd8-4189-9803-30e61fc45c9e/scratchpad/linkedin-latency-post.html)",
+      "Bash(echo \"exit code: $?\")",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,2000 --screenshot=d:/Projects/AIPlayGround/production-rag-from-scratch/docs/assets/linkedin-post-2-progress.png file:///C:/Users/HP/AppData/Local/Temp/claude/d--Projects-AIPlayGround-production-rag-from-scratch/3901e837-0bd8-4189-9803-30e61fc45c9e/scratchpad/linkedin-post-2-progress.html)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,1600 --screenshot=d:/Projects/AIPlayGround/production-rag-from-scratch/docs/assets/linkedin-post-1-latency.png file:///C:/Users/HP/AppData/Local/Temp/claude/d--Projects-AIPlayGround-production-rag-from-scratch/3901e837-0bd8-4189-9803-30e61fc45c9e/scratchpad/linkedin-latency-post.html)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,1600 --screenshot=d:/Projects/AIPlayGround/production-rag-from-scratch/docs/assets/linkedin-post-1-latency-raw.png file:///C:/Users/HP/AppData/Local/Temp/claude/d--Projects-AIPlayGround-production-rag-from-scratch/3901e837-0bd8-4189-9803-30e61fc45c9e/scratchpad/linkedin-latency-post.html)",
+      "Bash(echo \"exit code was: $?\")",
+      "Bash(rm -f linkedin-post-1-latency-raw.png)",
+      "Bash(EDGE=\"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" *)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,2600 --screenshot=C:/Users/HP/AppData/Local/Temp/claude/d--Projects-AIPlayGround-production-rag-from-scratch/3901e837-0bd8-4189-9803-30e61fc45c9e/scratchpad/pe-page-check.png file:///d:/Projects/AIPlayGround/production-rag-from-scratch/docs/production-engineering.html)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,4200 --screenshot=C:/Users/HP/AppData/Local/Temp/claude/d--Projects-AIPlayGround-production-rag-from-scratch/3901e837-0bd8-4189-9803-30e61fc45c9e/scratchpad/pe-page-full.png file:///d:/Projects/AIPlayGround/production-rag-from-scratch/docs/production-engineering.html)",
+      "Bash('/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe' --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,4200 --screenshot=C:/Users/HP/AppData/Local/Temp/claude/d--Projects-AIPlayGround-production-rag-from-scratch/3901e837-0bd8-4189-9803-30e61fc45c9e/scratchpad/pe-page-full2.png file:///d:/Projects/AIPlayGround/production-rag-from-scratch/docs/production-engineering.html)"
     ],
     "additionalDirectories": [
       "d:\\Projects\\AIPlayGround\\production-rag-from-scratch\\ingestion",
-      "C:\\Users\\HP\\AppData\\Roaming\\Code\\User"
+      "C:\\Users\\HP\\AppData\\Roaming\\Code\\User",
+      "\\tmp"
     ]
   }
 }
